@@ -1,0 +1,12 @@
+footer.footer {
+	background-color: #006699;
+	padding: $padding-general;
+	margin-top: 0;
+	& p {
+		color: white;
+		margin-bottom: 0;
+	}
+	& a {
+		color: white;
+	}
+}

@@ -1,0 +1,18 @@
+// Base values
+$base-value: 1em; // To test ems value as opposed to px
+$base-value-px: 16px; // To test base value with px - use on font-size and line-height
+
+// Margins & Paddings
+$margin-general: $base-value * 2;
+$margin-small: $base-value;
+$padding-general: $base-value * 2;
+$padding-small: $base-value;
+
+// Fonts
+$font-sans: sans-serif;
+$font-serif: serif;
+
+// Colours
+$color-primary: #000; // Colour xx : rgba(0,0,0,1); 
+$color-secondary: #000; // Colour yy: rgba(0,0,0,1); 
+$color-tertiary: #000; // Colour zz: rgba(0,0,0,1);//

@@ -1,0 +1,9 @@
+.top-bar, .top-bar ul {
+	background-color: #006699;
+	&.menu a {
+		color: #fff;
+	}
+	&.menu .active > a, .menu .is-active > a {
+		background-color: #004161;
+	}
+}
