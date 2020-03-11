@@ -248,6 +248,16 @@
 		"oAP": "/assets/styles/scss/config.rb",
 		"oF": 0
 		},
+	"/assets/styles/scss/login.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/styles/scss/login-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/assets/styles/scss/login.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -260,6 +270,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/assets/styles/scss/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/styles/scss/style-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/assets/styles/scss/style.scss": {
 		"aP": 0,
@@ -307,6 +327,14 @@
 		"oA": 0,
 		"oAP": "/css/_notes/dwsync.xml",
 		"oF": 0
+		},
+	"/css/sftp-config.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/css/sftp-config-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"/css/style.css": {
 		"aP": 1,
@@ -979,25 +1007,6 @@
 		"oAP": "/parts/nav-topbar.php",
 		"oF": 0
 		},
-	"/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"/screenshot.png": {
 		"ft": 32768,
 		"iS": 45394,
@@ -1344,7 +1353,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 604259080.58288598,
-	"displayValue": "bvisupco",
+	"displayValue": "bvisupco - local",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-red",
 	"iconImageWasSetByUser": 0
