@@ -12,7 +12,7 @@ button, .button {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); }
 
 .top-bar, .top-bar ul {
-  background-color: black; }
+  background-color: #006699; }
   .top-bar.menu a, .top-bar ul.menu a {
     color: #fff; }
   .top-bar.menu .active > a, .top-bar .menu .is-active > a, .top-bar ul.menu .active > a, .top-bar ul .menu .is-active > a {
