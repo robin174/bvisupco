@@ -18,7 +18,21 @@ get_header(); ?>
 		    	-->
 
 		    	<div class="grid-container">
-		    		
+		    		<div class="grid-x grid-margin-x">
+		    			<div class="cell">
+			    			<!-- Filters here (https://isotope.metafizzy.co/filtering.html) -->
+							<div id="filters" class="button-group filters-button-group">
+				                <button class="button small is-checked" data-filter="*">Show All</button>
+				                <button class="button small" data-filter=".equipment-sup">SUP</button>
+				                <button class="button small" data-filter=".equipment-windsurf">Windsurf</button> 
+				                <button class="button small" data-filter=".equipment-kite">Kite</button>
+				                <button class="button small" data-filter=".equipment-kayak">Kayak</button> 
+				                <button class="button small" data-filter=".equipment-surf">Surf</button>
+				                <button class="button small" data-filter=".equipment-fishing">Fishing</button>
+				                <button class="button small" data-filter=".equipment-other">Other</button>
+				    		</div>
+			    		</div>
+		    		</div>
 
 		    		<div class="grid isotope">
 						<div class="grid-x grid-margin-x small-up-1 medium-up-2 large-up-3">

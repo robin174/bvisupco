@@ -328,14 +328,6 @@
 		"oAP": "/css/_notes/dwsync.xml",
 		"oF": 0
 		},
-	"/css/sftp-config.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/css/sftp-config-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"/css/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -776,15 +768,81 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/test-equipment-default.jpg": {
+	"/images/image-equipment-comingsoon.jpg": {
 		"ft": 16384,
-		"iS": 23772,
+		"iS": 65214,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/test-equipment-default.jpg",
+		"oAP": "/images/image-equipment-comingsoon.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/images/logo-md-oceanrodeo.png": {
+		"ft": 32768,
+		"iS": 3037,
+		"oA": 0,
+		"oAP": "/images/logo-md-oceanrodeo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/logo-md-severne.png": {
+		"ft": 32768,
+		"iS": 1774,
+		"oA": 0,
+		"oAP": "/images/logo-md-severne.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/logo-md-starboard.png": {
+		"ft": 32768,
+		"iS": 3083,
+		"oA": 0,
+		"oAP": "/images/logo-md-starboard.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/logo-sm-oceanrodeo.png": {
+		"ft": 32768,
+		"iS": 1490,
+		"oA": 0,
+		"oAP": "/images/logo-sm-oceanrodeo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/logo-sm-severne.png": {
+		"ft": 32768,
+		"iS": 937,
+		"oA": 0,
+		"oAP": "/images/logo-sm-severne.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/logo-sm-starboard.png": {
+		"ft": 32768,
+		"iS": 1610,
+		"oA": 0,
+		"oAP": "/images/logo-sm-starboard.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"/images/test-WR-Maui-07.jpg": {
