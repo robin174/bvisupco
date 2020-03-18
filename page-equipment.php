@@ -10,11 +10,8 @@ get_header(); ?>
 		    <main class="main small-12 medium-12 large-12 cell" role="main" style="background-image:url('<?php echo get_template_directory_uri(); ?>/images/dark-AbrahamShouse-SSM_6892.jpg');background-size:cover;background-position:top;">
 				
 		    	<!-- TO DO 
-		    		- Add a background image
-		    		- Spacing on blocks
-		    		- Default image if not provided: blur, BVISUPCO logo and image coming soon
-		    		- A font? 
-		    		- Implement filter
+		    		- A font
+		    		- Style filter
 		    	-->
 
 		    	<div class="grid-container">
