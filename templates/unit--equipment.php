@@ -39,7 +39,7 @@
 								</section>
 							</div>
 							<div class="cell small-3 medium-3 large-3">
-								<button class="unit--button-reserve"><a href="<?php the_sub_field('prouct_reservation_link'); ?>" title="Reserve">Reserve</a></button>
+								<button class="unit--button-reserve is-visible"><a href="<?php the_sub_field('product_reservation_link'); ?>" title="Reserve">Reserve</a></button>
 							</div>
 						</div><!-- end .grid-x -->
 					<?php endif; ?>
