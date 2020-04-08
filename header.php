@@ -21,7 +21,8 @@
 
 		<!-- Add: Google Webmaster Tools -->
 
-		<!-- Add: Font Awesome -->
+		<!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/78ff2f54a9.js" crossorigin="anonymous"></script>
 
 		<!-- Temporary JavaScript file -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

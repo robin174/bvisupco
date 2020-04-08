@@ -4,14 +4,71 @@ body {
   background-color: #fff;
   color: #222; }
 
-button, .button {
-  background-color: red;
-  color: white; }
-  button a, .button a {
-    color: white; }
+h4.pr-name {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  line-height: 0.65; }
+
+p.pr-body {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  line-height: 1.43; }
+
+p.pr-price {
+  color: #fff;
+  font-style: normal; }
+
+section.block--product-reservation {
+  margin-top: 15px;
+  margin-bottom: 30px; }
+
+div .block--product-details {
+  font-size: 90%; }
+
+.pr-red {
+  color: #FF4438; }
 
 button.unit--button-reserve {
-  padding: 10px; }
+  padding: 10px 20px;
+  background-color: #FF4438;
+  color: white;
+  border-radius: 3px;
+  transition: 0.3s; }
+  button.unit--button-reserve:hover {
+    background-color: #d10d00;
+    color: white; }
+  button.unit--button-reserve a {
+    font-weight: bold;
+    font-size: 75%;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em; }
+    button.unit--button-reserve a:hover {
+      color: white; }
+
+figure figcaption.pr-category {
+  position: absolute;
+  text-align: right;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 4px 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 80%;
+  letter-spacing: 0.3em; }
+
+hr.product-break {
+  margin: 0;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  text-align: left;
+  width: 15%;
+  border: 1px solid #fff; }
 
 .header {
   background-color: #000;

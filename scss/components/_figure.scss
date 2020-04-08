@@ -1,0 +1,18 @@
+figure {
+	& figcaption {
+		&.pr-category {
+			position: absolute;
+			text-align: right;
+			top: 0;
+			right: 0;
+			z-index: 100;
+			color: #fff;
+			background-color: rgba(0,0,0,0.75);
+			padding: 4px 8px;
+			text-transform:uppercase;
+			font-weight: bold;
+			font-size:80%;
+			letter-spacing:0.3em;
+		}
+	}
+}

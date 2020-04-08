@@ -45,6 +45,7 @@ get_header(); ?>
 						        while ($my_query->have_posts()) : $my_query->the_post(); ?>
 						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-sup">
 				            			<?php get_template_part('templates/unit--equipment'); ?> 
+				            			<!-- if selected on 'Equipment' page, show reserve button -->
 				            		</div>
 				            		<!-- We might need to pull equipment template into here to make Isotope work? -->
 						    	<?php endwhile; }
