@@ -8,26 +8,24 @@ get_header(); ?>
 		<div class="inner-content grid-x grid-margin-x grid-padding-x">
 	
 		    <main class="main small-12 medium-12 large-12 cell" role="main" style="background-image:url('<?php echo get_template_directory_uri(); ?>/images/dark-AbrahamShouse-SSM_6892.jpg');background-size:cover;background-position:top;">
-				
-		    	<!-- TO DO 
-		    		- A font
-		    		- Style filter
-		    	-->
 
 		    	<div class="grid-container">
-		    		<div class="grid-x grid-margin-x">
-		    			<div class="cell">
-			    			<!-- Filters here (https://isotope.metafizzy.co/filtering.html) -->
-							<div id="filters" class="button-group filters-button-group">
-				                <button class="button small is-checked" data-filter="*">Show All</button>
-				                <button class="button small" data-filter=".equipment-sup">SUP</button>
-				                <button class="button small" data-filter=".equipment-windsurf">Windsurf</button> 
-				                <button class="button small" data-filter=".equipment-kite">Kite</button>
-				                <button class="button small" data-filter=".equipment-kayak">Kayak</button> 
-				                <button class="button small" data-filter=".equipment-surf">Surf</button>
-				                <button class="button small" data-filter=".equipment-fishing">Fishing</button>
-				                <button class="button small" data-filter=".equipment-other">Other</button>
-				    		</div>
+		    		<div class="grid-x grid-margin-x grid-padding-x">
+		    			<div class="small-12 medium-12 large-12 cell">
+		    				<section class="filter">
+				    			<!-- Filters here (https://isotope.metafizzy.co/filtering.html) -->
+				    			<p>Filter equipment available:</p>
+								<div id="filters" class="button-group filters-button-group">
+					                <button class="button small button--filter is-checked" data-filter="*">Show All</button>
+					                <button class="button small button--filter" data-filter=".equipment-sup">SUP</button>
+					                <button class="button small button--filter" data-filter=".equipment-windsurf">Windsurf</button> 
+					                <button class="button small button--filter" data-filter=".equipment-kite">Kite</button>
+					                <button class="button small button--filter" data-filter=".equipment-kayak">Kayak</button> 
+					                <button class="button small button--filter" data-filter=".equipment-surf">Surf</button>
+					                <button class="button small button--filter" data-filter=".equipment-fishing">Fishing</button>
+					                <button class="button small button--filter" data-filter=".equipment-other">Other</button>
+					    		</div>
+				    		</section>
 			    		</div>
 		    		</div>
 

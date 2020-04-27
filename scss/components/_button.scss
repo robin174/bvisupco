@@ -23,3 +23,21 @@ button.unit--button-reserve {
 		}
 	}
 }	
+
+button.button--filter {
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 5px;
+	&:hover {
+		background-color:$color-secondary;
+	}
+	&.is-checked {
+		background-color:$color-secondary;
+	}
+}
+
+.button-group {
+	margin-bottom: 0;
+	& .button {
+		margin-right: 5px;
+	}
+}

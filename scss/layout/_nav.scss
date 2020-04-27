@@ -1,7 +1,10 @@
 .top-bar, .top-bar ul {
-	background-color: #006699;
+	background-color: rgba(4,2,30,0.5); //#006699
 	&.menu a {
 		color: #fff;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		font-weight: $font-bold;
 	}
 	&.menu .active > a, .menu .is-active > a {
 		background-color: #004161;

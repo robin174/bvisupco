@@ -28,6 +28,9 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
 
+		<!-- Adobe Typekit -->
+		<link rel="stylesheet" href="https://use.typekit.net/cdc0ysc.css">
+
 		<?php wp_head(); ?>
 	</head>
 			

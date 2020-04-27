@@ -2,7 +2,16 @@
 /* stylelint-enable */
 body {
   background-color: #fff;
-  color: #222; }
+  color: #222;
+  font-family: "brandon-grotesque", sans-serif; }
+
+section.filter {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  margin-bottom: 10px; }
+  section.filter p {
+    color: white;
+    font-weight: bold; }
 
 h2 {
   font-size: 24px;
@@ -56,6 +65,19 @@ button.unit--button-reserve {
     button.unit--button-reserve a:hover {
       color: white; }
 
+button.button--filter {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px; }
+  button.button--filter:hover {
+    background-color: #FF4438; }
+  button.button--filter.is-checked {
+    background-color: #FF4438; }
+
+.button-group {
+  margin-bottom: 0; }
+  .button-group .button {
+    margin-right: 5px; }
+
 figure figcaption.pr-category {
   position: absolute;
   text-align: right;
@@ -83,9 +105,12 @@ hr.product-break {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); }
 
 .top-bar, .top-bar ul {
-  background-color: #006699; }
+  background-color: rgba(4, 2, 30, 0.5); }
   .top-bar.menu a, .top-bar ul.menu a {
-    color: #fff; }
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 700; }
   .top-bar.menu .active > a, .top-bar .menu .is-active > a, .top-bar ul.menu .active > a, .top-bar ul .menu .is-active > a {
     background-color: #004161; }
 
