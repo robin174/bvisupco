@@ -7,7 +7,7 @@
 		"uuidString": "1B17822B-00EE-4071-B32F-58377101A12E"
 		}
 	],
-"creatorBuild": "32001",
+"creatorBuild": "32137",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -210,14 +210,14 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/styles/css/_global.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/styles/scss/_notes/dwsync.xml": {
 		"cB": 0,
@@ -231,14 +231,14 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/styles/css/_settings.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/styles/scss/config.rb": {
 		"cB": 0,
@@ -262,14 +262,14 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/assets/styles/css/login.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/styles/scss/style.css": {
 		"aP": 1,
@@ -285,14 +285,14 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/assets/styles/css/style.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/assets/styles/style.css": {
 		"aP": 1,
@@ -337,17 +337,6 @@
 		"oAP": "/css/style-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"/favicon.png": {
-		"ft": 32768,
-		"iS": 18738,
-		"oA": 0,
-		"oAP": "/favicon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"/footer-old.php": {
 		"cB": 0,
@@ -768,6 +757,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/favicon.png": {
+		"ft": 32768,
+		"iS": 273,
+		"oA": 0,
+		"oAP": "/images/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/favicon@2x.png": {
+		"ft": 32768,
+		"iS": 368,
+		"oA": 0,
+		"oAP": "/images/favicon@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/image-equipment-comingsoon.jpg": {
 		"ft": 16384,
 		"iS": 65214,
@@ -1061,118 +1072,118 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_all.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/base/_all.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_all.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/base/_body.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_body.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/blocks/_all.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_all.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/blocks/_product.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_product.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/components/_all.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_all.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/components/_button.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_button.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/components/_figure.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_figure.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/components/_hr.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_hr.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/foundation/_notes/dwsync.xml": {
 		"cB": 0,
@@ -1186,131 +1197,131 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_styles.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/helpers/_all.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_all.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/helpers/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_mixins.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/helpers/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_variables.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/layout/_all.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_all.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/layout/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_footer.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/layout/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_header.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/layout/_main.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_main.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/layout/_nav.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_nav.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/pages/_all.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_all.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/style-min.css": {
 		"aP": 1,
@@ -1336,27 +1347,27 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/css/style.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/vendors/_all.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_all.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/search.php": {
 		"cB": 0,
@@ -1425,8 +1436,8 @@
 	"creationDate": 604259080.58288598,
 	"displayValue": "bvisupco - local",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "brackets-red",
-	"iconImageWasSetByUser": 0
+	"iconImageName": "brackets-koamaru",
+	"iconImageWasSetByUser": 1
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3446,13 +3457,13 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
+		"compilerType": 1,
 		"createSourceMap": 0,
-		"debugStyle": 0,
 		"decimalPrecision": 10,
+		"emitCharset": 1,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
+		"shouldRunBless": 0
 		},
 	"languageDefaultsSLIM": {
 		"autoOutputAction": 0,

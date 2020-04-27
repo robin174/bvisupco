@@ -17,9 +17,11 @@
 			<h2><?php the_title();?></h2>
 			<p class="pr-body"><?php the_field('product_description');?></p>
 
-			<!-- ACF: SUP - Category if equipment equals 'SUP' / Category show: --><!-- All Round, Perfomance SUP, Race & Distance -->
-			<!-- TEMP Skill level taxonomy -->
-			<p style="color:#00AF85;font-style:italic;"><?php echo strip_tags(get_the_term_list( $post->ID, 'skill', 'Skill: ',', ')); ?></p>
+			<?php /*
+				<!-- ACF: SUP - Category if equipment equals 'SUP' / Category show: --><!-- All Round, Perfomance SUP, Race & Distance -->
+				<!-- TEMP Skill level taxonomy -->
+				<p style="color:#00AF85;font-style:italic;"><?php echo strip_tags(get_the_term_list( $post->ID, 'skill', 'Skill: ',', ')); ?></p>
+			*/ ?>
 
 			<!-- Actual product versions -->
 			<?php if( have_rows('product_reserve') ): // Repeater Field Name ?>
@@ -32,11 +34,11 @@
 								<?php if( get_sub_field('product_size') ): ?><?php the_sub_field('product_size'); ?><?php endif; ?>
 								<?php if( get_sub_field('product_size') && get_sub_field('product_material') ): ?>&nbsp;<span class="pr-red">|</span>&nbsp;<?php endif; ?>
 								<?php if( get_sub_field('product_material') ): ?><?php the_sub_field('product_material'); ?><?php endif; ?>
-								<p class="pr-price"><?php the_field('product_cost');?></p>
+								<p class="pr-price"><?php the_sub_field('product_cost');?></p>
 							</div>
 							<!-- Each individual product can show the 'Reserve' button, or not -->
 							<?php if (get_field('reserve_button') == 'show'): ?>
-								<button class="unit--button-reserve"><a href="<?php the_sub_field('product_reservation_link'); ?>" title="Reserve"><i class="fad fa-credit-card fa-lg"></i>&nbsp;Reserve</a></button>
+								<button class="unit--button-reserve"><a href="<?php the_sub_field('product_reservation_link'); ?>" title="Reserve"><i class="fad fa-credit-card fa-lg"></i>&nbsp;&nbsp;Reserve</a></button>
 							<?php endif; ?>
 						</section>
 					<?php endif; ?>
@@ -47,17 +49,23 @@
 
 		<section class="unit--product-brand">
 			<?php if(has_term('starboard','brand')): ?>
+				<?php /*
 				<hr class="product-break">
+				*/ ?>
 				<figure class="logo">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-starboard.png" alt="Logo - Starboard">
 				</figure>
 			<?php elseif(has_term('ocean-rodeo','brand')): ?>
+				<?php /*
 				<hr class="product-break">
+				*/ ?>
 				<figure class="logo">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-oceanrodeo.png" alt="Logo - Ocean Rodeo">
 				</figure>
 			<?php elseif(has_term('severne','brand')): ?>
+				<?php /*
 				<hr class="product-break">
+				*/ ?>
 				<figure class="logo">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-severne.png" alt="Logo - Severne">
 				</figure>
