@@ -1,3 +1,19 @@
+@charset "UTF-8";
+/* Colors
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Initial sizing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*  NOTE. html is set to 62.5% so that all the REM measurements throughout Skeleton are based on 10px sizing. So basically 1.5rem = 15px */
+/*  NOTE. If normal, 100% equals 16px sizing. */
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.5em;
+  /* currently ems cause chrome bug misinterpreting rems on body element */ }
+
 /* stylelint-disable order/properties-alphabetical-order */
 /* stylelint-enable */
 body {
@@ -117,11 +133,11 @@ hr.product-break {
 main {
   background-color: #fefefe;
   padding-top: 0;
-  padding-bottom: 4em; }
+  padding-bottom: 10rem; }
 
 footer.footer {
   background-color: #006699;
-  padding: 2em;
+  padding: 5rem;
   margin-top: 0; }
   footer.footer p {
     color: white;
