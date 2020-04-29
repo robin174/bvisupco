@@ -12,8 +12,9 @@ $color-tertiary-dark: darken($color-tertiary,20%);
 
 /* Fonts
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-$font-sans: "brandon-grotesque", sans-serif;
-$font-serif: serif;
+$font--sans: 'brandon-grotesque', sans-serif;
+$font--sans-body: 'Roboto', sans-serif;
+$font--serif: serif;
 
 $font-regular: 400;
 $font-medium: 500;
@@ -22,20 +23,17 @@ $font-bold: 700;
 
 /* Initial sizing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*  NOTE. html is set to 62.5% so that all the REM measurements throughout Skeleton are based on 10px sizing. So basically 1.5rem = 15px */
-/*  NOTE. If normal, 100% equals 16px sizing. */
 html {
-    font-size: 62.5%; 
+    font-size: 100%; // 16px
 }
 
 body {
 	font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
 }
 
-$base-value: 2.5rem; // To test: rems/ems/px;
+$base-value: 1.5rem;
 
 $margin-small: $base-value;
 $margin-general: $base-value*2;
 $padding-small: $base-value;
 $padding-general: $base-value*2;
-

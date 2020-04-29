@@ -1,5 +1,5 @@
-footer.footer {
-	background-color: #006699;
+footer, .footer {
+	background-color: $color-primary;
 	padding: $padding-general;
 	margin-top: 0;
 	& p {

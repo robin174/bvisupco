@@ -1,12 +1,22 @@
+section.unit--product {
+	background-color:rgba(0,0,0,0.7); 
+	margin-bottom:25px; 
+	color: white;
+	& section.unit--product-image {}
+	& section.unit--product-info {
+		padding: 1rem;
+	}
+}
+
 h2 {
-	font-size: 24px;
+	font-size: 1.8rem;
 	margin-bottom: 5px;
 }
 
 h4 {
 	&.pr-name {
 		color: white;
-		font-size: 16px;
+		font-size: 1.2rem;
 		font-weight: bold;
 		margin-bottom: 2px;
 		line-height: 1.2;
@@ -16,11 +26,12 @@ h4 {
 p {
 	&.pr-body {
 		color: rgba(255,255,255,0.6);
-		font-size: 13px;
+		font-size: 0.8rem;
 		line-height: 1.4;
 		margin-bottom: 20px;
 	}
 	&.pr-price {
+		font-size: 0.9rem;
 		margin-top: 3px;
 		margin-bottom: 7px;
 		color: $color-white;
@@ -29,12 +40,12 @@ p {
 }
 
 section.block--product-reservation {
-	margin-top: 15px;
-	margin-bottom: 30px;
+	margin-top: $margin-small;
+	margin-bottom: $margin-small;
 }
 
 div .block--product-details {
-	font-size: 90%;
+	font-size: 0.9rem;
 	color: rgba(255,255,255,0.6);
 }
 

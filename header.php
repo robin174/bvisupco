@@ -31,6 +31,9 @@
 		<!-- Adobe Typekit -->
 		<link rel="stylesheet" href="https://use.typekit.net/cdc0ysc.css">
 
+		<!-- Roboto via Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+		
 		<?php wp_head(); ?>
 	</head>
 			

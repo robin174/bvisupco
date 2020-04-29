@@ -1,4 +1,4 @@
-<div style="background-color:rgba(0,0,0,0.7); margin-bottom:25px; color:white;">
+<section class="unit--product">
 	<section class="unit--product-image">
 		<?php if ( has_post_thumbnail() ) { ?>
 			<figure>
@@ -12,7 +12,7 @@
 			</figure>
 		<?php } ?>
 	</section>
-	<section class="unit--product-info" style="padding:25px;">
+	<section class="unit--product-info">
 		<section class="unit--product-details">
 			<h2><?php the_title();?></h2>
 			<p class="pr-body"><?php the_field('product_description');?></p>
@@ -29,7 +29,7 @@
 					
 					<?php if(get_sub_field('product_available')): // If 'Available' selected ?>
 						<section class="block--product-reservation">
-							<h4 class="pr-name"><span class="pr-red"><i class="fad fa-tags"></i></span>&nbsp;<?php the_sub_field('product_name'); ?></h4>
+							<h4 class="pr-name"><span class="pr-red"><i class="fad fa-tags"></i></span>&nbsp;&nbsp;<?php the_sub_field('product_name'); ?></h4>
 							<div class="block--product-details">
 								<?php if( get_sub_field('product_size') ): ?><?php the_sub_field('product_size'); ?><?php endif; ?>
 								<?php if( get_sub_field('product_size') && get_sub_field('product_material') ): ?>&nbsp;<span class="pr-red">|</span>&nbsp;<?php endif; ?>
@@ -48,29 +48,45 @@
 		</section>
 
 		<section class="unit--product-brand">
-			<?php if(has_term('starboard','brand')): ?>
-				<?php /*
-				<hr class="product-break">
-				*/ ?>
-				<figure class="logo">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-starboard.png" alt="Logo - Starboard">
-				</figure>
+			<?php if(has_term('starboard', 'brand') && has_term('severne', 'brand')): ?>
+				<div class="grid-x">
+	    			<div class="small-12 medium-6 large-6 cell">
+						<figure class="logo">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-starboard.png" alt="Logo - Starboard">
+						</figure>
+					</div>
+					<div class="small-12 medium-6 large-6 cell">
+						<figure class="logo">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-severne.png" alt="Logo - Severne">
+						</figure>
+					</div>
+				</div>
+			<?php elseif(has_term('starboard','brand')): ?>
+				<div class="grid-x">
+	    			<div class="small-12 medium-6 large-6 cell">
+						<figure class="logo">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-starboard.png" alt="Logo - Starboard">
+						</figure>
+					</div>
+				</div>
 			<?php elseif(has_term('ocean-rodeo','brand')): ?>
-				<?php /*
-				<hr class="product-break">
-				*/ ?>
-				<figure class="logo">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-oceanrodeo.png" alt="Logo - Ocean Rodeo">
-				</figure>
+				<div class="grid-x">
+	    			<div class="small-12 medium-6 large-6 cell">
+						<figure class="logo">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-oceanrodeo.png" alt="Logo - Ocean Rodeo">
+						</figure>
+					</div>
+				</div>
 			<?php elseif(has_term('severne','brand')): ?>
-				<?php /*
-				<hr class="product-break">
-				*/ ?>
-				<figure class="logo">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-severne.png" alt="Logo - Severne">
-				</figure>
+				<div class="grid-x">
+	    			<div class="small-12 medium-6 large-6 cell">
+						<figure class="logo">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-severne.png" alt="Logo - Severne">
+						</figure>
+					</div>
+				</div>
 			<?php endif; ?>
 		</section>
 
 	</section>
-</div>
+</section>

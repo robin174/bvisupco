@@ -14,7 +14,7 @@ get_header(); ?>
 		    			<div class="small-12 medium-12 large-12 cell">
 		    				<section class="filter">
 				    			<!-- Filters here (https://isotope.metafizzy.co/filtering.html) -->
-				    			<p>Filter equipment available:</p>
+				    			<p>Filter equipment:</p>
 								<div id="filters" class="button-group filters-button-group">
 					                <button class="button small button--filter is-checked" data-filter="*">Show All</button>
 					                <button class="button small button--filter" data-filter=".equipment-sup">SUP</button>
@@ -36,7 +36,7 @@ get_header(); ?>
 						            'post_type' => 'product',
 						            'taxonomy' => 'equipment',
 						            'post_status' => 'publish',
-						            'orderby' => array('windsurf','kayak','surf','sup'), // this is doing something? 
+						            'orderby' => array('kayak','surf'), // this is doing something? 
 						        );
 						        $my_query = null;
 						        $my_query = new WP_Query($args);
