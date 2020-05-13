@@ -207,9 +207,10 @@ main {
   padding-bottom: 6rem; }
 
 footer, .footer {
-  background-color: #04021E;
+  background-color: #FF4438;
   padding: 3rem;
-  margin-top: 0; }
+  margin-top: 0;
+  color: #fff; }
   footer p, .footer p {
     color: white;
     margin-bottom: 0; }

@@ -31,12 +31,12 @@ get_header(); ?>
 
 		    		<div class="grid isotope">
 						<div class="grid-x grid-margin-x small-up-1 medium-up-2 large-up-4">
+							<!-- Query individually for specific order of equipment category -->
 						    <?php
 						        $args=array(
 						            'post_type' => 'product',
-						            'taxonomy' => 'equipment',
+						            'equipment' => 'sup',
 						            'post_status' => 'publish',
-						            'orderby' => array('kayak','surf'), // this is doing something? 
 						        );
 						        $my_query = null;
 						        $my_query = new WP_Query($args);
@@ -44,11 +44,92 @@ get_header(); ?>
 						        while ($my_query->have_posts()) : $my_query->the_post(); ?>
 						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-sup">
 				            			<?php get_template_part('templates/unit--equipment'); ?> 
-				            			<!-- if selected on 'Equipment' page, show reserve button -->
 				            		</div>
-				            		<!-- We might need to pull equipment template into here to make Isotope work? -->
-						    	<?php endwhile; }
-						    	wp_reset_query(); ?>
+						    	<?php endwhile; } wp_reset_query(); ?>
+						    <?php
+						        $args=array(
+						            'post_type' => 'product',
+						            'equipment' => 'windsurf',
+						            'post_status' => 'publish',
+						        );
+						        $my_query = null;
+						        $my_query = new WP_Query($args);
+						        if( $my_query->have_posts() ) {
+						        while ($my_query->have_posts()) : $my_query->the_post(); ?>
+						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-windsurf">
+				            			<?php get_template_part('templates/unit--equipment'); ?> 
+				            		</div>
+						    	<?php endwhile; } wp_reset_query(); ?>
+						    <?php
+						        $args=array(
+						            'post_type' => 'product',
+						            'equipment' => 'kite',
+						            'post_status' => 'publish',
+						        );
+						        $my_query = null;
+						        $my_query = new WP_Query($args);
+						        if( $my_query->have_posts() ) {
+						        while ($my_query->have_posts()) : $my_query->the_post(); ?>
+						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-windsurf">
+				            			<?php get_template_part('templates/unit--equipment'); ?> 
+				            		</div>
+						    	<?php endwhile; } wp_reset_query(); ?>
+						    <?php
+						        $args=array(
+						            'post_type' => 'product',
+						            'equipment' => 'kayak',
+						            'post_status' => 'publish',
+						        );
+						        $my_query = null;
+						        $my_query = new WP_Query($args);
+						        if( $my_query->have_posts() ) {
+						        while ($my_query->have_posts()) : $my_query->the_post(); ?>
+						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-windsurf">
+				            			<?php get_template_part('templates/unit--equipment'); ?> 
+				            		</div>
+						    	<?php endwhile; } wp_reset_query(); ?>
+						     <?php
+						        $args=array(
+						            'post_type' => 'product',
+						            'equipment' => 'surf',
+						            'post_status' => 'publish',
+						        );
+						        $my_query = null;
+						        $my_query = new WP_Query($args);
+						        if( $my_query->have_posts() ) {
+						        while ($my_query->have_posts()) : $my_query->the_post(); ?>
+						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-windsurf">
+				            			<?php get_template_part('templates/unit--equipment'); ?> 
+				            		</div>
+						    	<?php endwhile; } wp_reset_query(); ?>
+						    <?php
+						        $args=array(
+						            'post_type' => 'product',
+						            'equipment' => 'fishing',
+						            'post_status' => 'publish',
+						        );
+						        $my_query = null;
+						        $my_query = new WP_Query($args);
+						        if( $my_query->have_posts() ) {
+						        while ($my_query->have_posts()) : $my_query->the_post(); ?>
+						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-windsurf">
+				            			<?php get_template_part('templates/unit--equipment'); ?> 
+				            		</div>
+						    	<?php endwhile; } wp_reset_query(); ?>
+						    <?php
+						        $args=array(
+						            'post_type' => 'product',
+						            'equipment' => 'other',
+						            'post_status' => 'publish',
+						        );
+						        $my_query = null;
+						        $my_query = new WP_Query($args);
+						        if( $my_query->have_posts() ) {
+						        while ($my_query->have_posts()) : $my_query->the_post(); ?>
+						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-windsurf">
+				            			<?php get_template_part('templates/unit--equipment'); ?> 
+				            		</div>
+						    	<?php endwhile; } wp_reset_query(); ?>
 						</div>
 					</div>
 				</div>
