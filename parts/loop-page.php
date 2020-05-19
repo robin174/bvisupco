@@ -15,9 +15,5 @@
     <section class="entry-content" itemprop="text">
 	    <?php the_content(); ?>
 	</section> <!-- end article section -->
-						
-	<footer class="article-footer">
-		 <?php wp_link_pages(); ?>
-	</footer> <!-- end article footer -->
 					
 </article> <!-- end article -->

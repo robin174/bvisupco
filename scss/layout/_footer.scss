@@ -1,13 +1,44 @@
 footer, .footer {
-	background-color: $color-secondary;
+	// background-color: $color-secondary;
+	border-top: 10px solid $color-black;
+	background-image: url('../images/use-footer-2018-Matty_DJI_0039-v2.jpg');
+	background-position: center;
+	background-repeat: repeat-x;
 	padding: $padding-general;
 	margin-top: 0;
 	color: $color-white;
+	& h4.uc--footer {
+		text-transform: uppercase;
+		font-size: 0.8rem;
+		letter-spacing: 0.1rem;
+		font-weight: $font-bold;
+		margin-bottom: $margin-small/2;
+	}
 	& p {
 		color: white;
 		margin-bottom: 0;
+		&.copyright {
+			font-weight: $font-bold;
+			font-size: 0.8rem;
+			color: $color-white;
+		}
 	}
 	& a {
 		color: white;
 	}
+}
+
+.weather-temp {
+	font-size: 4rem;
+	& sup {
+		font-size: 60%;
+	}
+}
+
+.w-desc-data {
+	text-transform: capitalize;
+}
+
+.weather-container.grid-container {
+	padding: 0;
 }

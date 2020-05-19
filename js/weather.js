@@ -2,10 +2,10 @@
 // RG api key : 85726e6724f4693e1671c2c805b23087
 
 // Select elements
-const iconElement = document.querySelector(".weather-icon");
-const tempElement = document.querySelector(".temperature-value p");
-const descElement = document.querySelector(".temperature-description p");
-const locationElement = document.querySelector(".location p");
+const iconElement = document.querySelector(".w-icon-data");
+const tempElement = document.querySelector(".w-temp-data");
+const descElement = document.querySelector(".w-desc-data");
+const locationElement = document.querySelector(".w-loc-data");
 
 // App data
 const weather = {};
@@ -45,8 +45,8 @@ fetch(api)
 
 // Display weather to UI
 function displayWeather(){
-    iconElement.innerHTML = `<img src="../wp-content/themes/bvisupco/images/icons/${weather.iconId}.png"/>`;
-    tempElement.innerHTML = `${weather.temperature.value}°<span>C</span>`;
+    iconElement.innerHTML = `<img src="../wp-content/themes/bvisupco/images/icons/n${weather.iconId}.png"/>`;
+    tempElement.innerHTML = `${weather.temperature.value}<sup>°<span>C</span></sup>`;
     descElement.innerHTML = weather.description;
     locationElement.innerHTML = `${weather.city}, ${weather.country}`;
 }
@@ -64,10 +64,10 @@ tempElement.addEventListener("click", function() {
         let fahrenheit = celsiusToFahrenheit(weather.temperature.value);
         fahrenheit = Math.floor(fahrenheit);
         
-        tempElement.innerHTML = `${fahrenheit}°<span>F</span>`;
+        tempElement.innerHTML = `${fahrenheit}<sup>°<span>F</span></sup>`;
         weather.temperature.unit = "fahrenheit";
     } else {
-        tempElement.innerHTML = `${weather.temperature.value}°<span>C</span>`;
+        tempElement.innerHTML = `${weather.temperature.value}<sup>°<span>C</span></sup>`;
         weather.temperature.unit = "celsius"
     }
 });

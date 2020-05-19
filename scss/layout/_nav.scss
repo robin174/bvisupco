@@ -1,5 +1,12 @@
+.top-bar {
+	box-shadow: 0 0 20px rgba(0,0,0,0.7);
+	position: relative;
+	z-index: 10;
+}
+
 .top-bar, .top-bar ul {
 	background-color: rgba(4,2,30,0.5); //#006699
+
 	&.menu a {
 		font-size: 1rem;
 		color: #fff;

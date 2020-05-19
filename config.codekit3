@@ -977,6 +977,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/icons/n03d.png": {
+		"ft": 32768,
+		"iS": 6539,
+		"oA": 0,
+		"oAP": "/images/icons/n03d.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/icons/unknown.png": {
 		"ft": 32768,
 		"iS": 1195,
@@ -1032,6 +1043,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/logo-sm-magicseaweed.png": {
+		"ft": 32768,
+		"iS": 2498,
+		"oA": 0,
+		"oAP": "/images/logo-sm-magicseaweed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/logo-sm-oceanrodeo.png": {
 		"ft": 32768,
 		"iS": 1490,
@@ -1071,6 +1093,61 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/test-WR-Maui-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/use-footer-2018-Matty_DJI_0039-v1.jpg": {
+		"ft": 16384,
+		"iS": 288420,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/use-footer-2018-Matty_DJI_0039-v1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/use-footer-2018-Matty_DJI_0039-v2.jpg": {
+		"ft": 16384,
+		"iS": 224692,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/use-footer-2018-Matty_DJI_0039-v2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/use-home-7DM23397Go_AB+ST+TT+DH_GS_HR.jpg": {
+		"ft": 16384,
+		"iS": 419907,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/use-home-7DM23397Go_AB+ST+TT+DH_GS_HR.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/use-msw-C_SB_SUP_ MAUI_DY_1_disc_3_0673-hq.jpg": {
+		"ft": 16384,
+		"iS": 311626,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/use-msw-C_SB_SUP_ MAUI_DY_1_disc_3_0673-hq.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/use-WR-Maui-13.jpg": {
+		"ft": 16384,
+		"iS": 144835,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/use-WR-Maui-13.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1373,6 +1450,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_filter.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/blocks/_home.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_home.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -1691,7 +1781,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 604259080.58288598,
-	"displayValue": "bvisupco - local",
+	"displayValue": "BVISUPCO -  Local",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-koamaru",
 	"iconImageWasSetByUser": 1

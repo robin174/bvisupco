@@ -1,0 +1,54 @@
+.block--main-home {
+	position:relative;
+	height:60vh;
+	background-position:center;
+	background-size:cover;
+	box-shadow: inset 0 0 0 100vmax rgba(0,0,0,0.1);
+	&.content--welcome {
+		background-image: url('../images/use-home-7DM23397Go_AB+ST+TT+DH_GS_HR.jpg');
+	}
+}
+
+.block--home-half {
+	position:relative;
+	height:30vh;
+	background-position:center;
+	background-size:cover;
+	box-shadow: inset 0 0 0 100vmax rgba(0,0,0,0.3);
+	&.content--tripadvisor{
+		background-image: url('../images/use-WR-Maui-13.jpg');
+	}
+	&.content--msw {
+		background-image: url('../images/use-msw-C_SB_SUP_ MAUI_DY_1_disc_3_0673-hq.jpg');
+	}
+	& .block--inner-logo {
+		position:absolute;
+		left:50%;
+		top:50%;
+		transform:translate(-50%,-50%); // For precise positioning
+	}
+}
+
+.block--home-half {
+	transition-duration: .3s;
+	& .logo--thirdparty {
+		transition-property: transform;
+		transition-duration: .3s;
+	}
+	&:hover {
+		box-shadow: inset 0 0 0 100vmax rgba(0,0,0,0.5);
+		& figure.logo--thirdparty {
+			transform: scale(1.1);
+		}
+	}
+}
+
+.block--home-logos {
+	& .logo {
+		transition-property: transform;
+		transition-duration: .3s;
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+}
