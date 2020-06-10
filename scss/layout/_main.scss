@@ -2,4 +2,12 @@ main {
 	background-color: #fefefe;
 	padding-top: 0;
 	padding-bottom: 0;
+	& .template--page {
+		color: $color-white;
+		background-color:rgba(0,0,0,0.7);
+		margin-top: 0;
+		margin-bottom: $margin-general;
+		padding: $padding-general;
+
+	}
 }

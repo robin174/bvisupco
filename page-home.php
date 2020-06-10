@@ -58,37 +58,40 @@ get_header(); ?>
 				<!-- Third Blocks -->
 				<section class="block--home-services">
 					<div class="grid-container">
-						<div class="grid-x">			
+						<div class="grid-x">
+							<!-- Trip Advisor -->		
 							<div class="cell small-12 medium-4 large-4">
 								<a href="https://www.tripadvisor.co.uk/Attraction_Review-g147354-d7238417-Reviews-BVISUPCO-Tortola_British_Virgin_Islands.html" target="_blank">
-									<section class="block--home-half content--tripadvisor">
+									<section class="block--home-third content--tripadvisor">
 										<section class="block--inner-logo">
 											<figure class="logo--thirdparty">
-												<img src="<?php echo get_template_directory_uri(); ?>/images/logo-tripadvisor.png" alt="Trip Advisor">
+												<img src="<?php echo get_template_directory_uri(); ?>/images/logo-home-tripadvisor.png" alt="Trip Advisor">
 											</figure>
 										</section>
 									</section>
 								</a>
 							</div><!-- end .cell -->
 
+							<!-- Magic Seaweed -->	
 							<div class="cell small-12 medium-4 large-4">
 								<a href="https://magicseaweed.com/British-Virgin-Islands-Surfing/133/" target="_blank">
-									<section class="block--home-half content--msw">
+									<section class="block--home-third content--msw">
 										<section class="block--inner-logo">
 											<figure class="logo--thirdparty">
-												<img src="<?php echo get_template_directory_uri(); ?>/images/logo-magicseaweed.png" alt="Magic Seaweed">
+												<img src="<?php echo get_template_directory_uri(); ?>/images/logo-home-magicseaweed.png" alt="Magic Seaweed">
 											</figure>
 										</section>
 									</section>
 								</a>
 							</div><!-- end .cell -->
 
+							<!-- Plastic Offset Program (POP) -->	
 							<div class="cell small-12 medium-4 large-4">
-								<a href="https://magicseaweed.com/British-Virgin-Islands-Surfing/133/" target="_blank">
-									<section class="block--home-half content--msw">
+								<a href="https://sup.star-board.com/plastic-offset-program/" target="_blank">
+									<section class="block--home-third content--pop">
 										<section class="block--inner-logo">
 											<figure class="logo--thirdparty">
-												<img src="<?php echo get_template_directory_uri(); ?>/images/logo-magicseaweed.png" alt="Magic Seaweed">
+												<img src="<?php echo get_template_directory_uri(); ?>/images/logo-home-plastic.png" alt="Plastic Offset Program (POP)">
 											</figure>
 										</section>
 									</section>
@@ -98,15 +101,15 @@ get_header(); ?>
 					</div>
 				</section>
 
-				<!-- Logos -->
-				<section class="block--home-logos" style="padding: 50px;background-color:rgba(0,0,0,0.5);">
+				<!-- Partner Logos -->
+				<section class="block--home-logos">
 					<div class="grid-container">
 						<div class="grid-x grid-margin-x">
 							<div class="cell large-offset-1 small-12 medium-12 large-10">
 
 								<div class="grid-container">
 									<div class="grid-x grid-margin-x">
-										<div class="cell medium-auto"><!-- to test this. What happends when you re-size? -->
+										<div class="cell medium-auto">
 											<figure class="logo">
 												<a href="https://sup.star-board.com" target="_blank" title="Starboard"><img src="<?php echo get_template_directory_uri(); ?>/images/logo-md-starboard.png" alt ="Logo - Starboard"></a>
 											</figure>
@@ -114,6 +117,11 @@ get_header(); ?>
 										<div class="cell medium-auto">
 											<figure class="logo">
 												<a href="https://oceanrodeo.com/kiteboarding/" title="Ocean Rodeo" target="_blank" title="Ocean Rodeo"><img src="<?php echo get_template_directory_uri(); ?>/images/logo-md-oceanrodeo.png" alt ="Logo - Ocean Rodeo"></a>
+											</figure>
+										</div><!-- end .cell -->
+										<div class="cell medium-auto">
+											<figure class="logo">
+												<a href="https://airush.com/" title="Airush" target="_blank" title="Airush"><img src="<?php echo get_template_directory_uri(); ?>/images/logo-md-airush.png" alt ="Logo - Airush"></a>
 											</figure>
 										</div><!-- end .cell -->
 										<div class="cell medium-auto">

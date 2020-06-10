@@ -5,16 +5,32 @@
 }
 
 .top-bar, .top-bar ul {
-	background-color: rgba(4,2,30,0.5); //#006699
-
+	background-color: $color-primary;
 	&.menu a {
 		font-size: 1rem;
-		color: #fff;
+		color: $color-white;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		font-weight: $font-bold;
+		margin-right: 7px;
+		&:hover {
+			color: $color-white;
+			background-color: $color-secondary;
+			border-radius: 3px;
+		}
 	}
 	&.menu .active > a, .menu .is-active > a {
-		background-color: #004161;
+		background-color: $color-secondary;
+		border-radius: 3px;
+	}
+}
+
+.top-bar-left, .top-bar-left ul {
+	&.menu a {
+		&:hover {
+			color: $color-secondary;
+			background-color: $color-primary;
+			border-radius: 3px;
+		}
 	}
 }

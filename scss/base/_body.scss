@@ -1,5 +1,23 @@
 @import "bourbon";
 
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+
 body {
 	background-color: #fff;
 	color: #222;
@@ -8,4 +26,21 @@ body {
 
 .grid-container {
 	padding: 0;
+}
+
+a {
+	transition: 0.3s;
+	color: $color-secondary;
+	&:link { // unvisited link
+		color: $color-secondary;
+	}
+	&:visited { // visited link
+		color: $color-secondary;
+	}
+	&:active { // selected link
+		color: $color-secondary;
+	}
+	&:hover { // mouse over link
+		color:$color-secondary-dark;
+	}
 }
