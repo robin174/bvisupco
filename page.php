@@ -1,7 +1,4 @@
 <?php 
-/*
-Template Name: Page - Template
-*/
 get_header(); ?>
 	
 	<div class="content">

@@ -7,7 +7,7 @@
 		"uuidString": "1B17822B-00EE-4071-B32F-58377101A12E"
 		}
 	],
-"creatorBuild": "32147",
+"creatorBuild": "32186",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -779,212 +779,201 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/icons/01d.png": {
+	"/images/icons/n01d.png": {
 		"ft": 32768,
 		"iS": 1029,
 		"oA": 0,
-		"oAP": "/images/icons/01d.png",
+		"oAP": "/images/icons/n01d.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/images/icons/01n.png": {
+	"/images/icons/n01n.png": {
 		"ft": 32768,
 		"iS": 4338,
 		"oA": 0,
-		"oAP": "/images/icons/01n.png",
+		"oAP": "/images/icons/n01n.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/images/icons/02d.png": {
+	"/images/icons/n02d.png": {
 		"ft": 32768,
 		"iS": 1624,
 		"oA": 0,
-		"oAP": "/images/icons/02d.png",
+		"oAP": "/images/icons/n02d.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/images/icons/02n.png": {
+	"/images/icons/n02n.png": {
 		"ft": 32768,
 		"iS": 4297,
 		"oA": 0,
-		"oAP": "/images/icons/02n.png",
+		"oAP": "/images/icons/n02n.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/icons/03d.png": {
-		"ft": 32768,
-		"iS": 1571,
-		"oA": 0,
-		"oAP": "/images/icons/03d.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/icons/03n.png": {
-		"ft": 32768,
-		"iS": 3887,
-		"oA": 0,
-		"oAP": "/images/icons/03n.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/icons/04d.png": {
-		"ft": 32768,
-		"iS": 1032,
-		"oA": 0,
-		"oAP": "/images/icons/04d.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/icons/04n.png": {
-		"ft": 32768,
-		"iS": 1032,
-		"oA": 0,
-		"oAP": "/images/icons/04n.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/icons/09d.png": {
-		"ft": 32768,
-		"iS": 1612,
-		"oA": 0,
-		"oAP": "/images/icons/09d.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/icons/09n.png": {
-		"ft": 32768,
-		"iS": 1612,
-		"oA": 0,
-		"oAP": "/images/icons/09n.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/icons/10d.png": {
-		"ft": 32768,
-		"iS": 1700,
-		"oA": 0,
-		"oAP": "/images/icons/10d.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/icons/10n.png": {
-		"ft": 32768,
-		"iS": 1700,
-		"oA": 0,
-		"oAP": "/images/icons/10n.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/icons/11d.png": {
-		"ft": 32768,
-		"iS": 1994,
-		"oA": 0,
-		"oAP": "/images/icons/11d.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/icons/11n.png": {
-		"ft": 32768,
-		"iS": 1994,
-		"oA": 0,
-		"oAP": "/images/icons/11n.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/icons/13d.png": {
-		"ft": 32768,
-		"iS": 1191,
-		"oA": 0,
-		"oAP": "/images/icons/13d.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/icons/13n.png": {
-		"ft": 32768,
-		"iS": 1191,
-		"oA": 0,
-		"oAP": "/images/icons/13n.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/icons/50d.png": {
-		"ft": 32768,
-		"iS": 1041,
-		"oA": 0,
-		"oAP": "/images/icons/50d.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/icons/50n.png": {
-		"ft": 32768,
-		"iS": 1041,
-		"oA": 0,
-		"oAP": "/images/icons/50n.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
 	"/images/icons/n03d.png": {
 		"ft": 32768,
-		"iS": 6539,
+		"iS": 1571,
 		"oA": 0,
 		"oAP": "/images/icons/n03d.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons/n03n.png": {
+		"ft": 32768,
+		"iS": 3887,
+		"oA": 0,
+		"oAP": "/images/icons/n03n.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons/n04d.png": {
+		"ft": 32768,
+		"iS": 1032,
+		"oA": 0,
+		"oAP": "/images/icons/n04d.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons/n04n.png": {
+		"ft": 32768,
+		"iS": 1032,
+		"oA": 0,
+		"oAP": "/images/icons/n04n.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons/n09d.png": {
+		"ft": 32768,
+		"iS": 1612,
+		"oA": 0,
+		"oAP": "/images/icons/n09d.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons/n09n.png": {
+		"ft": 32768,
+		"iS": 1612,
+		"oA": 0,
+		"oAP": "/images/icons/n09n.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons/n10d.png": {
+		"ft": 32768,
+		"iS": 1700,
+		"oA": 0,
+		"oAP": "/images/icons/n10d.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons/n10n.png": {
+		"ft": 32768,
+		"iS": 1700,
+		"oA": 0,
+		"oAP": "/images/icons/n10n.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons/n11d.png": {
+		"ft": 32768,
+		"iS": 1994,
+		"oA": 0,
+		"oAP": "/images/icons/n11d.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons/n11n.png": {
+		"ft": 32768,
+		"iS": 1994,
+		"oA": 0,
+		"oAP": "/images/icons/n11n.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons/n13d.png": {
+		"ft": 32768,
+		"iS": 1191,
+		"oA": 0,
+		"oAP": "/images/icons/n13d.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons/n13n.png": {
+		"ft": 32768,
+		"iS": 1191,
+		"oA": 0,
+		"oAP": "/images/icons/n13n.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons/n50d.png": {
+		"ft": 32768,
+		"iS": 1041,
+		"oA": 0,
+		"oAP": "/images/icons/n50d.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons/n50n.png": {
+		"ft": 32768,
+		"iS": 1041,
+		"oA": 0,
+		"oAP": "/images/icons/n50n.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -999,15 +988,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/image-equipment-comingsoon.jpg": {
-		"ft": 16384,
-		"iS": 65214,
-		"jF": 0,
+	"/images/logo-magicseaweed.png": {
+		"ft": 32768,
+		"iS": 5545,
 		"oA": 0,
-		"oAP": "/images/image-equipment-comingsoon.jpg",
+		"oAP": "/images/logo-magicseaweed.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"/images/logo-md-oceanrodeo.png": {
@@ -1087,12 +1076,56 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/logo-tripadvisor.png": {
+		"ft": 32768,
+		"iS": 5130,
+		"oA": 0,
+		"oAP": "/images/logo-tripadvisor.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/test-WR-Maui-07.jpg": {
 		"ft": 16384,
 		"iS": 211569,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/test-WR-Maui-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/use-comingsoon-sup.jpg": {
+		"ft": 16384,
+		"iS": 57230,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/use-comingsoon-sup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/use-comingsoon-windsurf-v2.jpg": {
+		"ft": 16384,
+		"iS": 54342,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/use-comingsoon-windsurf-v2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/use-comingsoon-windsurf.jpg": {
+		"ft": 16384,
+		"iS": 53241,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/use-comingsoon-windsurf.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1115,6 +1148,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/use-footer-2018-Matty_DJI_0039-v2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/use-footer-2018-Matty_DJI_0039-v3.jpg": {
+		"ft": 16384,
+		"iS": 223553,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/use-footer-2018-Matty_DJI_0039-v3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1148,6 +1192,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/use-WR-Maui-13.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/void/image-equipment-comingsoon.jpg": {
+		"ft": 16384,
+		"iS": 65214,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/void/image-equipment-comingsoon.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1259,6 +1314,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/page-old.php",
+		"oF": 0
+		},
+	"/page-template.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-template.php",
 		"oF": 0
 		},
 	"/page.php": {
@@ -2324,6 +2387,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"default-case-last": {
+			"active": 0,
+			"optionString": ""
+			},
 		"default-param-last": {
 			"active": 0,
 			"optionString": ""
@@ -2736,6 +2803,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-loss-of-precision": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
@@ -2851,6 +2922,10 @@
 		"no-regex-spaces": {
 			"active": 1,
 			"optionString": ""
+			},
+		"no-restricted-exports": {
+			"active": 0,
+			"optionString": "{'restrictedNamedExports': []}"
 			},
 		"no-restricted-globals": {
 			"active": 0,
@@ -2995,6 +3070,10 @@
 		"no-use-before-define": {
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-backreference": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-call": {
 			"active": 0,

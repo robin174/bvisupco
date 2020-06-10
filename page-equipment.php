@@ -37,6 +37,43 @@ get_header(); ?>
 						            'post_type' => 'product',
 						            'equipment' => 'sup',
 						            'post_status' => 'publish',
+						            'skill' => array('beginner','intermediate'),
+						            'orderby' => 'title',
+						            'order' => 'ASC',
+						        );
+						        $my_query = null;
+						        $my_query = new WP_Query($args);
+						        if( $my_query->have_posts() ) {
+						        while ($my_query->have_posts()) : $my_query->the_post(); ?>
+						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-sup">
+				            			<?php get_template_part('templates/unit--equipment'); ?> 
+				            		</div>
+						    	<?php endwhile; } wp_reset_query(); ?>
+						    <?php
+						        $args=array(
+						            'post_type' => 'product',
+						            'equipment' => 'sup',
+						            'post_status' => 'publish',
+						            'skill' => 'advanced',
+						            'orderby' => 'title',
+						            'order' => 'ASC',
+						        );
+						        $my_query = null;
+						        $my_query = new WP_Query($args);
+						        if( $my_query->have_posts() ) {
+						        while ($my_query->have_posts()) : $my_query->the_post(); ?>
+						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-sup">
+				            			<?php get_template_part('templates/unit--equipment'); ?> 
+				            		</div>
+						    	<?php endwhile; } wp_reset_query(); ?>
+						    <?php
+						        $args=array(
+						            'post_type' => 'product',
+						            'equipment' => 'sup',
+						            'post_status' => 'publish',
+						            'skill' => 'not-applicable',
+						            'orderby' => 'title',
+						            'order' => 'ASC',
 						        );
 						        $my_query = null;
 						        $my_query = new WP_Query($args);
@@ -51,6 +88,43 @@ get_header(); ?>
 						            'post_type' => 'product',
 						            'equipment' => 'windsurf',
 						            'post_status' => 'publish',
+						            'skill' => 'beginner',
+						            'orderby' => 'title',
+						            'order' => 'ASC',
+						        );
+						        $my_query = null;
+						        $my_query = new WP_Query($args);
+						        if( $my_query->have_posts() ) {
+						        while ($my_query->have_posts()) : $my_query->the_post(); ?>
+						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-windsurf">
+				            			<?php get_template_part('templates/unit--equipment'); ?> 
+				            		</div>
+						    	<?php endwhile; } wp_reset_query(); ?>
+						    <?php
+						        $args=array(
+						            'post_type' => 'product',
+						            'equipment' => 'windsurf',
+						            'post_status' => 'publish',
+						            'skill' => 'intermediate',
+						            'orderby' => 'title',
+						            'order' => 'ASC',
+						        );
+						        $my_query = null;
+						        $my_query = new WP_Query($args);
+						        if( $my_query->have_posts() ) {
+						        while ($my_query->have_posts()) : $my_query->the_post(); ?>
+						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-windsurf">
+				            			<?php get_template_part('templates/unit--equipment'); ?> 
+				            		</div>
+						    	<?php endwhile; } wp_reset_query(); ?>
+						    <?php
+						        $args=array(
+						            'post_type' => 'product',
+						            'equipment' => 'windsurf',
+						            'post_status' => 'publish',
+						            'skill' => 'advanced',
+						            'orderby' => 'title',
+						            'order' => 'ASC',
 						        );
 						        $my_query = null;
 						        $my_query = new WP_Query($args);
@@ -65,12 +139,14 @@ get_header(); ?>
 						            'post_type' => 'product',
 						            'equipment' => 'kite',
 						            'post_status' => 'publish',
+						            'orderby' => 'title',
+						            'order' => 'ASC',
 						        );
 						        $my_query = null;
 						        $my_query = new WP_Query($args);
 						        if( $my_query->have_posts() ) {
 						        while ($my_query->have_posts()) : $my_query->the_post(); ?>
-						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-windsurf">
+						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-kite">
 				            			<?php get_template_part('templates/unit--equipment'); ?> 
 				            		</div>
 						    	<?php endwhile; } wp_reset_query(); ?>
@@ -79,12 +155,14 @@ get_header(); ?>
 						            'post_type' => 'product',
 						            'equipment' => 'kayak',
 						            'post_status' => 'publish',
+						            'orderby' => 'title',
+						            'order' => 'ASC',
 						        );
 						        $my_query = null;
 						        $my_query = new WP_Query($args);
 						        if( $my_query->have_posts() ) {
 						        while ($my_query->have_posts()) : $my_query->the_post(); ?>
-						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-windsurf">
+						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-kayak">
 				            			<?php get_template_part('templates/unit--equipment'); ?> 
 				            		</div>
 						    	<?php endwhile; } wp_reset_query(); ?>
@@ -93,12 +171,14 @@ get_header(); ?>
 						            'post_type' => 'product',
 						            'equipment' => 'surf',
 						            'post_status' => 'publish',
+						            'orderby' => 'title',
+						            'order' => 'ASC',
 						        );
 						        $my_query = null;
 						        $my_query = new WP_Query($args);
 						        if( $my_query->have_posts() ) {
 						        while ($my_query->have_posts()) : $my_query->the_post(); ?>
-						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-windsurf">
+						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-surf">
 				            			<?php get_template_part('templates/unit--equipment'); ?> 
 				            		</div>
 						    	<?php endwhile; } wp_reset_query(); ?>
@@ -107,12 +187,14 @@ get_header(); ?>
 						            'post_type' => 'product',
 						            'equipment' => 'fishing',
 						            'post_status' => 'publish',
+						            'orderby' => 'title',
+						            'order' => 'ASC',
 						        );
 						        $my_query = null;
 						        $my_query = new WP_Query($args);
 						        if( $my_query->have_posts() ) {
 						        while ($my_query->have_posts()) : $my_query->the_post(); ?>
-						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-windsurf">
+						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-fishing">
 				            			<?php get_template_part('templates/unit--equipment'); ?> 
 				            		</div>
 						    	<?php endwhile; } wp_reset_query(); ?>
@@ -121,12 +203,14 @@ get_header(); ?>
 						            'post_type' => 'product',
 						            'equipment' => 'other',
 						            'post_status' => 'publish',
+						            'orderby' => 'title',
+						            'order' => 'ASC',
 						        );
 						        $my_query = null;
 						        $my_query = new WP_Query($args);
 						        if( $my_query->have_posts() ) {
 						        while ($my_query->have_posts()) : $my_query->the_post(); ?>
-						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-windsurf">
+						        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-other">
 				            			<?php get_template_part('templates/unit--equipment'); ?> 
 				            		</div>
 						    	<?php endwhile; } wp_reset_query(); ?>
@@ -134,9 +218,9 @@ get_header(); ?>
 					</div>
 				</div>
 
-			</main> <!-- end #main -->
+			</main><!-- end #main -->
 		    
-		</div> <!-- end #inner-content -->
+		</div><!-- end #inner-content -->
 	</div> <!-- end #content -->
 
 	<script>

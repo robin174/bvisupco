@@ -5,21 +5,26 @@
 								<div class="small-12 medium-6 large-6 cell">
 									<section class="block--details">
 										<h4 class="uc--footer">Contact us</h4>
-										<p><i class="fad fa-phone-office fa-lg"></i>&nbsp;&nbsp;+1 (284) 346 1981<br>
-										<i class="fad fa-envelope-open-text fa-lg"></i>&nbsp;&nbsp;<a href="mailto:info@bvisupco.com" title="Email BVISUPCO">info@bvisupco.com</a></p>
-										<p>Trip Advisor</p>
+										<p><i class="fad fa-phone-office fa-lg" style="vertical-align: center;"></i>&nbsp;&nbsp;+1 (284) 346 1981<br>
+										<i class="fad fa-envelope-open-text fa-lg" style="vertical-align: center;"></i>&nbsp;&nbsp;<a href="mailto:info@bvisupco.com" title="Email BVISUPCO">info@bvisupco.com</a></p>
+										<p>Trip Advisor<br>
+										Facebook (https://www.facebook.com/BVISUPCo/)<br>
+										Instagram (https://www.instagram.com/bvisupco/)</p>
 									</section>
 								</div>
 								<div class="small-12 medium-3 large-3 cell">
 									<section class="block--surf">
-										<h4 class="uc--footer">Latest surf</h4>
-										<section style="height: 100px; width:100%; background-color: rgba(0,0,0,0.1); margin-bottom: 25px;">
-											&nbsp;
-										</section>
-										<h4 class="uc--footer">Powered by</h4>
-										<figure>
-											<a href="https://magicseaweed.com/" title="MSW"><img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-magicseaweed.png" alt="Magic Seaweed"></a>
-										</figure>
+										&nbsp;
+										<!-- 
+											<h4 class="uc--footer">Latest surf</h4>
+											<section style="height: 100px; width:100%; background-color: rgba(0,0,0,0.1); margin-bottom: 25px;">
+												&nbsp;
+											</section>
+											<h4 class="uc--footer">Powered by</h4>
+											<figure>
+												<a href="https://magicseaweed.com/" title="MSW"><img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-magicseaweed.png" alt="Magic Seaweed"></a>
+											</figure>
+										-->
 									</section>
 								</div>
 								<div class="small-12 medium-3 large-3 cell">

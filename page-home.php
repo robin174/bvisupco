@@ -19,6 +19,8 @@ get_header(); ?>
 										<figure>
 											<img>
 										</figure>
+										<p>BVISUPCO is the largest Stand Up Paddleboard (SUP) and watersports rentals company in the British Virgin Islands.</p>
+										<a class="button" href="">See our Equipment</a>
 									</section>
 								</section>
 							</div><!-- end .cell -->
@@ -31,23 +33,62 @@ get_header(); ?>
 					<div class="grid-container">
 						<div class="grid-x">			
 							<div class="cell small-12 medium-6 large-6">
-								<a href="https://magicseaweed.com/British-Virgin-Islands-Surfing/133/" target="_blank">
+								<a href="/equipment-new.php">
 									<section class="block--home-half content--tripadvisor">
 										<section class="block--inner-logo">
-											<figure class="logo--thirdparty">
-												<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-magicseaweed.png" alt="Magic Seaweed">
-											</figure>
+											<p>We have an extensive SUP range</p><!-- no button as 'a' is governed by block -->
 										</section>
 									</section>
 								</a>
 							</div><!-- end .cell -->
 
 							<div class="cell small-12 medium-6 large-6">
+								<a href="/equipment-new.php">
+									<section class="block--home-half content--msw">
+										<section class="block--inner-logo">
+											<p>We have an extensive Windsurf range</p><!-- no button as 'a' is governed by block -->
+										</section>
+									</section>
+								</a>
+							</div><!-- end .cell -->
+						</div><!-- end .grid-x -->
+					</div>
+				</section>
+
+				<!-- Third Blocks -->
+				<section class="block--home-services">
+					<div class="grid-container">
+						<div class="grid-x">			
+							<div class="cell small-12 medium-4 large-4">
+								<a href="https://www.tripadvisor.co.uk/Attraction_Review-g147354-d7238417-Reviews-BVISUPCO-Tortola_British_Virgin_Islands.html" target="_blank">
+									<section class="block--home-half content--tripadvisor">
+										<section class="block--inner-logo">
+											<figure class="logo--thirdparty">
+												<img src="<?php echo get_template_directory_uri(); ?>/images/logo-tripadvisor.png" alt="Trip Advisor">
+											</figure>
+										</section>
+									</section>
+								</a>
+							</div><!-- end .cell -->
+
+							<div class="cell small-12 medium-4 large-4">
 								<a href="https://magicseaweed.com/British-Virgin-Islands-Surfing/133/" target="_blank">
 									<section class="block--home-half content--msw">
 										<section class="block--inner-logo">
 											<figure class="logo--thirdparty">
-												<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-magicseaweed.png" alt="Magic Seaweed">
+												<img src="<?php echo get_template_directory_uri(); ?>/images/logo-magicseaweed.png" alt="Magic Seaweed">
+											</figure>
+										</section>
+									</section>
+								</a>
+							</div><!-- end .cell -->
+
+							<div class="cell small-12 medium-4 large-4">
+								<a href="https://magicseaweed.com/British-Virgin-Islands-Surfing/133/" target="_blank">
+									<section class="block--home-half content--msw">
+										<section class="block--inner-logo">
+											<figure class="logo--thirdparty">
+												<img src="<?php echo get_template_directory_uri(); ?>/images/logo-magicseaweed.png" alt="Magic Seaweed">
 											</figure>
 										</section>
 									</section>
@@ -59,7 +100,6 @@ get_header(); ?>
 
 				<!-- Logos -->
 				<section class="block--home-logos" style="padding: 50px;background-color:rgba(0,0,0,0.5);">
-
 					<div class="grid-container">
 						<div class="grid-x grid-margin-x">
 							<div class="cell large-offset-1 small-12 medium-12 large-10">
