@@ -1230,6 +1230,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/use-lenin-estrada-gurIz2PazQ-unsplash.jpg": {
+		"ft": 16384,
+		"iS": 120430,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/use-lenin-estrada-gurIz2PazQ-unsplash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/use-msw-C_SB_SUP_ MAUI_DY_1_disc_3_0673-hq.jpg": {
 		"ft": 16384,
 		"iS": 311626,
@@ -1263,12 +1274,56 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/use-starboard-paddle-v2.jpg": {
+		"ft": 16384,
+		"iS": 129609,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/use-starboard-paddle-v2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/use-starboard-WR-Maui-04.jpg": {
+		"ft": 16384,
+		"iS": 189886,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/use-starboard-WR-Maui-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/images/use-WR-Maui-13.jpg": {
 		"ft": 16384,
 		"iS": 144835,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/use-WR-Maui-13.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/v1-ryan-loughlin-f1Kbt5NC8-I-unsplash.jpg": {
+		"ft": 16384,
+		"iS": 157509,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/v1-ryan-loughlin-f1Kbt5NC8-I-unsplash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/v2-ryan-loughlin-f1Kbt5NC8-I-unsplash.jpg": {
+		"ft": 16384,
+		"iS": 139656,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/v2-ryan-loughlin-f1Kbt5NC8-I-unsplash.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1352,6 +1407,14 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"/page-about.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-about.php",
+		"oF": 0
 		},
 	"/page-contact.php": {
 		"cB": 0,
