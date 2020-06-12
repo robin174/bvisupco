@@ -3,9 +3,21 @@
 	height:60vh;
 	background-position:center;
 	background-size:cover;
-	box-shadow: inset 0 0 0 100vmax rgba(0,0,0,0.1);
+	box-shadow: inset 0 0 0 100vmax rgba(0,0,0,0.3);
+	padding-top:$padding-general*6;
 	&.content--welcome {
 		background-image: url('../images/use-home-7DM23397Go_AB+ST+TT+DH_GS_HR.jpg');
+	}
+	& .block--inner-logo {
+		padding-top:$padding-general;
+		text-align: center;
+		color: $color-white;
+	}
+	& p.introduction--hero {
+		font-family: $font--sans;
+		font-size: 2rem;
+		line-height: 1.1;
+		text-shadow: 0 0 5px rgba(0,0,0,0.5);
 	}
 }
 
@@ -14,7 +26,7 @@
 	height:30vh;
 	background-position:center;
 	background-size:cover;
-	box-shadow: inset 0 0 0 100vmax rgba(0,0,0,0.3);
+	box-shadow: inset 0 0 0 100vmax rgba(0,0,0,0.2);
 	&.content--tripadvisor{
 		background-image: url('../images/use-bay-photo.jpg');
 		width: 100%;

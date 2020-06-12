@@ -1,6 +1,7 @@
 figure {
 	margin: 0;
 	padding: 0;
+	text-align: center;
 	& figcaption {
 		&.pr-category {
 			position: absolute;
@@ -20,6 +21,7 @@ figure {
 	}
 	&.logo {
 		margin: auto;
-		text-align: center;
+	}
+	&.logo--hero {
 	}
 }

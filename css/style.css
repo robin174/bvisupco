@@ -121,16 +121,26 @@ section.filter {
   height: 60vh;
   background-position: center;
   background-size: cover;
-  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.1); }
+  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.3);
+  padding-top: 18rem; }
   .block--main-home.content--welcome {
     background-image: url("../images/use-home-7DM23397Go_AB+ST+TT+DH_GS_HR.jpg"); }
+  .block--main-home .block--inner-logo {
+    padding-top: 3rem;
+    text-align: center;
+    color: #fff; }
+  .block--main-home p.introduction--hero {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 2rem;
+    line-height: 1.1;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
 
 .block--home-half, .block--home-third {
   position: relative;
   height: 30vh;
   background-position: center;
   background-size: cover;
-  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.3); }
+  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.2); }
   .block--home-half.content--tripadvisor, .block--home-third.content--tripadvisor {
     background-image: url("../images/use-bay-photo.jpg");
     width: 100%; }
@@ -254,7 +264,8 @@ button.button--filter {
 
 figure {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  text-align: center; }
   figure figcaption.pr-category {
     position: absolute;
     text-align: right;
@@ -270,8 +281,7 @@ figure {
     font-size: 0.75rem;
     letter-spacing: 0.3em; }
   figure.logo {
-    margin: auto;
-    text-align: center; }
+    margin: auto; }
 
 hr.product-break {
   margin: 0;
