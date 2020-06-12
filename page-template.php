@@ -64,8 +64,6 @@ get_header(); ?>
 									<h5>Q. Can I have some more information on your kayaks?</h5>
 									<p>The single and double sit-on-top kayaks we are using are generically the same as all versions in existence right now, they are very stable. The double measures about 11’0” x 34″, can seat up to three (~550lbs) and comes with 2 backrests and paddles. The single is roughly 9’6” x 34” and is rated to 250lbs and comes with one back rest and a paddle.</p>
 								</section>
-
-
 							<?php }  ?>
 		    			</div>
 		    		</div>

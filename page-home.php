@@ -33,20 +33,22 @@ get_header(); ?>
 					<div class="grid-container">
 						<div class="grid-x">			
 							<div class="cell small-12 medium-6 large-6">
-								<a href="/equipment-new.php">
-									<section class="block--home-half content--tripadvisor">
+								<a href="/equipment-new">
+									<section class="block--home-half content--equipment">
 										<section class="block--inner-logo">
-											<p>We have an extensive SUP range</p><!-- no button as 'a' is governed by block -->
+											<h2>NEW FOR THIS YEAR</h2>
+											<p>The Freewing</p><!-- no button as 'a' is governed by block -->
 										</section>
 									</section>
 								</a>
 							</div><!-- end .cell -->
 
 							<div class="cell small-12 medium-6 large-6">
-								<a href="/equipment-new.php">
-									<section class="block--home-half content--msw">
+								<a href="/equipment-new">
+									<section class="block--home-half content--new">
 										<section class="block--inner-logo">
-											<p>We have an extensive Windsurf range</p><!-- no button as 'a' is governed by block -->
+											<h2>NEW FOR THIS YEAR</h2>
+											<p>New for the 2021 season!</p>
 										</section>
 									</section>
 								</a>
