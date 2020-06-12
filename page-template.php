@@ -18,7 +18,7 @@ get_header(); ?>
 		    					<hr>
 		    				<p>For wind, wave and weather prediction models:<br>
 		    				<a href="https://www.windguru.cz/58" title="Wind Guru - Cane Garden Bay">www.windguru.cz</a><br>
-		    				<a href="https://magicseaweed.com/British-Virgin-Islands-Surfing/133/">www.magicseaweed</a><br>
+		    				<a href="https://magicseaweed.com/British-Virgin-Islands-Surfing/133/">www.magicseaweed.com</a><br>
 		    				<a href="www.surf-forecast.com/regions/Tortola-BVI">www.surf-forecast.com</a></p>
 		    			</div>
 		    			<div class="small-12 medium-9 large-9 cell">
