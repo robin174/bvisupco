@@ -14,12 +14,12 @@ get_header(); ?>
 		    			<div class="small-12 medium-3 large-3 cell">
 		    				<h2>Local</h2>
 		    				<p>For surf and beach conditions in Cane Garden Bay:<br>
-		    					<a href="https://www.resortcams.com/webcams/cane-garden-bay" title="Resort Cams - Cane Garden Bay">www.resortcams.com</a></p>
+		    					<a href="https://www.resortcams.com/webcams/cane-garden-bay" title="Resort Cams - Cane Garden Bay" target="_blank">www.resortcams.com</a></p>
 		    					<hr>
 		    				<p>For wind, wave and weather prediction models:<br>
-		    				<a href="https://www.windguru.cz/58" title="Wind Guru - Cane Garden Bay">www.windguru.cz</a><br>
-		    				<a href="https://magicseaweed.com/British-Virgin-Islands-Surfing/133/">www.magicseaweed.com</a><br>
-		    				<a href="www.surf-forecast.com/regions/Tortola-BVI">www.surf-forecast.com</a></p>
+		    				<a href="https://www.windguru.cz/58" title="Wind Guru - Cane Garden Bay" target="_blank">www.windguru.cz</a><br>
+		    				<a href="https://magicseaweed.com/British-Virgin-Islands-Surfing/133/" target="_blank">www.magicseaweed.com</a><br>
+		    				<a href="www.surf-forecast.com/regions/Tortola-BVI" target="_blank">www.surf-forecast.com</a></p>
 		    			</div>
 		    			<div class="small-12 medium-9 large-9 cell">
 
