@@ -45,7 +45,7 @@ fetch(api)
 
 // Display weather to UI
 function displayWeather(){
-    iconElement.innerHTML = `<img src="../wp-content/themes/bvisupco/images/icons/n${weather.iconId}.png"/>`;
+    iconElement.innerHTML = `<img src="https://www.bvisupco.com/wp-content/themes/bvisupco/images/icons/n${weather.iconId}.png"/>`;
     tempElement.innerHTML = `${weather.temperature.value}<sup>°<span>C</span></sup>`;
     descElement.innerHTML = weather.description;
     locationElement.innerHTML = `${weather.city}, ${weather.country}`;
