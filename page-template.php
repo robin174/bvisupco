@@ -32,7 +32,7 @@ get_header(); ?>
 							<?php } elseif(is_page('faq-new')) { ?>
 								<h2>FAQ</h2>
 								<section>
-									<h4>(i) Rental</h4>
+									<h4><i class="fad fa-water"></i>&nbsp;Rental</h4>
 								</section>
 								<section>
 									<h5>Q. How do I book equipment?</h5>
@@ -54,7 +54,7 @@ get_header(); ?>
 
 								<section>
 									<hr>
-									<h4>(i) Equipment</h4>
+									<h4><i class="fad fa-water"></i>&nbsp;Equipment</h4>
 								</section>
 								<section>
 									<h5>Q. Do you rent inflatable SUPs?</h5>

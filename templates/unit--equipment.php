@@ -61,7 +61,7 @@
 							</div>
 							<!-- Each individual product can show the 'Reserve' button, or not -->
 							<?php if (get_field('reserve_button') == 'show'): ?>
-								<button class="unit--button-reserve"><a href="<?php the_sub_field('product_reservation_link'); ?>" title="Reserve"><i class="fad fa-credit-card fa-lg"></i>&nbsp;&nbsp;Reserve</a></button>
+								<a class="unit--button-reserve" href="<?php the_sub_field('product_reservation_link'); ?>" title="Reserve"><i class="fad fa-credit-card fa-lg"></i>&nbsp;&nbsp;Reserve</a>
 							<?php endif; ?>
 						</section>
 					<?php endif; ?>
@@ -97,6 +97,14 @@
 	    			<div class="small-12 medium-6 large-6 cell">
 						<figure class="logo">
 							<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-oceanrodeo.png" alt="Logo - Ocean Rodeo">
+						</figure>
+					</div>
+				</div>
+			<?php elseif(has_term('airush','brand')): ?>
+				<div class="grid-x">
+	    			<div class="small-12 medium-6 large-6 cell">
+						<figure class="logo">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-airush.png" alt="Logo - Airush">
 						</figure>
 					</div>
 				</div>

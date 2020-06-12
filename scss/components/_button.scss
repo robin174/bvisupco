@@ -2,37 +2,42 @@ button, .button {
 	font-size: 1rem;
 }
 
-button.unit--button-reserve {
-	padding: 8px 18px;
+a.unit--button-reserve, button.unit--button-reserve {
+	font-size: .8rem;
+	padding: 8px 12px;
 	background-color: $color-secondary;
 	color: white;
 	border-radius: 3px;
 	transition: 0.3s;
+	font-weight: bold;
+	color: $color-white;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
 	&:hover {
 		background-color: $color-secondary-dark;
 		color: white;
 	}
-	& a {
-		font-weight: bold;
-		font-size: 75%;
-		color: white;
-		text-transform: uppercase;
-		letter-spacing: 0.1em;
-		&:hover {
-			color: white;
-
-		}
-	}
 }	
+
+button.unit--button-reserve {}
 
 button.button--filter {
 	background-color: rgba(0,0,0,0.6);
 	border-radius: 5px;
-	&:hover {
-		background-color:$color-secondary;
+	&:link { // unvisited link
+		background-color: rgba(0,0,0,0.6);
+	}
+	&:visited { // visited link
+		background-color: rgba(0,0,0,0.6);
+	}
+	&:active { // selected link
+		background-color: rgba(0,0,0,0.6);
+	}
+	&:hover { // mouse over link
+		background-color:$color-tertiary;
 	}
 	&.is-checked {
-		background-color:$color-secondary;
+		background-color:$color-tertiary;
 	}
 }
 

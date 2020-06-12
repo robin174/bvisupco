@@ -11,10 +11,10 @@ get_header(); ?>
 
 		    	<div class="grid-container">
 		    		<div class="grid-x grid-margin-x grid-padding-x">
-		    			<div class="small-12 medium-12 large-12 cell">
+		    			<div class="small-12 medium-8 large-8 cell">
 		    				<section class="filter">
 				    			<!-- Filters here (https://isotope.metafizzy.co/filtering.html) -->
-				    			<p>Filter equipment:</p>
+				    			<p><i class="fas fa-filter" style="vertical-align=center;"></i>&nbsp;&nbsp;Filter equipment:</p>
 								<div id="filters" class="button-group filters-button-group">
 					                <button class="button small button--filter is-checked" data-filter="*">Show All</button>
 					                <button class="button small button--filter" data-filter=".equipment-sup">SUP</button>
@@ -27,6 +27,15 @@ get_header(); ?>
 					    		</div>
 				    		</section>
 			    		</div>
+			    		<div class="small-12 medium-4 large-4 cell">
+		    				<section class="order">
+		    					<p><i class="fas fa-shopping-basket fa-lg" style="vertical-align=center;"></i>&nbsp;&nbsp;To order:</p>
+		    					<ul class="contact--equip">
+									<li><span class="pr-red"><i class="fad fa-phone-office fa-lg" style="vertical-align: center;"></i></span>&nbsp;&nbsp;+1 (284) 346 1981</li>
+									<li><span class="pr-red"><i class="fad fa-envelope-open-text fa-lg" style="vertical-align: center;"></i></span>&nbsp;&nbsp;<a href="mailto:info@bvisupco.com?subject=BVISUPCO Order" title="Email BVISUPCO">info@bvisupco.com</a></li>
+								</ul>
+		    				</section>
+		    			</div>
 		    		</div>
 
 		    		<div class="grid isotope">
@@ -229,6 +238,7 @@ get_header(); ?>
 		  itemSelector: '.element-item',
 		  layoutMode: 'fitRows'
 		});
+
 		// filter functions
 		var filterFns = {
 		  // show if number is greater than 50
@@ -237,14 +247,16 @@ get_header(); ?>
 		    return parseInt( number, 10 ) > 50;
 		  },
 		};
-		// bind filter button click
+
+		// Bind filter button click
 		$('.filters-button-group').on( 'click', 'button', function() {
 		  var filterValue = $( this ).attr('data-filter');
 		  // use filterFn if matches value
 		  filterValue = filterFns[ filterValue ] || filterValue;
 		  $grid.isotope({ filter: filterValue });
 		});
-		// change is-checked class on buttons
+
+		// Change is-checked class on buttons
 		$('.button-group').each( function( i, buttonGroup ) {
 		  var $buttonGroup = $( buttonGroup );
 		  $buttonGroup.on( 'click', 'button', function() {
@@ -252,6 +264,11 @@ get_header(); ?>
 		    $( this ).addClass('is-checked');
 		  });
 		});
+
+		// Layout Isotope after each image loads
+		$grid.imagesLoaded().progress( function() {
+		  $grid.isotope('layout');
+		});  
 	</script>
 
 <?php get_footer(); ?>

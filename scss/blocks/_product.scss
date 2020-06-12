@@ -1,6 +1,12 @@
+#filters {
+	& button {
+		font-weight: $font-bold;
+	}
+}
+
 section.unit--product {
-	background-color:rgba(0,0,0,0.7); 
 	margin-bottom:25px; 
+	background-color:rgba(0,0,0,0.7); 
 	color: white;
 	& section.unit--product-image {}
 	& section.unit--product-info {

@@ -1,5 +1,6 @@
 footer, .footer {
 	// background-color: $color-secondary;
+	// Need to add a different image for the mobile version as the image is not tall enough
 	border-top: 10px solid $color-black;
 	background-image: url('../images/use-footer-2018-Matty_DJI_0039-v3.jpg');
 	background-position: center;
@@ -9,10 +10,10 @@ footer, .footer {
 	color: $color-white;
 	& h4.uc--footer {
 		text-transform: uppercase;
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 		letter-spacing: 0.1rem;
 		font-weight: $font-bold;
-		margin-bottom: $margin-small/2;
+		margin-bottom: $margin-small/1.5;
 	}
 	& p {
 		color: white;
@@ -20,12 +21,36 @@ footer, .footer {
 		&.copyright {
 			font-weight: $font-bold;
 			font-size: 0.8rem;
-			color: $color-white;
+			color: lighten($color-secondary, 15%);
 		}
 	}
 	& a {
 		color: white;
 	}
+}
+
+ul.contact--footer{
+	list-style: none;
+	margin-left: 0;
+	margin-bottom: 10px;
+	& li {
+		transition:0.3s;
+		font-weight: $font-bold;
+		font-size: 1.2rem;
+		margin-bottom: 1px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-left: 5px;
+		&:hover {
+			a {
+				color: $color-secondary;
+			}
+		}
+	}
+}
+
+.foot--secondary {
+	margin-top: $margin-small;
 }
 
 .weather-temp {

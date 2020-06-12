@@ -1,18 +1,20 @@
 				<footer class="footer" role="contentinfo">
 					<section class="inner-footer foot--primary">
 						<div class="grid-container">
-							<div class="grid-x grid-padding-x">
-								<div class="small-12 medium-6 large-6 cell">
+							<div class="grid-x grid-margin-x grid-padding-x">
+								<div class="small-12 medium-4 large-4 cell">
 									<section class="block--details">
 										<h4 class="uc--footer">Contact us</h4>
-										<p><i class="fad fa-phone-office fa-lg" style="vertical-align: center;"></i>&nbsp;&nbsp;+1 (284) 346 1981<br>
-										<i class="fad fa-envelope-open-text fa-lg" style="vertical-align: center;"></i>&nbsp;&nbsp;<a href="mailto:info@bvisupco.com" title="Email BVISUPCO">info@bvisupco.com</a></p>
-										<p>Trip Advisor<br>
-										Facebook (https://www.facebook.com/BVISUPCo/)<br>
-										Instagram (https://www.instagram.com/bvisupco/)</p>
+										<ul class="contact--footer">
+											<li><span class="pr-red"><i class="fad fa-phone-office fa-lg" style="vertical-align: center;"></i></span>&nbsp;&nbsp;+1 (284) 346 1981</li>
+											<li><span class="pr-red"><i class="fad fa-envelope-open-text fa-lg" style="vertical-align: center;"></i></span>&nbsp;&nbsp;<a href="mailto:info@bvisupco.com" title="Email BVISUPCO">info@bvisupco.com</a></li>
+											<li><span class="pr-red"><i class="fab fa-tripadvisor fa-lg" style="vertical-align: center;"></i></span>&nbsp;&nbsp;<a href="https://www.tripadvisor.co.uk/Attraction_Review-g147354-d7238417-Reviews-BVISUPCO-Tortola_British_Virgin_Islands.html" title="BVISUPCO on Trip Advisor" target="_blank">Trip Advisor</a></li>
+											<li><span class="pr-red"><i class="fab fa-facebook fa-lg" style="vertical-align: center;"></i></span>&nbsp;&nbsp;<a href="https://www.facebook.com/BVISUPCo/" title="BVISUPCO on Facebook" target="_blank">Facebook</a></li>
+											<li><span class="pr-red"><i class="fab fa-instagram fa-lg" style="vertical-align: center;"></i></span>&nbsp;&nbsp;<a href="https://www.instagram.com/bvisupco/" title="BVISUPCO on Instagram" target="_blank">Instagram</a></li>
+										</ul>
 									</section>
 								</div>
-								<div class="small-12 medium-3 large-3 cell">
+								<div class="small-12 medium-4 large-4 cell">
 									<section class="block--surf">
 										&nbsp;
 										<!-- 
@@ -27,10 +29,9 @@
 										-->
 									</section>
 								</div>
-								<div class="small-12 medium-3 large-3 cell">
+								<div class="small-12 medium-4 large-4 cell">
 									<section class="block--weather">
 										<h4 class="uc--footer">Latest weather</h4>
-
 										<div class="weather-container grid-container">
 											<div class="grid-x">
 												<div class="cell large-auto" style="border-right:1px solid rgba(255,255,255,0.2);padding-right:15px;">
@@ -56,7 +57,7 @@
 					
 					<section class="foot--secondary">
 						<div class="grid-container">
-							<div class="grid-x grid-padding-x">
+							<div class="grid-x grid-margin-x grid-padding-x">
 								<div class="small-12 medium-12 large-12 cell">
 									<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. All rights reserved. <?php bloginfo('version'); ?><br>
 									PO Box 91, Road Town, Tortola, BVI VG1110</p>

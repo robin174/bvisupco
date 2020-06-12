@@ -19,13 +19,19 @@
 
 
 body {
-	background-color: #fff;
+	background-color: $color-black;
 	color: #222;
 	font-family: $font--sans-body;
 }
 
 .grid-container {
 	padding: 0;
+}
+
+i {
+	&.fa, &.fab, &.fad, &.fas {
+		vertical-align: center;
+	}
 }
 
 a {

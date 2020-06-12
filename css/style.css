@@ -22,12 +22,15 @@ body {
 /* Larger than desktop */
 /* Larger than Desktop HD */
 body {
-  background-color: #fff;
+  background-color: #000;
   color: #222;
   font-family: "Roboto", sans-serif; }
 
 .grid-container {
   padding: 0; }
+
+i.fa, i.fab, i.fad, i.fas {
+  vertical-align: center; }
 
 a {
   transition: 0.3s;
@@ -165,9 +168,12 @@ section.filter {
       .block--home-logos .logo:hover {
         transform: scale(1.1); } }
 
+#filters button {
+  font-weight: 700; }
+
 section.unit--product {
-  background-color: rgba(0, 0, 0, 0.7);
   margin-bottom: 25px;
+  background-color: rgba(0, 0, 0, 0.7);
   color: white; }
   section.unit--product section.unit--product-info {
     padding: 1rem; }
@@ -210,31 +216,34 @@ div .block--product-details {
 button, .button {
   font-size: 1rem; }
 
-button.unit--button-reserve {
-  padding: 8px 18px;
+a.unit--button-reserve, button.unit--button-reserve {
+  font-size: .8rem;
+  padding: 8px 12px;
   background-color: #FF4438;
   color: white;
   border-radius: 3px;
-  transition: 0.3s; }
-  button.unit--button-reserve:hover {
+  transition: 0.3s;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; }
+  a.unit--button-reserve:hover, button.unit--button-reserve:hover {
     background-color: #d10d00;
     color: white; }
-  button.unit--button-reserve a {
-    font-weight: bold;
-    font-size: 75%;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 0.1em; }
-    button.unit--button-reserve a:hover {
-      color: white; }
 
 button.button--filter {
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 5px; }
+  button.button--filter:link {
+    background-color: rgba(0, 0, 0, 0.6); }
+  button.button--filter:visited {
+    background-color: rgba(0, 0, 0, 0.6); }
+  button.button--filter:active {
+    background-color: rgba(0, 0, 0, 0.6); }
   button.button--filter:hover {
-    background-color: #FF4438; }
+    background-color: #00AF85; }
   button.button--filter.is-checked {
-    background-color: #FF4438; }
+    background-color: #00AF85; }
 
 .button-group {
   margin-bottom: 0; }
@@ -252,7 +261,8 @@ figure {
     z-index: 100;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.75);
-    padding: 4px 8px;
+    background: linear-gradient(315deg, black 20%, #00af85 100%);
+    padding: 4px 8px 4px 7px;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 0.75rem;
@@ -321,19 +331,37 @@ footer, .footer {
   color: #fff; }
   footer h4.uc--footer, .footer h4.uc--footer {
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     letter-spacing: 0.1rem;
     font-weight: 700;
-    margin-bottom: 0.75rem; }
+    margin-bottom: 1rem; }
   footer p, .footer p {
     color: white;
     margin-bottom: 0; }
     footer p.copyright, .footer p.copyright {
       font-weight: 700;
       font-size: 0.8rem;
-      color: #fff; }
+      color: #ff8c85; }
   footer a, .footer a {
     color: white; }
+
+ul.contact--footer {
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 10px; }
+  ul.contact--footer li {
+    transition: 0.3s;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 1px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px; }
+    ul.contact--footer li:hover a {
+      color: #FF4438; }
+
+.foot--secondary {
+  margin-top: 1.5rem; }
 
 .weather-temp {
   font-size: 4rem; }
