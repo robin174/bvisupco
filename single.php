@@ -5,28 +5,22 @@
 
 get_header(); ?>
 			
-<div class="content">
+	<div class="content">
+		<div class="inner-content grid-x">
+	
+		    <main class="main small-12 medium-12 large-12 cell" role="main" style="background-image:url('<?php echo get_template_directory_uri(); ?>/images/dark-AbrahamShouse-SSM_6892.jpg');background-size:cover;background-position:top;">
 
-	<div class="inner-content grid-x grid-margin-x grid-padding-x">
+		    	<div class="grid-container template--page">
+		    		<div class="grid-x grid-padding-x">
+		    			<div class="small-12 medium-4 large-4 cell">
+							<?php get_template_part('templates/unit--equipment'); ?>
+		  				</div>
+					</div>
+				</div>
 
-		<main class="main small-12 medium-8 large-8 cell" role="main">
-		
-		    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-		
-		    	<?php get_template_part( 'parts/loop', 'single' ); ?>
-		    	
-		    <?php endwhile; else : ?>
-		
-		   		<?php get_template_part( 'parts/content', 'missing' ); ?>
-
-		    <?php endif; ?>
-
-		</main> <!-- end #main -->
-
-		<?php get_sidebar(); ?>
-
-	</div> <!-- end #inner-content -->
-
-</div> <!-- end #content -->
+			</main><!-- end #main -->
+		    
+		</div><!-- end #inner-content -->
+	</div> <!-- end #content -->
 
 <?php get_footer(); ?>
