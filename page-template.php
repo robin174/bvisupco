@@ -25,7 +25,6 @@ get_header(); ?>
 
 		    				<?php if(is_page('contact-us')) { ?>
 								<h2>Contact Us</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices est posuere, egestas ante eget, feugiat mi. Curabitur elementum maximus leo eget volutpat.</p>
 								<div>
 									<div class="typeform-widget" data-url="https://form.typeform.com/to/X1vT4J" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=X1vT4J&utm_source=typeform.com-01D8JTKBXBTDEFWWY2GQE46NQ5-professional&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a></div>
 								</div>
