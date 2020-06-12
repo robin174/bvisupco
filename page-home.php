@@ -36,8 +36,9 @@ get_header(); ?>
 								<a href="/equipment-new">
 									<section class="block--home-half content--equipment">
 										<section class="block--inner-logo">
-											<h2>NEW FOR THIS YEAR</h2>
-											<p>The Freewing</p><!-- no button as 'a' is governed by block -->
+											<h2>Extensive SUP selection</h2>
+											<p>More SUPs than you shake a paddle at</p>
+											<!-- cta button -->
 										</section>
 									</section>
 								</a>
@@ -47,8 +48,9 @@ get_header(); ?>
 								<a href="/equipment-new">
 									<section class="block--home-half content--new">
 										<section class="block--inner-logo">
-											<h2>NEW FOR THIS YEAR</h2>
-											<p>New for the 2021 season!</p>
+											<h2>Introducing the Freewing!</h2>
+											<p>New for the 2021 season</p>
+											<!-- cta button -->
 										</section>
 									</section>
 								</a>

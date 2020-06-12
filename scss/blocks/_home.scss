@@ -27,18 +27,23 @@
 	background-position:center;
 	background-size:cover;
 	box-shadow: inset 0 0 0 100vmax rgba(0,0,0,0.2);
-	&.content--tripadvisor{
-		background-image: url('../images/use-bay-photo.jpg');
-		width: 100%;
+	&.content--equipment{
+		background-image: url('../images/use-AbrahamShouse-SSM_7293.jpg');
 	}
 	&.content--new {
 		background-image: url('../images/use-new-freewing.jpg');
 	}
+	&.content--tripadvisor{
+		background-image: url('../images/use-bay-photo.jpg');
+		width: 100%;
+	}
 	&.content--msw {
 		background-image: url('../images/use-msw-C_SB_SUP_ MAUI_DY_1_disc_3_0673-hq.jpg');
+		width: 100%;
 	}
 	&.content--pop {
 		background-image: url('../images/use-ocean-water-wave-photo-1295138.jpg');
+		width: 100%;
 	}
 	& .block--inner-logo {
 		position:absolute;
@@ -50,6 +55,12 @@
 		top: 50%;
 		width: 70%;
 		transform:translate(0,-50%); // For precise positioning
+		color: $color-white;
+		font-family: $font--sans;
+		text-align: center;
+		& p {
+			font-family: $font--sans;
+		} 	
 	}
 }
 

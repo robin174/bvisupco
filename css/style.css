@@ -194,21 +194,30 @@ section.order {
   background-position: center;
   background-size: cover;
   box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.2); }
+  .block--home-half.content--equipment, .block--home-third.content--equipment {
+    background-image: url("../images/use-AbrahamShouse-SSM_7293.jpg"); }
+  .block--home-half.content--new, .block--home-third.content--new {
+    background-image: url("../images/use-new-freewing.jpg"); }
   .block--home-half.content--tripadvisor, .block--home-third.content--tripadvisor {
     background-image: url("../images/use-bay-photo.jpg");
     width: 100%; }
-  .block--home-half.content--new, .block--home-third.content--new {
-    background-image: url("../images/use-new-freewing.jpg"); }
   .block--home-half.content--msw, .block--home-third.content--msw {
-    background-image: url("../images/use-msw-C_SB_SUP_ MAUI_DY_1_disc_3_0673-hq.jpg"); }
+    background-image: url("../images/use-msw-C_SB_SUP_ MAUI_DY_1_disc_3_0673-hq.jpg");
+    width: 100%; }
   .block--home-half.content--pop, .block--home-third.content--pop {
-    background-image: url("../images/use-ocean-water-wave-photo-1295138.jpg"); }
+    background-image: url("../images/use-ocean-water-wave-photo-1295138.jpg");
+    width: 100%; }
   .block--home-half .block--inner-logo, .block--home-third .block--inner-logo {
     position: absolute;
     left: 15%;
     top: 50%;
     width: 70%;
-    transform: translate(0, -50%); }
+    transform: translate(0, -50%);
+    color: #fff;
+    font-family: "brandon-grotesque", Arial, Helvetica, sans-serif;
+    text-align: center; }
+    .block--home-half .block--inner-logo p, .block--home-third .block--inner-logo p {
+      font-family: "brandon-grotesque", Arial, Helvetica, sans-serif; }
 
 .block--home-half, .block--home-third {
   transition-duration: .3s; }
