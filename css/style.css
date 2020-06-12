@@ -24,7 +24,7 @@ body {
 body {
   background-color: #000;
   color: #222;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", Arial, Helvetica, sans-serif; }
 
 .grid-container {
   padding: 0; }
@@ -99,14 +99,14 @@ h6 {
 /* Base styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "brandon-grotesque", sans-serif; }
+  font-family: "brandon-grotesque", Arial, Helvetica, sans-serif; }
 
 h5 {
   margin-bottom: 0.75rem; }
 
 p {
   font-size: 1rem;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", Arial, Helvetica, sans-serif; }
 
 section.filter {
   background-color: rgba(0, 0, 0, 0.5);
@@ -130,7 +130,7 @@ section.filter {
     text-align: center;
     color: #fff; }
   .block--main-home p.introduction--hero {
-    font-family: "brandon-grotesque", sans-serif;
+    font-family: "brandon-grotesque", Arial, Helvetica, sans-serif;
     font-size: 2rem;
     line-height: 1.1;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
