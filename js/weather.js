@@ -25,7 +25,7 @@ const latitude = 18.42;
 const longitude = -64.62;
 
 // Get weather from API provider
-let api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
+let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
 
 fetch(api)
     .then(function(response) {
