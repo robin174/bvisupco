@@ -30,10 +30,7 @@ get_header(); ?>
 			    		<div class="small-12 medium-4 large-4 cell">
 		    				<section class="order">
 		    					<p><i class="fas fa-shopping-basket fa-lg" style="vertical-align=center;"></i>&nbsp;&nbsp;To order:</p>
-		    					<ul class="contact--equip">
-									<li><span class="pr-red"><i class="fad fa-phone-office fa-lg" style="vertical-align: center;"></i></span>&nbsp;&nbsp;+1 (284) 346 1981</li>
-									<li><span class="pr-red"><i class="fad fa-envelope-open-text fa-lg" style="vertical-align: center;"></i></span>&nbsp;&nbsp;<a href="mailto:info@bvisupco.com?subject=BVISUPCO Order" title="Email BVISUPCO">info@bvisupco.com</a></li>
-								</ul>
+		    					<p>By phone: +1 (284) 346 1981,<br> or by email: <a href="mailto:info@bvisupco.com?subject=BVISUPCO Order" title="Email BVISUPCO">info@bvisupco.com</a></p>
 		    				</section>
 		    			</div>
 		    		</div>
