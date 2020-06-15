@@ -480,13 +480,13 @@ hr.product-break {
 .show-for-small-only li a:hover {
   background-color: none; }
 
-main, .main {
+main {
   background-image: url("../images/dark-AbrahamShouse-SSM_6892.jpg");
   background-size: cover;
   background-position: top;
   padding-top: 0;
   padding-bottom: 0; }
-  main .template--page, .main .template--page {
+  main .template--page {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.6);
     margin-top: 0;
