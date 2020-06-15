@@ -98,7 +98,6 @@
 /* Larger than phablet */
 @media (min-width: 550px) {
 	.block--home-logos {
-		padding: $padding-general;
 		& .logo {
 			transition-property: transform;
 			transition-duration: .3s;
@@ -111,6 +110,9 @@
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+	.block--home-logos {
+		padding: $padding-general;
+	}
 	#animate--first {
 		@include fadeIn(
 		    $duration: 2s,

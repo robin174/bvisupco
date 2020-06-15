@@ -274,16 +274,16 @@ section.order {
 
 /* Larger than phablet */
 @media (min-width: 550px) {
-  .block--home-logos {
-    padding: 3rem; }
-    .block--home-logos .logo {
-      transition-property: transform;
-      transition-duration: .3s; }
-      .block--home-logos .logo:hover {
-        transform: scale(1.1); } }
+  .block--home-logos .logo {
+    transition-property: transform;
+    transition-duration: .3s; }
+    .block--home-logos .logo:hover {
+      transform: scale(1.1); } }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+  .block--home-logos {
+    padding: 3rem; }
   #animate--first {
     -webkit-animation-name: fadeIn;
     -moz-animation-name: fadeIn;
@@ -484,17 +484,18 @@ hr.product-break {
 main {
   padding-top: 0;
   padding-bottom: 0; }
-  main .template--page {
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.6);
-    margin-top: 0;
-    margin-bottom: 3rem;
-    padding: 3rem; }
 
 .background--image {
   background-image: url("../images/dark-AbrahamShouse-SSM_6892.jpg");
   background-size: cover;
   background-position: top; }
+
+.template--page {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 0;
+  margin-bottom: 3rem;
+  padding: 3rem; }
 
 footer, .footer {
   border-top: 10px solid #000;
