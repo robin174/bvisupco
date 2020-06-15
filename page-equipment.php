@@ -234,9 +234,10 @@ get_header(); ?>
 	<script>
 		// init Isotope
 		var $grid = $('.isotope').imagesLoaded( function() {
-        $grid.isotope({
-		  itemSelector: '.element-item',
-		  layoutMode: 'fitRows'
+	        $grid.isotope({
+			  itemSelector: '.element-item',
+			  layoutMode: 'fitRows'
+			});
 		});
 
 		// filter functions
@@ -265,5 +266,4 @@ get_header(); ?>
 		  });
 		});
 	</script>
-
 <?php get_footer(); ?>
