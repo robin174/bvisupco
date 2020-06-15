@@ -988,6 +988,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/logo-bvisupco-admin-v2.png": {
+		"ft": 32768,
+		"iS": 2702,
+		"oA": 0,
+		"oAP": "/images/logo-bvisupco-admin-v2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/logo-home-magicseaweed.png": {
 		"ft": 32768,
 		"iS": 5545,
@@ -1117,6 +1128,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/pattern copy 2.png": {
+		"ft": 32768,
+		"iS": 118,
+		"oA": 0,
+		"oAP": "/images/pattern copy 2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},

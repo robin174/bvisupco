@@ -45,3 +45,21 @@ require_once(get_template_directory().'/functions/translation/translation.php');
 
 // Customize the WordPress admin
 // require_once(get_template_directory().'/functions/admin.php'); 
+
+
+// ---
+// Custom Admin Logo
+// -------------------------------------------------------------
+function bvisupco_login_logo() { ?>
+    <style type="text/css">
+        body.login div#login h1 a {
+            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/logo-bvisupco-admin-v2.png);
+            padding-bottom: 2px;
+            -webkit-background-size: 300px 65px;
+            background-size: 300px 65px;
+            height: 65px;
+            width: 300px;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'bvisupco_login_logo' );
