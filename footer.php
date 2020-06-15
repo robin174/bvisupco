@@ -33,12 +33,12 @@
 										<h4 class="uc--footer">Latest weather</h4>
 										<div class="weather-container grid-container">
 											<div class="grid-x">
-												<div class="cell large-auto" style="border-right:1px solid rgba(255,68,56,1);padding-right:15px;">
+												<div class="cell medium-auto" style="border-right:1px solid rgba(255,68,56,1);padding-right:15px;">
 													<div class="w-icon-data">
 							                			<img src="<?php echo get_template_directory_uri(); ?>/images/icons/unknown.png">
 							            			</div>
 												</div>
-												<div class="cell large-auto" style="border-left:1px solid rgba(255,68,56,1);padding-left:15px;">
+												<div class="cell medium-auto" style="border-left:1px solid rgba(255,68,56,1);padding-left:15px;">
 													<div>
 														<p class="weather-temp"><span class="w-temp-data"></span></p>
 													</div>
