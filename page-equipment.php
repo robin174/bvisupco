@@ -233,7 +233,8 @@ get_header(); ?>
 
 	<script>
 		// init Isotope
-		var $grid = $('.grid').isotope({
+		var $grid = $('.isotope').imagesLoaded( function() {
+        $grid.isotope({
 		  itemSelector: '.element-item',
 		  layoutMode: 'fitRows'
 		});
@@ -263,11 +264,6 @@ get_header(); ?>
 		    $( this ).addClass('is-checked');
 		  });
 		});
-
-		// Layout Isotope after each image loads
-		$grid.imagesLoaded().progress(function() {
-		  $grid.isotope('layout');
-		});  
 	</script>
 
 <?php get_footer(); ?>

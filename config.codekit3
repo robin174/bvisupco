@@ -1285,12 +1285,12 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/use-msw-C_SB_SUP_ MAUI_DY_1_disc_3_0673-hq.jpg": {
+	"/images/use-msw-C_SB_SUP_ MAUI_RGB.jpg": {
 		"ft": 16384,
-		"iS": 311626,
+		"iS": 161284,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/use-msw-C_SB_SUP_ MAUI_DY_1_disc_3_0673-hq.jpg",
+		"oAP": "/images/use-msw-C_SB_SUP_ MAUI_RGB.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1316,17 +1316,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"/images/use-pattern.png": {
-		"ft": 32768,
-		"iS": 118,
-		"oA": 0,
-		"oAP": "/images/use-pattern.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"/images/use-starboard-paddle-v2.jpg": {
