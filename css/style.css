@@ -483,16 +483,17 @@ hr.product-break {
 main {
   padding-top: 0;
   padding-bottom: 0; }
-  main .background--image {
-    background-image: url("../images/dark-AbrahamShouse-SSM_6892.jpg");
-    background-size: cover;
-    background-position: top; }
   main .template--page {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.6);
     margin-top: 0;
     margin-bottom: 3rem;
     padding: 3rem; }
+
+.background--image {
+  background-image: url("../images/dark-AbrahamShouse-SSM_6892.jpg");
+  background-size: cover;
+  background-position: top; }
 
 footer, .footer {
   border-top: 10px solid #000;
