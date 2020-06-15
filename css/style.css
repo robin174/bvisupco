@@ -412,8 +412,9 @@ figure {
     font-weight: bold;
     font-size: 0.75rem;
     letter-spacing: 0.3em; }
-  figure.logo {
-    margin: auto; }
+  figure.logo-sm {
+    margin: auto;
+    text-align: left; }
 
 hr.product-break {
   margin: 0;

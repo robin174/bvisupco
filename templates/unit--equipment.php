@@ -74,12 +74,12 @@
 			<?php if(has_term('starboard', 'brand') && has_term('severne', 'brand')): ?>
 				<div class="grid-x">
 	    			<div class="small-12 medium-6 large-6 cell">
-						<figure class="logo">
+						<figure class="logo-sm">
 							<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-starboard.png" alt="Logo - Starboard">
 						</figure>
 					</div>
 					<div class="small-12 medium-6 large-6 cell">
-						<figure class="logo">
+						<figure class="logo-sm">
 							<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-severne.png" alt="Logo - Severne">
 						</figure>
 					</div>
@@ -87,7 +87,7 @@
 			<?php elseif(has_term('starboard','brand')): ?>
 				<div class="grid-x">
 	    			<div class="small-12 medium-6 large-6 cell">
-						<figure class="logo">
+						<figure class="logo-sm">
 							<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-starboard.png" alt="Logo - Starboard">
 						</figure>
 					</div>
@@ -95,7 +95,7 @@
 			<?php elseif(has_term('ocean-rodeo','brand')): ?>
 				<div class="grid-x">
 	    			<div class="small-12 medium-6 large-6 cell">
-						<figure class="logo">
+						<figure class="logo-sm">
 							<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-oceanrodeo.png" alt="Logo - Ocean Rodeo">
 						</figure>
 					</div>
@@ -103,7 +103,7 @@
 			<?php elseif(has_term('airush','brand')): ?>
 				<div class="grid-x">
 	    			<div class="small-12 medium-6 large-6 cell">
-						<figure class="logo">
+						<figure class="logo-sm">
 							<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-airush.png" alt="Logo - Airush">
 						</figure>
 					</div>
@@ -111,7 +111,7 @@
 			<?php elseif(has_term('severne','brand')): ?>
 				<div class="grid-x">
 	    			<div class="small-12 medium-6 large-6 cell">
-						<figure class="logo">
+						<figure class="logo-sm">
 							<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-severne.png" alt="Logo - Severne">
 						</figure>
 					</div>
