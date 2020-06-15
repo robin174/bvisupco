@@ -1,9 +1,11 @@
 main {
-	background-image: url('../images/dark-AbrahamShouse-SSM_6892.jpg');
-	background-size:cover; 
-	background-position: top;
 	padding-top: 0;
 	padding-bottom: 0;
+	& .background--image {
+		background-image: url('../images/dark-AbrahamShouse-SSM_6892.jpg');
+		background-size:cover; 
+		background-position: top;
+	}
 	& .template--page {
 		color: $color-white;
 		background-color:rgba(0,0,0,0.6);
