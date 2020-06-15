@@ -12,7 +12,7 @@ get_header(); ?>
 
 			    	<div class="grid-container template--page">
 			    		<div class="grid-x grid-padding-x">
-			    			<div class="small-12 medium-3 large-3 cell">
+			    			<div class="small-12 medium-4 large-3 cell">
 			    				<h2>Local</h2>
 			    				<p>For surf and beach conditions in Cane Garden Bay:<br>
 			    					<a href="https://www.resortcams.com/webcams/cane-garden-bay" title="Resort Cams - Cane Garden Bay" target="_blank">www.resortcams.com</a></p>
@@ -22,7 +22,7 @@ get_header(); ?>
 			    				<a href="https://magicseaweed.com/British-Virgin-Islands-Surfing/133/" target="_blank">www.magicseaweed.com</a><br>
 			    				<a href="www.surf-forecast.com/regions/Tortola-BVI" target="_blank">www.surf-forecast.com</a></p>
 			    			</div>
-			    			<div class="small-12 medium-9 large-9 cell">
+			    			<div class="small-12 medium-8 large-9 cell">
 			    				<?php if(is_page('contact-us')) { ?>
 									<h2>Contact Us</h2>
 									<div>
