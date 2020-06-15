@@ -19,8 +19,6 @@
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
-		<!-- Add: Google Webmaster Tools -->
-
 		<!-- Font Awesome -->
 		<script src="https://kit.fontawesome.com/78ff2f54a9.js" crossorigin="anonymous"></script>
 
@@ -44,7 +42,7 @@
 
 		  gtag('config', 'UA-169415233-1');
 		</script>
-				
+
 		<?php wp_head(); ?>
 	</head>
 			
