@@ -1,5 +1,7 @@
-main {
-	background-color: #fefefe;
+main, .main {
+	background-image: url('../images/dark-AbrahamShouse-SSM_6892.jpg');
+	background-size:cover; 
+	background-position: top;
 	padding-top: 0;
 	padding-bottom: 0;
 	& .template--page {
@@ -8,6 +10,5 @@ main {
 		margin-top: 0;
 		margin-bottom: $margin-general;
 		padding: $padding-general;
-
 	}
 }

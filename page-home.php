@@ -7,7 +7,7 @@ get_header(); ?>
 	<div class="content">
 		<div class="inner-content grid-x">
 	
-		     <main class="main small-12 medium-12 large-12 cell" role="main" style="background-image:url('<?php echo get_template_directory_uri(); ?>/images/dark-AbrahamShouse-SSM_6892.jpg');background-size:cover;background-position:top;">
+		     <main class="main small-12 medium-12 large-12 cell" role="main">
 				
 				<!-- Hero Block -->
 				<section class="block--home-hero">

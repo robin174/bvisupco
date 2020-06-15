@@ -7,7 +7,7 @@ get_header(); ?>
 	<div class="content">
 		<div class="inner-content grid-x">
 	
-		    <main class="main small-12 medium-12 large-12 cell" role="main" style="background-image:url('<?php echo get_template_directory_uri(); ?>/images/dark-AbrahamShouse-SSM_6892.jpg');background-size:cover;background-position:top;">
+		    <main class="main small-12 medium-12 large-12 cell" role="main">
 
 		    	<div class="grid-container template--page">
 		    		<div class="grid-x grid-padding-x">
@@ -22,7 +22,6 @@ get_header(); ?>
 		    				<a href="www.surf-forecast.com/regions/Tortola-BVI" target="_blank">www.surf-forecast.com</a></p>
 		    			</div>
 		    			<div class="small-12 medium-9 large-9 cell">
-
 		    				<?php if(is_page('contact-us')) { ?>
 								<h2>Contact Us</h2>
 								<div>
@@ -50,7 +49,6 @@ get_header(); ?>
 									<p>Our minimum rental period is for 5 days. Shorter periods are available but at a different pricing level.<br>
 									Please <a href="/contact-us" title="BVISUPCO - Contact Us">contact us</a> for more details.</p>
 								</section>
-
 								<section>
 									<hr>
 									<h4><i class="fad fa-water"></i>&nbsp;Equipment</h4>
@@ -63,6 +61,9 @@ get_header(); ?>
 									<h5>Q. Can I have some more information on your kayaks?</h5>
 									<p>The single and double sit-on-top kayaks we are using are generically the same as all versions in existence right now, they are very stable. The double measures about 11’0” x 34″, can seat up to three (~550lbs) and comes with 2 backrests and paddles. The single is roughly 9’6” x 34” and is rated to 250lbs and comes with one back rest and a paddle.</p>
 								</section>
+								<!-- Temporary -->
+							<?php } elseif(is_page('boilerplate')) { ?>
+								<?php the_content(); ?>
 							<?php }  ?>
 		    			</div>
 		    		</div>
