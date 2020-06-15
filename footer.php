@@ -30,16 +30,16 @@
 									</section>
 								</div>
 								<div class="small-12 medium-4 large-4 cell">
-									<section class="block--weather">
+									<section class="block--weather hide-for-small-only">
 										<h4 class="uc--footer">Latest weather</h4>
 										<div class="weather-container grid-container">
 											<div class="grid-x">
-												<div class="cell large-auto" style="border-right:1px solid rgba(255,255,255,0.2);padding-right:15px;">
+												<div class="cell large-auto" style="border-right:1px solid rgba(255,68,56,1);padding-right:15px;">
 													<div class="w-icon-data">
 							                			<img src="<?php echo get_template_directory_uri(); ?>/images/icons/unknown.png">
 							            			</div>
 												</div>
-												<div class="cell large-auto" style="border-left:1px solid rgba(255,255,255,0.2);padding-left:15px;">
+												<div class="cell large-auto" style="border-left:1px solid rgba(255,68,56,1);padding-left:15px;">
 													<div>
 														<p class="weather-temp"><span class="w-temp-data"></span></p>
 													</div>
@@ -59,7 +59,7 @@
 						<div class="grid-container">
 							<div class="grid-x grid-margin-x grid-padding-x">
 								<div class="small-12 medium-12 large-12 cell">
-									<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. All rights reserved. <?php bloginfo('version'); ?><br>
+									<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. All rights reserved.<br>
 									PO Box 91, Road Town, Tortola, BVI VG1110</p>
 								</div>
 							</div>

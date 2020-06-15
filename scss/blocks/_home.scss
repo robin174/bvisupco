@@ -13,11 +13,23 @@
 		text-align: center;
 		color: $color-white;
 	}
+	& .logo--hero {
+		margin-bottom: $margin-general;
+	}
+
+	p.introduction--welcome {
+		font-family: $font--sans;
+		text-transform: uppercase;
+		font-size: 1.4rem;
+		letter-spacing: 0.2em;
+		font-weight: $font-bold;
+		margin-bottom: 5px;
+	}
 	& p.introduction--hero {
 		font-family: $font--sans;
 		font-size: 2rem;
 		line-height: 1.1;
-		text-shadow: 0 0 5px rgba(0,0,0,0.5);
+		text-shadow: 0 0 7px rgba(0,0,0,0.75);
 	}
 }
 
@@ -83,6 +95,7 @@
 	background-color:rgba(0,0,0,0.5);
 }
 
+/* Larger than phablet */
 @media (min-width: 550px) {
 	.block--home-logos {
 		padding: $padding-general;
@@ -93,5 +106,23 @@
 				transform: scale(1.1);
 			}
 		}
+	}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	#animate--first {
+		@include fadeIn(
+		    $duration: 2s,
+		    $delay: .5s,
+		    $function: ease
+		);
+	}
+	#animate--second {
+		@include fadeIn(
+		    $duration: 2s,
+		    $delay: 1.5s,
+		    $function: ease
+		);
 	}
 }

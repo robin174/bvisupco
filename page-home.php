@@ -16,11 +16,15 @@ get_header(); ?>
 							<div class="cell small-12 medium-12 large-12">
 								<section class="block--main-home content--welcome">
 									<section class="block--inner-logo">
-										<p class="introduction--hero">Welcome to</p>
-										<figure class="logo--hero">
-											<img src="<?php echo get_template_directory_uri(); ?>/images/use-bvisupco-hero.png">
-										</figure>
-										<p class="introduction--hero">BVISUPCO is the largest Stand Up Paddleboard (SUP)<br>and watersports rentals company in the British Virgin Islands.</p>
+										<div id="animate--first">
+											<p class="introduction--welcome">Welcome to</p>
+											<figure class="logo--hero">
+												<img src="<?php echo get_template_directory_uri(); ?>/images/use-bvisupco-hero.png">
+											</figure>
+										</div>
+										<div id="animate--second">
+											<p class="introduction--hero">BVISUPCO is the largest Stand Up Paddleboard (SUP)<br>and watersports rentals company in the British Virgin Islands.</p>
+										</div>
 									</section>
 								</section>
 							</div><!-- end .cell -->
