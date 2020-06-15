@@ -342,7 +342,7 @@ hr.product-break {
   background-color: #04021E;
   border-radius: 3px; }
 
-.menu--icon {
+.dropdown.menu > li.menu--icon > a {
   padding-left: 0.5rem;
   padding-right: 0.5rem; }
 

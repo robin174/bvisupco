@@ -39,8 +39,8 @@
 	}
 }
 
-
-.menu--icon {
+// For icon only links
+.dropdown.menu > li.menu--icon > a {
 	padding-left:0.5rem;
 	padding-right:0.5rem;
 }
