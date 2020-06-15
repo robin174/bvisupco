@@ -2,7 +2,7 @@
 					<section class="inner-footer foot--primary">
 						<div class="grid-container">
 							<div class="grid-x grid-margin-x grid-padding-x">
-								<div class="small-12 medium-4 large-4 cell">
+								<div class="small-12 medium-6 large-8 cell">
 									<section class="block--details">
 										<h4 class="uc--footer">Contact us</h4>
 										<ul class="contact--footer">
@@ -14,22 +14,21 @@
 										</ul>
 									</section>
 								</div>
+								<?php /*
 								<div class="small-12 medium-4 large-4 cell">
 									<section class="block--surf">
-										&nbsp;
-										<!-- 
-											<h4 class="uc--footer">Latest surf</h4>
-											<section style="height: 100px; width:100%; background-color: rgba(0,0,0,0.1); margin-bottom: 25px;">
-												&nbsp;
-											</section>
-											<h4 class="uc--footer">Powered by</h4>
-											<figure>
-												<a href="https://magicseaweed.com/" title="MSW"><img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-magicseaweed.png" alt="Magic Seaweed"></a>
-											</figure>
-										-->
+										<h4 class="uc--footer">Latest surf</h4>
+										<section style="height: 100px; width:100%; background-color: rgba(0,0,0,0.1); margin-bottom: 25px;">
+											&nbsp;
+										</section>
+										<h4 class="uc--footer">Powered by</h4>
+										<figure>
+											<a href="https://magicseaweed.com/" title="MSW"><img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-magicseaweed.png" alt="Magic Seaweed"></a>
+										</figure>
 									</section>
 								</div>
-								<div class="small-12 medium-4 large-4 cell">
+								*/ ?>
+								<div class="small-12 medium-6 large-4 cell">
 									<section class="block--weather hide-for-small-only">
 										<h4 class="uc--footer">Latest weather</h4>
 										<div class="weather-container grid-container">
