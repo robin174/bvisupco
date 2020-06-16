@@ -361,7 +361,7 @@ section.order {
   padding-bottom: 1.5rem;
   margin-bottom: 1.5rem;
   border-bottom: 1px solid #00AF85; }
-  .faq-qanda:last-child {
+  .faq-qanda:last-of-type {
     border-bottom: none; }
 
 button, .button {
