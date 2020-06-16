@@ -34,8 +34,8 @@ get_header(); ?>
 														<h3><?php the_sub_field('h3_subheading'); ?><h3>
 														<?php if( have_rows('faq_qanda') ): // Repeater 02 Field Name ?>
 															<?php while( have_rows('faq_qanda') ): the_row(); ?>
-																<h5><?php the_sub_field('faq_question'); ?></h5>
-																<p><?php the_sub_field('faq_answer'); ?></p>
+																<h5>Q.&nbsp;<?php the_sub_field('faq_question'); ?></h5>
+																<?php the_sub_field('faq_answer'); ?>
 															<?php endwhile; ?>
 														<?php endif; ?>
 													</section>
