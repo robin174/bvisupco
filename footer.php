@@ -30,7 +30,7 @@
 								*/ ?>
 								<div class="small-12 medium-6 large-4 cell">
 									<section class="block--weather hide-for-small-only">
-										<h4 class="uc--footer">Latest weather</h4>
+										<h4 class="uc--footer">Latest weather - <span class="w-desc-data"></span></h4>
 										<div class="weather-container grid-container">
 											<div class="grid-x">
 												<div class="cell medium-auto" style="border-right:1px solid rgba(255,68,56,1);padding-right:15px;">
@@ -45,9 +45,7 @@
 												</div>
 											</div>
 										</div>
-
 										<p class="weather-loc"><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;<span class="w-loc-data"></span></p>
-										<p><span class="w-desc-data"></span></p>
 									</section>
 								</div>
 							</div>
@@ -71,7 +69,6 @@
 		<?php wp_footer(); ?>
 
 		<script src="<?php echo get_template_directory_uri(); ?>/js/weather.js"></script>
-
 	</body>
 
 </html> <!-- end page -->

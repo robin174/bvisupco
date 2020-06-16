@@ -1487,6 +1487,14 @@
 		"oAP": "/page-equipment.php",
 		"oF": 0
 		},
+	"/page-faq.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-faq.php",
+		"oF": 0
+		},
 	"/page-home.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2899,6 +2907,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_equipment.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/blocks/_faq.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_faq.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1

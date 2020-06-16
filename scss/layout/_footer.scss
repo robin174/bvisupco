@@ -61,9 +61,17 @@ ul.contact--footer{
 }
 
 .w-desc-data {
-	text-transform: capitalize;
+	text-transform: uppercase;
+}
+
+.weather-loc {
+	margin-top: $margin-small;
+	.w-loc-data {
+		font-weight: $font-bold;
+	}
 }
 
 .weather-container.grid-container {
+	margin-top: $margin-small;
 	padding: 0;
 }
