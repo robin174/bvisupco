@@ -131,7 +131,19 @@ h6 {
 h1, h2, h3, h4, h5, h6 {
   font-family: "brandon-grotesque", Arial, Helvetica, sans-serif; }
 
+h1.title--page {
+  font-size: 3.0rem; }
+
+h3.title--subheading {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+  color: #00AF85; }
+
 h5 {
+  margin-top: 5px;
   margin-bottom: 0.75rem; }
 
 p {
@@ -361,7 +373,7 @@ section.order {
   padding-bottom: 1.5rem;
   margin-bottom: 1.5rem;
   border-bottom: 1px solid #00AF85; }
-  .faq-qanda:last-of-type {
+  .faq-qanda:last-child {
     border-bottom: none; }
 
 button, .button {
