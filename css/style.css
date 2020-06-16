@@ -500,21 +500,22 @@ hr.product-break {
 .show-for-small-only li a:hover {
   background-color: none; }
 
-main {
-  padding-top: 0;
-  padding-bottom: 0; }
-
 .background--image {
   background-image: url("../images/dark-AbrahamShouse-SSM_6892.jpg");
   background-size: cover;
-  background-position: top; }
+  background-position: top;
+  padding-bottom: 3rem; }
+
+.home .background--image {
+  padding-bottom: 0; }
 
 .template--page {
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   margin-top: 0;
-  margin-bottom: 3rem;
-  padding: 3rem; }
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem; }
 
 footer, .footer {
   border-top: 10px solid #000;

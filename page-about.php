@@ -35,7 +35,7 @@ get_header(); ?>
 			    				<p>Logo</p>
 			    			</div>
 			    			<div class="small-12 medium-9 large-9 cell">
-			    				<h1>About</h1>
+			    				<h1 class="title--page">About</h1>
 								<p>BVISUPCO is the leading, full service water sport rental company in the region.</p>
 								<p>Our large fleet of SUPs, kayaks, floats and more will enhance your vacation in the beautiful BVI waters that we are lucky enough to call 'home'.</p>
 								<p>There are no hidden fees - simply reserve your equipment and we will take it from there.</p>

@@ -15,15 +15,14 @@ get_header(); ?>
 			    			<div class="small-12 medium-4 large-4 cell">
 			    				<h2>Local</h2>
 			    				<p>For surf and beach conditions in Cane Garden Bay:<br>
-			    				<a href="https://www.resortcams.com/webcams/cane-garden-bay" title="Resort Cams - Cane Garden Bay" target="_blank">www.resortcams.com</a></p>
-			    				<hr>
+			    				<a href="https://www.resortcams.com/webcams/cane-garden-bay" title="Resort Cams - Cane Garden Bay" target="_blank"><strong><i class="fas fa-external-link-alt"></i>&nbsp;&nbsp;www.resortcams.com</strong></a></p>
 			    				<p>For wind, wave and weather prediction models:<br>
-			    				<a href="https://www.windguru.cz/58" title="Wind Guru - Cane Garden Bay" target="_blank">www.windguru.cz</a><br>
-			    				<a href="https://magicseaweed.com/British-Virgin-Islands-Surfing/133/" target="_blank">www.magicseaweed.com</a><br>
-			    				<a href="www.surf-forecast.com/regions/Tortola-BVI" target="_blank">www.surf-forecast.com</a></p>
+			    				<a href="https://www.windguru.cz/58" title="Wind Guru - Cane Garden Bay" target="_blank"><strong><i class="fas fa-external-link-alt"></i>&nbsp;&nbsp;www.windguru.cz</strong></a><br>
+			    				<a href="https://magicseaweed.com/British-Virgin-Islands-Surfing/133/" target="_blank"><strong><i class="fas fa-external-link-alt"></i>&nbsp;&nbsp;www.magicseaweed.com</strong></a><br>
+			    				<a href="www.surf-forecast.com/regions/Tortola-BVI" target="_blank"><strong><i class="fas fa-external-link-alt"></i>&nbsp;&nbsp;www.surf-forecast.com</strong></a></p>
 			    			</div>
 			    			<div class="small-12 medium-8 large-8 cell">
-								<h1 class="title--page">FAQ</h1>
+								<h1 class="title--page">FAQs</h1>
 								<!-- Flexible content -->
 								<?php while(has_sub_field('new_faq_content')): ?>
 									<?php if(get_row_layout() == 'qa_section'): ?>
