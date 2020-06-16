@@ -13,13 +13,7 @@ get_header(); ?>
 			    	<div class="grid-container template--page">
 			    		<div class="grid-x grid-padding-x">
 			    			<div class="small-12 medium-4 large-4 cell">
-			    				<h2>Local</h2>
-			    				<p>For surf and beach conditions in Cane Garden Bay:<br>
-			    				<a href="https://www.resortcams.com/webcams/cane-garden-bay" title="Resort Cams - Cane Garden Bay" target="_blank"><strong><i class="fas fa-external-link-alt"></i>&nbsp;&nbsp;www.resortcams.com</strong></a></p>
-			    				<p>For wind, wave and weather prediction models:<br>
-			    				<a href="https://www.windguru.cz/58" title="Wind Guru - Cane Garden Bay" target="_blank"><strong><i class="fas fa-external-link-alt"></i>&nbsp;&nbsp;www.windguru.cz</strong></a><br>
-			    				<a href="https://magicseaweed.com/British-Virgin-Islands-Surfing/133/" target="_blank"><strong><i class="fas fa-external-link-alt"></i>&nbsp;&nbsp;www.magicseaweed.com</strong></a><br>
-			    				<a href="https://www.surf-forecast.com/regions/Tortola-BVI" target="_blank"><strong><i class="fas fa-external-link-alt"></i>&nbsp;&nbsp;www.surf-forecast.com</strong></a></p>
+			    				<?php get_template_part('templates/unit--secondary'); ?> 
 			    			</div>
 			    			<div class="small-12 medium-8 large-8 cell">
 								<h1 class="title--page">FAQs</h1>
