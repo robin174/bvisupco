@@ -11,9 +11,9 @@ get_header(); ?>
 		    	<div class="background--image">
 
 			    	<div class="grid-container">
-			    		<?php if( have_rows('header_images') ): ?>
-	    					<?php while( have_rows('header_images') ): the_row(); ?>
-						    	<div class="grid-x">
+			    		<div class="grid-x">
+				    		<?php if( have_rows('header_images') ): ?>
+		    					<?php while( have_rows('header_images') ): the_row(); ?>
 						    		<div class="cell medium-auto">
 						    			<figure>
 						    				<img src="<?php the_sub_field('header_image_01'); ?>">
@@ -29,10 +29,11 @@ get_header(); ?>
 						    				<img src="<?php the_sub_field('header_image_03'); ?>">
 						    			</figure>
 						    		</div>
-						    	</div>
-				    		<?php endwhile; ?>
-						<?php endif; ?>
+					    		<?php endwhile; ?>
+							<?php endif; ?>
+						</div>
 			    	</div>
+
 			    	<div class="grid-container template--page">
 			    		<div class="grid-x grid-padding-x">
 			    			<div class="small-12 medium-3 large-3 cell">
