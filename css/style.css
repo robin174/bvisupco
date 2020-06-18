@@ -477,14 +477,6 @@ hr.product-break {
   background-color: #04021E;
   border-radius: 3px; }
 
-.dropdown.menu > li.menu--icon > a {
-  color: #fff;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem; }
-  .dropdown.menu > li.menu--icon > a:hover {
-    color: #FF4438;
-    background-color: none; }
-
 .off-canvas.position-right li a {
   color: #fff;
   text-transform: uppercase;
@@ -493,6 +485,14 @@ hr.product-break {
   font-size: 1rem; }
   .off-canvas.position-right li a:hover {
     color: #FF4438; }
+
+.dropdown.menu > li.menu--icon > a {
+  color: #fff;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; }
+  .dropdown.menu > li.menu--icon > a:hover {
+    color: #FF4438;
+    background-color: none; }
 
 .off-canvas.position-right li.is-active a, .off-canvas.position-right li.active a {
   color: #FF4438;

@@ -39,18 +39,6 @@
 	}
 }
 
-// For icon only links
-.dropdown.menu > li.menu--icon > a {
-	color: $color-white;
-	padding-left:0.5rem;
-	padding-right:0.5rem;
-	&:hover {
-		color: $color-secondary;
-		background-color: none;
-	}
-}
-
-
 // Off-canvas menu
 .off-canvas.position-right li a {
 	color: $color-white;
@@ -60,6 +48,17 @@
 	font-size: 1rem;
 	&:hover {
 		color: $color-secondary;
+	}
+}
+
+// For icon only links
+.dropdown.menu > li.menu--icon > a {
+	color: $color-white;
+	padding-left:0.5rem;
+	padding-right:0.5rem;
+	&:hover {
+		color: $color-secondary;
+		background-color: none;
 	}
 }
 
