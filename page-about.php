@@ -37,7 +37,9 @@ get_header(); ?>
 			    	<div class="grid-container template--page">
 			    		<div class="grid-x grid-padding-x">
 			    			<div class="small-12 medium-3 large-3 cell">
-			    				<p>Logo</p>
+			    				<figure class="align-left">
+			    					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-bvisupco-ol.png" title="logo - BVISUPCO"> 
+			    				</figure>
 			    			</div>
 			    			<div class="small-12 medium-9 large-9 cell">
 			    				<h1 class="title--page">About</h1>

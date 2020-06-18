@@ -119,22 +119,22 @@ get_header(); ?>
 									<div class="grid-container">
 										<div class="grid-x grid-margin-x">
 											<div class="cell medium-auto">
-												<figure class="logo">
+												<figure class="logo align-center">
 													<a href="https://sup.star-board.com" target="_blank" title="Starboard"><img src="<?php echo get_template_directory_uri(); ?>/images/logo-md-starboard.png" alt ="Logo - Starboard"></a>
 												</figure>
 											</div><!-- end .cell -->
 											<div class="cell medium-auto">
-												<figure class="logo">
+												<figure class="logo align-center">
 													<a href="https://oceanrodeo.com/kiteboarding/" title="Ocean Rodeo" target="_blank" title="Ocean Rodeo"><img src="<?php echo get_template_directory_uri(); ?>/images/logo-md-oceanrodeo.png" alt ="Logo - Ocean Rodeo"></a>
 												</figure>
 											</div><!-- end .cell -->
 											<div class="cell medium-auto">
-												<figure class="logo">
+												<figure class="logo align-center">
 													<a href="https://airush.com/" title="Airush" target="_blank" title="Airush"><img src="<?php echo get_template_directory_uri(); ?>/images/logo-md-airush.png" alt ="Logo - Airush"></a>
 												</figure>
 											</div><!-- end .cell -->
 											<div class="cell medium-auto">
-												<figure class="logo">
+												<figure class="logo align-center">
 													<a href="https://www.severnesails.com/" title="Severne Sails" target="_blank" title="Severne"><img src="<?php echo get_template_directory_uri(); ?>/images/logo-md-severne.png" alt ="Logo - Severne"></a>
 												</figure>
 											</div><!-- end .cell -->

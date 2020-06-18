@@ -1,7 +1,12 @@
 figure {
 	margin: 0;
 	padding: 0;
-	text-align: center;
+	&.align-center {
+		text-align: center;
+	}
+	&.align-left {
+		text-align: left;
+	}
 	& figcaption {
 		&.pr-category {
 			position: absolute;
@@ -18,9 +23,5 @@ figure {
 			font-size:0.75rem;
 			letter-spacing:0.3em;
 		}
-	}
-	&.logo-sm {
-		margin: auto;
-		text-align: left;
 	}
 }
