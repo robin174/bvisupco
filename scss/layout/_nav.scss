@@ -41,8 +41,13 @@
 
 // For icon only links
 .dropdown.menu > li.menu--icon > a {
+	color: $color-white;
 	padding-left:0.5rem;
 	padding-right:0.5rem;
+	&:hover {
+		color: $color-secondary;
+		background-color: none;
+	}
 }
 
 

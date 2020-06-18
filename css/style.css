@@ -478,8 +478,12 @@ hr.product-break {
   border-radius: 3px; }
 
 .dropdown.menu > li.menu--icon > a {
+  color: #fff;
   padding-left: 0.5rem;
   padding-right: 0.5rem; }
+  .dropdown.menu > li.menu--icon > a:hover {
+    color: #FF4438;
+    background-color: none; }
 
 .off-canvas.position-right li a {
   color: #fff;
