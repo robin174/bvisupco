@@ -11,23 +11,27 @@ get_header(); ?>
 		    	<div class="background--image">
 
 			    	<div class="grid-container">
-				    	<div class="grid-x">
-				    		<div class="cell medium-auto">
-				    			<figure>
-				    				<img src="<?php echo get_template_directory_uri(); ?>/images/use-bay-photo.jpg">
-				    			</figure>
-				    		</div>
-				    		<div class="cell medium-auto">
-				    			<figure>
-				    				<img src="<?php echo get_template_directory_uri(); ?>/images/use-starboard-WR-Maui-04.jpg">
-				    			</figure>
-				    		</div>
-				    		<div class="cell medium-auto">
-				    			<figure>
-				    				<img src="<?php echo get_template_directory_uri(); ?>/images/use-lenin-estrada-gurIz2PazQ-unsplash.jpg">
-				    			</figure>
-				    		</div>
-				    	</div>
+			    		<?php if( have_rows('header_images') ): ?>
+	    					<?php while( have_rows('header_images') ): the_row(); ?>
+						    	<div class="grid-x">
+						    		<div class="cell medium-auto">
+						    			<figure>
+						    				<img src="<?php the_sub_field('header_image_01'); ?>">
+						    			</figure>
+						    		</div>
+						    		<div class="cell medium-auto">
+						    			<figure>
+						    				<img src="<?php the_sub_field('header_image_02'); ?>">
+						    			</figure>
+						    		</div>
+						    		<div class="cell medium-auto">
+						    			<figure>
+						    				<img src="<?php the_sub_field('header_image_03'); ?>">
+						    			</figure>
+						    		</div>
+						    	</div>
+				    		<?php endwhile; ?>
+						<?php endif; ?>
 			    	</div>
 			    	<div class="grid-container template--page">
 			    		<div class="grid-x grid-padding-x">
