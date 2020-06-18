@@ -492,7 +492,7 @@ hr.product-break {
   padding-right: 0.5rem; }
   .dropdown.menu > li.menu--icon > a:hover {
     color: #FF4438;
-    background-color: none; }
+    background-color: #04021E; }
 
 .off-canvas.position-right li.is-active a, .off-canvas.position-right li.active a {
   color: #FF4438;
