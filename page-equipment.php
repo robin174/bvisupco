@@ -16,7 +16,7 @@ get_header(); ?>
 			    				<section class="filter">
 					    			<!-- Filters here (https://isotope.metafizzy.co/filtering.html) -->
 					    			<p><i class="fas fa-filter" style="vertical-align=center;"></i>&nbsp;&nbsp;Filter equipment:</p>
-									<div id="filters" class="button-group filters-button-group">
+									<div id="filters" class="stacked-for-small button-group filters-button-group">
 						                <button class="button small button--filter is-checked" data-filter="*">Show All</button>
 						                <button class="button small button--filter" data-filter=".equipment-sup">SUP</button>
 						                <button class="button small button--filter" data-filter=".equipment-windsurf">Windsurf</button> 
