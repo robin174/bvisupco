@@ -16,7 +16,7 @@ get_header(); ?>
 			    				<?php get_template_part('templates/unit--secondary'); ?> 
 			    			</div>
 			    			<div class="small-12 medium-8 large-8 cell">
-								<h1 class="title--page">FAQs</h1>
+								<h1 class="title--page"><?php the_title(); ?></h1>
 								<!-- Flexible content -->
 								<?php while(has_sub_field('new_faq_content')): ?>
 									<?php if(get_row_layout() == 'qa_section'): ?>
@@ -37,24 +37,35 @@ get_header(); ?>
 										</div>
 									<?php endif; ?>
 								
-									<!-- Contract section: to integrate, not implemented -->
-									<?php if(get_row_layout() == 'faq_qanda'): ?>
+									<?php if(get_row_layout() == 'terms_section'): ?>
 										<div class="grid-container">
 											<div class="grid-x grid-padding-x">
 												<div class="small-12 medium-12 large-12 cell">
-													<section class="faq-contract">
+													<section class="faq-terms">
+														<h3 class="title--subheading"><?php the_sub_field('h3_subheading'); ?></h3>
+														<?php if( have_rows('faq_terms') ): // Repeater 02 Field Name ?>
+															<?php while( have_rows('faq_terms') ): the_row(); ?>
+																<h5><?php the_sub_field('terms_title'); ?></h5>
+																<?php the_sub_field('terms_content'); ?>
+															<?php endwhile; ?>
+														<?php endif; ?>
 													</section>
 												</div>
 											</div>
 										</div>
 									<?php endif; ?>
 
-									<!-- Table section: to integrate, not implemented -->
-									<?php if(get_row_layout() == 'faq_table'): ?>
+									<?php if(get_row_layout() == 'terms_table'): ?>
 										<div class="grid-container">
 											<div class="grid-x grid-padding-x">
 												<div class="small-12 medium-12 large-12 cell">
-													<section class="faq-table">
+													<section class="faq-terms">
+														<h3 class="title--subheading"><?php the_sub_field('h3_subheading'); ?></h3>
+														<?php if( have_rows('faq_table') ): // Repeater 02 Field Name ?>
+															<?php while( have_rows('faq_table') ): the_row(); ?>
+																<?php the_sub_field('table_product'); ?> | <?php the_sub_field('terms_cost'); ?>
+															<?php endwhile; ?>
+														<?php endif; ?>
 													</section>
 												</div>
 											</div>
