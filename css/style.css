@@ -443,19 +443,22 @@ hr.product-break {
   width: 15%;
   border: 1px solid #fff; }
 
+thead, tbody, tfoot {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none; }
+
 table {
+  font-size: 1.1rem;
+  background-color: none;
   margin-top: 10px;
   margin-bottom: 10px;
   color: #fff; }
-  table thead, table tbody {
-    background-color: none;
-    border: none; }
   table thead {
     background-color: rgba(255, 255, 255, 0.3); }
   table tbody tr:nth-child(odd) {
-    background-color: rgba(255, 255, 255, 0.2); }
+    background-color: rgba(255, 255, 255, 0.15); }
   table tbody tr:nth-child(even) {
-    background-color: rgba(255, 255, 255, 0.1); }
+    background-color: rgba(255, 255, 255, 0.075); }
 
 .header {
   background-color: #000;
