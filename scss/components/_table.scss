@@ -8,13 +8,12 @@ table {
 	}
 	& thead {
 		background-color: rgba(255,255,255,0.3);
-		& th {}
 	}
 	& tbody {
 		& tr:nth-child(odd) {
 			background-color: rgba(255,255,255,0.2);
 		}
-		& tr:nth-child(odd) {
+		& tr:nth-child(even) {
 			background-color: rgba(255,255,255,0.1);
 		}
 	}
