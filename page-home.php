@@ -38,7 +38,7 @@ get_header(); ?>
 						<div class="grid-container">
 							<div class="grid-x">			
 								<div class="cell small-12 medium-6 large-6">
-									<a href="/equipment-new">
+									<a href="/equipment">
 										<section class="block--home-half content--equipment">
 											<section class="block--inner-logo">
 												<h2>Extensive SUP selection</h2>
@@ -50,7 +50,7 @@ get_header(); ?>
 								</div><!-- end .cell -->
 
 								<div class="cell small-12 medium-6 large-6">
-									<a href="/equipment-new">
+									<a href="/equipment">
 										<section class="block--home-half content--new">
 											<section class="block--inner-logo">
 												<h2>Introducing the Freewing!</h2>
