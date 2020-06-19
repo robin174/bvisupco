@@ -369,11 +369,11 @@ section.order {
     -o-backface-visibility: hidden;
     backface-visibility: hidden; } }
 
-.faq-qanda {
+.faq-qanda, .faq-terms {
   padding-bottom: 1.5rem;
   margin-bottom: 1.5rem;
   border-bottom: 1px solid #00AF85; }
-  .faq-qanda:last-child {
+  .faq-qanda:last-child, .faq-terms:last-child {
     border-bottom: none; }
 
 button, .button {

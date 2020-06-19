@@ -61,11 +61,24 @@ get_header(); ?>
 												<div class="small-12 medium-12 large-12 cell">
 													<section class="faq-terms">
 														<h3 class="title--subheading"><?php the_sub_field('h3_subheading'); ?></h3>
-														<?php if( have_rows('faq_table') ): // Repeater 02 Field Name ?>
-															<?php while( have_rows('faq_table') ): the_row(); ?>
-																<?php the_sub_field('table_product'); ?> | <?php the_sub_field('table_cost'); ?>
-															<?php endwhile; ?>
-														<?php endif; ?>
+														<table width="100%">
+															<thead>
+																<tr>
+																	<th>Item</th>
+																	<th>Per loss fee</th>
+																</tr>
+															</thead>
+															<tbody>
+																<?php if( have_rows('faq_table') ): // Repeater 02 Field Name ?>
+																	<?php while( have_rows('faq_table') ): the_row(); ?>
+																		<tr>
+																			<td><?php the_sub_field('table_product'); ?></td>
+																			<td><?php the_sub_field('table_cost'); ?></td>
+																		</tr>
+																	<?php endwhile; ?>
+																<?php endif; ?>
+															</tbody>
+														</table>
 													</section>
 												</div>
 											</div>
