@@ -1,0 +1,20 @@
+table {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	& thead, & tbody {
+		background-color: none;
+		border:none;
+	}
+	& thead {
+		background-color: rgba(255,255,255,0.3);
+		& th {}
+	}
+	& tbody {
+		& tr:nth-child(odd) {
+			background-color: rgba(255,255,255,0.2);
+		}
+		& tr:nth-child(odd) {
+			background-color: rgba(255,255,255,0.1);
+		}
+	}
+}
