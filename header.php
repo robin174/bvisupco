@@ -20,7 +20,7 @@
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<!-- Font Awesome -->
-		<script src="https://kit.fontawesome.com/78ff2f54a9.js" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/78ff2f54a9.js?v=1.1.1" crossorigin="anonymous"></script>
 
 		<!-- (Temporary) JavaScript file -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
