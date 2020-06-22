@@ -11,7 +11,7 @@ get_header(); ?>
 		    	<div class="background--image">
 
 			    	<div class="grid-container">
-			    		<div class="grid-x grid-margin-x grid-padding-x">
+			    		<div class="grid-x grid-padding-x">
 			    			<div class="small-12 medium-6 large-8 cell">
 			    				<section class="filter">
 					    			<!-- Filters here (https://isotope.metafizzy.co/filtering.html) -->
