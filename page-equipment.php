@@ -12,11 +12,11 @@ get_header(); ?>
 
 			    	<div class="grid-container">
 			    		<div class="grid-x grid-margin-x grid-padding-x">
-			    			<div class="small-12 medium-8 large-8 cell">
+			    			<div class="small-12 medium-6 large-8 cell">
 			    				<section class="filter">
 					    			<!-- Filters here (https://isotope.metafizzy.co/filtering.html) -->
 					    			<p><i class="fas fa-filter" style="vertical-align=center;"></i>&nbsp;&nbsp;Filter equipment:</p>
-									<div id="filters" class="stacked-for-small button-group filters-button-group">
+									<div id="filters" class="stacked-for-medium button-group filters-button-group">
 						                <button class="button small button--filter is-checked" data-filter="*">Show All</button>
 						                <button class="button small button--filter" data-filter=".equipment-sup">SUP</button>
 						                <button class="button small button--filter" data-filter=".equipment-windsurf">Windsurf</button> 
@@ -28,7 +28,7 @@ get_header(); ?>
 						    		</div>
 					    		</section>
 				    		</div>
-				    		<div class="small-12 medium-4 large-4 cell">
+				    		<div class="small-12 medium-6 large-4 cell">
 			    				<section class="order">
 			    					<p><i class="fas fa-shopping-basket fa-lg" style="vertical-align=center;"></i>&nbsp;&nbsp;To order:</p>
 			    					<p>By phone: +1 (284) 346 1981,<br> or by email: <a href="mailto:info@bvisupco.com?subject=BVISUPCO Order" title="Email BVISUPCO">info@bvisupco.com</a></p>
