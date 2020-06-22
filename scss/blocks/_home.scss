@@ -4,7 +4,7 @@
 	background-position:center;
 	background-size:cover;
 	box-shadow: inset 0 0 0 100vmax rgba(0,0,0,0.3);
-	padding-top:$padding-general;
+	padding-top: $padding-general;
 	&.content--welcome {
 		background-image: url('../images/use-home-7DM23397Go_AB+ST+TT+DH_GS_HR.jpg');
 	}
@@ -98,7 +98,7 @@
 /* Larger than phablet */
 @media (min-width: 550px) {
 	.block--main-home {
-		padding-top:$padding-general*3;
+		padding-top: $padding-general*3;
 	}
 	.block--home-logos {
 		& .logo {
@@ -114,7 +114,7 @@
 /* Larger than tablet */
 @media (min-width: 750px) {
 	.block--main-home {
-		padding-top:$padding-general*6;
+		padding-top: $padding-general*6;
 	}
 	.block--home-logos {
 		padding: $padding-general;
