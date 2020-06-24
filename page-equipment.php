@@ -44,8 +44,8 @@ get_header(); ?>
 							            'post_type' => 'product',
 							            'equipment' => 'sup',
 							            'post_status' => 'publish',
-							            'skill' => array('beginner','intermediate'),
-							            'orderby' => 'title',
+							            'skill' => 'all-round',
+							            'orderby' => 'menu_order',
 							            'order' => 'ASC',
 							        );
 							        $my_query = null;
@@ -61,7 +61,24 @@ get_header(); ?>
 							            'post_type' => 'product',
 							            'equipment' => 'sup',
 							            'post_status' => 'publish',
-							            'skill' => 'advanced',
+							            'skill' => 'performance-touring',
+							            'orderby' => 'menu_order',
+							            'order' => 'ASC',
+							        );
+							        $my_query = null;
+							        $my_query = new WP_Query($args);
+							        if( $my_query->have_posts() ) {
+							        while ($my_query->have_posts()) : $my_query->the_post(); ?>
+							        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-sup">
+					            			<?php get_template_part('templates/unit--equipment'); ?> 
+					            		</div>
+							    	<?php endwhile; } wp_reset_query(); ?>
+							    <?php
+							        $args=array(
+							            'post_type' => 'product',
+							            'equipment' => 'sup',
+							            'post_status' => 'publish',
+							            'skill' => 'race-distance',
 							            'orderby' => 'title',
 							            'order' => 'ASC',
 							        );
