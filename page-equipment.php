@@ -73,7 +73,24 @@ get_header(); ?>
 					            			<?php get_template_part('templates/unit--equipment'); ?> 
 					            		</div>
 							    	<?php endwhile; } wp_reset_query(); ?>
-							    <?php // SUP - Race & Distance
+							    <?php // SUP - Surf
+							        $args=array(
+							            'post_type' => 'product',
+							            'equipment' => 'sup',
+							            'post_status' => 'publish',
+							            'skill' => 'surf',
+							            'orderby' => 'menu_order',
+							            'order' => 'ASC',
+							        );
+							        $my_query = null;
+							        $my_query = new WP_Query($args);
+							        if( $my_query->have_posts() ) {
+							        while ($my_query->have_posts()) : $my_query->the_post(); ?>
+							        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-sup">
+					            			<?php get_template_part('templates/unit--equipment'); ?> 
+					            		</div>
+							    	<?php endwhile; } wp_reset_query(); ?>
+							    <?php // SUP - Race & Distance - might not be required
 							        $args=array(
 							            'post_type' => 'product',
 							            'equipment' => 'sup',
