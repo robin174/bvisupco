@@ -22,7 +22,7 @@ get_header(); ?>
 						                <button class="button small button--filter" data-filter=".equipment-windsurf">Windsurf</button>
 						                <button class="button small button--filter" data-filter=".equipment-wing">Wings / Foils</button> 
 						                <button class="button small button--filter" data-filter=".equipment-kite">Kite</button>
-						                <button class="button small button--filter" data-filter=".equipment-surf">Surf</button>
+						                <button class="button small button--filter" data-filter=".equipment-surf">Kayaks / Surf</button>
 						                <button class="button small button--filter" data-filter=".equipment-fishing">Fishing</button>
 						                <button class="button small button--filter" data-filter=".equipment-other">Other</button>
 						    		</div>
