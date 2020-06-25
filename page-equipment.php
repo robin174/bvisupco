@@ -19,7 +19,8 @@ get_header(); ?>
 									<div id="filters" class="stacked-for-medium button-group filters-button-group">
 						                <button class="button small button--filter is-checked" data-filter="*">Show All</button>
 						                <button class="button small button--filter" data-filter=".equipment-sup">SUP</button>
-						                <button class="button small button--filter" data-filter=".equipment-windsurf">Windsurf</button> 
+						                <button class="button small button--filter" data-filter=".equipment-windsurf">Windsurf</button>
+						                <button class="button small button--filter" data-filter=".equipment-wings">Wings / Foils</button> 
 						                <button class="button small button--filter" data-filter=".equipment-kite">Kite</button>
 						                <button class="button small button--filter" data-filter=".equipment-kayak">Kayak</button> 
 						                <button class="button small button--filter" data-filter=".equipment-surf">Surf</button>
@@ -188,6 +189,22 @@ get_header(); ?>
 							        if( $my_query->have_posts() ) {
 							        while ($my_query->have_posts()) : $my_query->the_post(); ?>
 							        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-kite">
+					            			<?php get_template_part('templates/unit--equipment'); ?> 
+					            		</div>
+							    	<?php endwhile; } wp_reset_query(); ?>
+							    <?php
+							        $args=array(
+							            'post_type' => 'product',
+							            'equipment' => 'wing',
+							            'post_status' => 'publish',
+							            'orderby' => 'title',
+							            'order' => 'ASC',
+							        );
+							        $my_query = null;
+							        $my_query = new WP_Query($args);
+							        if( $my_query->have_posts() ) {
+							        while ($my_query->have_posts()) : $my_query->the_post(); ?>
+							        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-wing">
 					            			<?php get_template_part('templates/unit--equipment'); ?> 
 					            		</div>
 							    	<?php endwhile; } wp_reset_query(); ?>
