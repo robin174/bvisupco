@@ -22,7 +22,6 @@ get_header(); ?>
 						                <button class="button small button--filter" data-filter=".equipment-windsurf">Windsurf</button>
 						                <button class="button small button--filter" data-filter=".equipment-wing">Wings / Foils</button> 
 						                <button class="button small button--filter" data-filter=".equipment-kite">Kite</button>
-						                <button class="button small button--filter" data-filter=".equipment-kayak">Kayak</button> 
 						                <button class="button small button--filter" data-filter=".equipment-surf">Surf</button>
 						                <button class="button small button--filter" data-filter=".equipment-fishing">Fishing</button>
 						                <button class="button small button--filter" data-filter=".equipment-other">Other</button>
@@ -208,28 +207,12 @@ get_header(); ?>
 					            			<?php get_template_part('templates/unit--equipment'); ?> 
 					            		</div>
 							    	<?php endwhile; } wp_reset_query(); ?>
-							    <?php
-							        $args=array(
-							            'post_type' => 'product',
-							            'equipment' => 'kayak',
-							            'post_status' => 'publish',
-							            'orderby' => 'title',
-							            'order' => 'ASC',
-							        );
-							        $my_query = null;
-							        $my_query = new WP_Query($args);
-							        if( $my_query->have_posts() ) {
-							        while ($my_query->have_posts()) : $my_query->the_post(); ?>
-							        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-kayak">
-					            			<?php get_template_part('templates/unit--equipment'); ?> 
-					            		</div>
-							    	<?php endwhile; } wp_reset_query(); ?>
 							     <?php
 							        $args=array(
 							            'post_type' => 'product',
 							            'equipment' => 'surf',
 							            'post_status' => 'publish',
-							            'orderby' => 'title',
+							            'orderby' => 'menu_order',
 							            'order' => 'ASC',
 							        );
 							        $my_query = null;
@@ -245,7 +228,7 @@ get_header(); ?>
 							            'post_type' => 'product',
 							            'equipment' => 'fishing',
 							            'post_status' => 'publish',
-							            'orderby' => 'title',
+							            'orderby' => 'menu_order',
 							            'order' => 'ASC',
 							        );
 							        $my_query = null;
