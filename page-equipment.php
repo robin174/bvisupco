@@ -125,7 +125,7 @@ get_header(); ?>
 					            			<?php get_template_part('templates/unit--equipment'); ?> 
 					            		</div>
 							    	<?php endwhile; } wp_reset_query(); ?>
-							    <?php
+							    <?php // Windsurf - Beginner
 							        $args=array(
 							            'post_type' => 'product',
 							            'equipment' => 'windsurf',
@@ -142,7 +142,7 @@ get_header(); ?>
 					            			<?php get_template_part('templates/unit--equipment'); ?> 
 					            		</div>
 							    	<?php endwhile; } wp_reset_query(); ?>
-							    <?php
+							    <?php // Windsurf - Intermediate
 							        $args=array(
 							            'post_type' => 'product',
 							            'equipment' => 'windsurf',
@@ -159,7 +159,7 @@ get_header(); ?>
 					            			<?php get_template_part('templates/unit--equipment'); ?> 
 					            		</div>
 							    	<?php endwhile; } wp_reset_query(); ?>
-							    <?php
+							    <?php // Windsurf - Advanced
 							        $args=array(
 							            'post_type' => 'product',
 							            'equipment' => 'windsurf',
@@ -176,12 +176,12 @@ get_header(); ?>
 					            			<?php get_template_part('templates/unit--equipment'); ?> 
 					            		</div>
 							    	<?php endwhile; } wp_reset_query(); ?>
-							    <?php
+							    <?php // Kite
 							        $args=array(
 							            'post_type' => 'product',
 							            'equipment' => 'kite',
 							            'post_status' => 'publish',
-							            'orderby' => 'title',
+							            'orderby' => 'menu_order',
 							            'order' => 'ASC',
 							        );
 							        $my_query = null;
@@ -192,7 +192,7 @@ get_header(); ?>
 					            			<?php get_template_part('templates/unit--equipment'); ?> 
 					            		</div>
 							    	<?php endwhile; } wp_reset_query(); ?>
-							    <?php
+							    <?php // Wings / Foils
 							        $args=array(
 							            'post_type' => 'product',
 							            'equipment' => 'wing',

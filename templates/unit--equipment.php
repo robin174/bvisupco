@@ -22,7 +22,7 @@
 			<!-- If product = Kite -->
 			<?php } elseif(has_term( 'kite', 'equipment' ) ) { ?>
 				<figure>
-					<img src="<?php bloginfo('template_directory'); ?>/images/test-image.jpg" />
+					<img src="<?php bloginfo('template_directory'); ?>/images/use-comingsoon-windsurf-v2.jpg" />
 					<figcaption class="pr-category"><?php echo strip_tags(get_the_term_list( $post->ID, 'equipment', '',', ')); ?></figcaption>
 				</figure>
 			<?php } else { ?>
