@@ -6,6 +6,7 @@ footer, .footer {
 	background-position: center;
 	background-repeat: repeat-x;
 	padding: $padding-general;
+	padding-bottom: $padding-small;
 	margin-top: 0;
 	color: $color-white;
 	& h4.uc--footer {
@@ -75,3 +76,9 @@ ul.contact--footer{
 	margin-top: $margin-small;
 	padding: 0;
 }
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	padding: $padding-general;
+}
+
