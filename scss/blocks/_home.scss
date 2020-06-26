@@ -1,10 +1,12 @@
 .block--main-home {
 	position:relative;
-	height:60vh;
+	height:30vh;
 	background-position:center;
 	background-size:cover;
 	box-shadow: inset 0 0 0 100vmax rgba(0,0,0,0.3);
 	padding-top: $padding-general;
+	padding-left: $padding-small;
+	padding-right: $padding-small;
 	&.content--welcome {
 		background-image: url('../images/use-home-7DM23397Go_AB+ST+TT+DH_GS_HR.jpg');
 	}
@@ -27,7 +29,7 @@
 	}
 	& p.introduction--hero {
 		font-family: $font--sans;
-		font-size: 2rem;
+		font-size: 1.6rem;
 		line-height: 1.1;
 		text-shadow: 0 0 7px rgba(0,0,0,0.75);
 	}
@@ -95,10 +97,31 @@
 	background-color:rgba(0,0,0,0.5);
 }
 
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	.block--main-home {
+		height:40vh;
+		padding-top: $padding-general;
+	}
+	p.introduction--welcome {}
+	p.introduction--hero {}
+}
+
 /* Larger than phablet */
 @media (min-width: 550px) {
 	.block--main-home {
-		padding-top: $padding-general*3;
+		height:50vh;
+		padding-top: $padding-general*2;
+		padding-left: $padding-general;
+		padding-right: $padding-general;
+	}
+	p.introduction--welcome {}
+	p.introduction--hero {
+		font-size: 1.8rem;
 	}
 	.block--home-logos {
 		& .logo {
@@ -114,7 +137,12 @@
 /* Larger than tablet */
 @media (min-width: 750px) {
 	.block--main-home {
-		padding-top: $padding-general*6;
+		height:50vh;
+		padding-top: $padding-general*3;
+	}
+	p.introduction--welcome {}
+	p.introduction--hero {
+		font-size: 2rem;
 	}
 	.block--home-logos {
 		padding: $padding-general;
@@ -133,4 +161,14 @@
 		    $function: ease
 		);
 	}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	.block--main-home {
+		height:60vh;
+		padding-top: $padding-general*5;
+	}
+	p.introduction--welcome {}
+	p.introduction--hero {}
 }

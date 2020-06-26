@@ -23,7 +23,11 @@ get_header(); ?>
 													<img src="<?php echo get_template_directory_uri(); ?>/images/use-bvisupco-hero.png">
 												</figure>
 											</div>
-											<div id="animate--second">
+											<div id="animate--second" class="hide-for-large">
+												<p class="introduction--hero">BVISUPCO is the largest Stand Up Paddleboard (SUP) and watersports rentals company in the British Virgin Islands.</p>
+											</div>
+
+											<div id="animate--second" class="show-for-large">
 												<p class="introduction--hero">BVISUPCO is the largest Stand Up Paddleboard (SUP)<br>and watersports rentals company in the British Virgin Islands.</p>
 											</div>
 										</section>
