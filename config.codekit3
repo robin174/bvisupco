@@ -1186,6 +1186,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/use-bvisupco-hero-v2.png": {
+		"ft": 32768,
+		"iS": 62536,
+		"oA": 0,
+		"oAP": "/images/use-bvisupco-hero-v2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/use-bvisupco-hero.png": {
 		"ft": 32768,
 		"iS": 39220,

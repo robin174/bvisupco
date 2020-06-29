@@ -20,7 +20,7 @@ get_header(); ?>
 											<div id="animate--first">
 												<p class="introduction--welcome">Welcome to</p>
 												<figure class="logo--hero">
-													<img src="<?php echo get_template_directory_uri(); ?>/images/use-bvisupco-hero.png">
+													<img src="<?php echo get_template_directory_uri(); ?>/images/use-bvisupco-hero-v2.png">
 												</figure>
 											</div>
 											<div id="animate--second" class="hide-for-large">
