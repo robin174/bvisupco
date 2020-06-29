@@ -38,7 +38,7 @@ get_header(); ?>
 			    		<div class="grid-x grid-padding-x">
 			    			<div class="small-12 medium-3 large-3 cell">
 			    				<figure class="align-left">
-			    					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-bvisupco-ol.png" title="logo - BVISUPCO"> 
+			    					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-bvisupco-ol-v2.png" title="logo - BVISUPCO"> 
 			    				</figure>
 			    			</div>
 			    			<div class="small-12 medium-9 large-9 cell">
