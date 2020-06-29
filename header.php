@@ -9,6 +9,14 @@
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta class="foundation-mq">
+
+		<!-- Basic Page Needs -->
+        <meta name="description" content="British Virigin Islands Stand Up Paddle Company (BVISUPCO) is the largest Stand Up Paddleboard (SUP) and watersports rentals company in the British Virgin Islands.">
+        <meta property="og:url" content="https://www.bvisupco.com" />
+        <meta property="og:description" content="Stand Up Paddleboard (SUP) and watersports rentals company in the British Virgin Islands." />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="author" content="Fiona d'Ancona">
 		
 		<!-- If Site Icon isn't set in customizer -->
 		<?php if ( ! function_exists( 'has_site_icon' ) || ! has_site_icon() ) { ?>
