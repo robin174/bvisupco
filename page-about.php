@@ -49,6 +49,14 @@ get_header(); ?>
 			    			</div>
 			    		</div>
 			    	</div>
+			    	
+			    	<div class="grid-container">
+			    		<div class="grid-x">
+			    			<div class="small-12 medium-12 large-12 cell">
+			    				<?php get_template_part('templates/blocks--building'); ?>
+			    			</div>
+			    		</div>
+			    	</div>
 
 		    	</div>
 			</main><!-- end #main -->

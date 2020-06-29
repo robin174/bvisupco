@@ -3296,12 +3296,12 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/template-full-width.php": {
+	"/templates/blocks--building.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/template-full-width.php",
+		"oAP": "/templates/blocks--building.php",
 		"oF": 0
 		},
 	"/templates/unit--equipment.php": {
