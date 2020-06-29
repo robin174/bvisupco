@@ -51,7 +51,7 @@ get_header(); ?>
 			    	</div>
 			    	
 			    	<div class="grid-container">
-			    		<div class="grid-x">
+			    		<div class="grid-x" style="background-color:rgba(0,0,0,0.2);">
 			    			<div class="small-12 medium-12 large-12 cell">
 			    				<?php get_template_part('templates/blocks--building'); ?>
 			    			</div>
