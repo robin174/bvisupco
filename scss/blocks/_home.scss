@@ -97,51 +97,47 @@
 	background-color:rgba(0,0,0,0.5);
 }
 
-
-/* Media Queries
+/* Media Queries - new
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-/* Larger than mobile */
-@media (min-width: 400px) {
+/* 
+Device = Most smartphones or mobiles (portrait)
+Screen = B/w 320px to 479px */
+@media (min-width: 320px) and (max-width: 480px) {
 	.block--main-home {
-		height:40vh;
-		padding-top: $padding-general;
+		height:70vh;
+		padding-top: 0;
 		& .block--inner-logo {
-			padding-top:$padding-general;
+			padding-top: $padding-general*1.5;
 		}
 	}
-	p.introduction--welcome {}
-	p.introduction--hero {}
 }
 
-/* Larger than phablet */
-@media (min-width: 550px) {
+/* 
+Device = Low Resolution tablets, mobiles (landscape)
+Screen = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
 	.block--main-home {
-		height:50vh;
-		padding-top: $padding-general;
+		height:70vh;
+		padding-top: 0;
+		& .block--inner-logo {
+			padding-top: $padding-small;
+		}
+	}
+}
+
+/* 
+Device = Tablets (portrait)
+Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+	.block--main-home {
+		height:65vh;
+		padding-top: $padding-general*1.5;
 		padding-left: $padding-general;
 		padding-right: $padding-general;
-	}
-	p.introduction--welcome {}
-	p.introduction--hero {
-		font-size: 1.8rem;
-	}
-	.block--home-logos {
-		& .logo {
-			transition-property: transform;
-			transition-duration: .3s;
-			&:hover {
-				transform: scale(1.1);
-			}
+		& .block--inner-logo {
+			padding-top: $padding-general;
 		}
-	}
-}
-
-/* Larger than tablet */
-@media (min-width: 750px) {
-	.block--main-home {
-		height:50vh;
-		padding-top: $padding-general*3;
 	}
 	p.introduction--welcome {}
 	p.introduction--hero {
@@ -150,6 +146,28 @@
 	.block--home-logos {
 		padding: $padding-general;
 	}
+}
+
+/* 
+Device = Tablets (landscape)
+Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	.block--main-home {
+		height:65vh;
+		padding-top: $padding-small;
+		padding-left: $padding-general;
+		padding-right: $padding-general;
+		& .block--inner-logo {
+			padding-top: $padding-general;
+		}
+	}
+	p.introduction--welcome {}
+	p.introduction--hero {
+		font-size: 1.8rem;
+	}
+}
+
+@media (min-width: 768px) {
 	#animate--first {
 		@include fadeIn(
 		    $duration: 2s,
@@ -166,12 +184,44 @@
 	}
 }
 
-/* Larger than desktop */
-@media (min-width: 1000px) {
+/* 
+Device = Laptops, desktops
+Screen = B/w 1025px to 1280px */
+@media (min-width: 1025px) and (max-width: 1280px) {
 	.block--main-home {
 		height:60vh;
 		padding-top: $padding-general*5;
 	}
-	p.introduction--welcome {}
-	p.introduction--hero {}
 }
+
+@media (min-width: 1025px) {
+	.block--home-logos {
+		& .logo {
+			transition-property: transform;
+			transition-duration: .3s;
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+	}
+}
+
+/*	
+Device = Desktops
+Screen = 1281px to higher resolution desktops */
+@media (min-width: 1281px) {
+	.block--main-home {
+		height:60vh;
+		padding-top: $padding-general*5;
+	}
+	.block--home-logos {
+		& .logo {
+			transition-property: transform;
+			transition-duration: .3s;
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+	}
+}
+

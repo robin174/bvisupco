@@ -286,40 +286,59 @@ section.order {
   padding: 1.5rem;
   background-color: rgba(0, 0, 0, 0.5); }
 
-/* Media Queries
+/* Media Queries - new
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* Larger than mobile */
-@media (min-width: 400px) {
+/* 
+Device = Most smartphones or mobiles (portrait)
+Screen = B/w 320px to 479px */
+@media (min-width: 320px) and (max-width: 480px) {
   .block--main-home {
-    height: 40vh;
-    padding-top: 3rem; }
+    height: 70vh;
+    padding-top: 0; }
     .block--main-home .block--inner-logo {
-      padding-top: 3rem; } }
+      padding-top: 4.5rem; } }
 
-/* Larger than phablet */
-@media (min-width: 550px) {
+/* 
+Device = Low Resolution tablets, mobiles (landscape)
+Screen = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
   .block--main-home {
-    height: 50vh;
-    padding-top: 3rem;
+    height: 70vh;
+    padding-top: 0; }
+    .block--main-home .block--inner-logo {
+      padding-top: 1.5rem; } }
+
+/* 
+Device = Tablets (portrait)
+Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .block--main-home {
+    height: 65vh;
+    padding-top: 4.5rem;
     padding-left: 3rem;
     padding-right: 3rem; }
-  p.introduction--hero {
-    font-size: 1.8rem; }
-  .block--home-logos .logo {
-    transition-property: transform;
-    transition-duration: .3s; }
-    .block--home-logos .logo:hover {
-      transform: scale(1.1); } }
-
-/* Larger than tablet */
-@media (min-width: 750px) {
-  .block--main-home {
-    height: 50vh;
-    padding-top: 9rem; }
+    .block--main-home .block--inner-logo {
+      padding-top: 3rem; }
   p.introduction--hero {
     font-size: 2rem; }
   .block--home-logos {
-    padding: 3rem; }
+    padding: 3rem; } }
+
+/* 
+Device = Tablets (landscape)
+Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .block--main-home {
+    height: 65vh;
+    padding-top: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem; }
+    .block--main-home .block--inner-logo {
+      padding-top: 3rem; }
+  p.introduction--hero {
+    font-size: 1.8rem; } }
+
+@media (min-width: 768px) {
   #animate--first {
     -webkit-animation-name: fadeIn;
     -moz-animation-name: fadeIn;
@@ -393,11 +412,33 @@ section.order {
     -o-backface-visibility: hidden;
     backface-visibility: hidden; } }
 
-/* Larger than desktop */
-@media (min-width: 1000px) {
+/* 
+Device = Laptops, desktops
+Screen = B/w 1025px to 1280px */
+@media (min-width: 1025px) and (max-width: 1280px) {
   .block--main-home {
     height: 60vh;
     padding-top: 15rem; } }
+
+@media (min-width: 1025px) {
+  .block--home-logos .logo {
+    transition-property: transform;
+    transition-duration: .3s; }
+    .block--home-logos .logo:hover {
+      transform: scale(1.1); } }
+
+/*	
+Device = Desktops
+Screen = 1281px to higher resolution desktops */
+@media (min-width: 1281px) {
+  .block--main-home {
+    height: 60vh;
+    padding-top: 15rem; }
+  .block--home-logos .logo {
+    transition-property: transform;
+    transition-duration: .3s; }
+    .block--home-logos .logo:hover {
+      transform: scale(1.1); } }
 
 .faq-qanda, .faq-terms {
   padding-bottom: 1.5rem;

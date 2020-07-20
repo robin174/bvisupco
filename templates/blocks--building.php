@@ -1,51 +1,63 @@
 <?php while(has_sub_field("bb_builder")): ?>
-	<?php if(get_row_layout() == 'bb_title'): // Title ?>
-		<div class="small-12 medium-12 large-12 cell">
-			<h4 class="subheading--title"><?php the_sub_field('title');?></h4>
+	<?php if(get_row_layout() == 'bb_heading'): // h4 Heading ?>
+		<div class="grid-x grid-padding-x">
+			<div class="small-12 medium-12 large-12 cell">
+				<h4 class="subheading--title"><?php the_sub_field('bb_title');?></h4>
+			</div>
 		</div>
 	<?php endif; ?>
 
 	<?php if(get_row_layout() == 'bb_para_intro'): // Introduction Paragraph ?>
-		<div class="small-12 medium-12 large-12 cell">
-			<p class="para-intro"><?php the_sub_field('bb_introduction');?></p>
+		<div class="grid-x grid-padding-x">
+			<div class="small-12 medium-12 large-12 cell">
+				<p class="para-intro"><?php the_sub_field('bb_introduction');?></p>
+			</div>
 		</div>
 	<?php endif; ?>
 	
 	<?php if(get_row_layout() == 'bb_para'): // Paragraph ?>
-		<div class="small-12 medium-12 large-12 cell">
-			<?php the_sub_field('bb_paragraph');?>
+		<div class="grid-x grid-padding-x">
+			<div class="small-12 medium-12 large-12 cell">
+				<?php the_sub_field('bb_paragraph');?>
+			</div>
 		</div>
 	<?php endif; ?>
 
-	<?php /* Image left / para block right */ ?>
-	<div class="small-12 medium-6 large-6 cell">
-		<section>
-			<figure>
-				<img src="">
-			</figure>
-		</section>
-	</div>
-	<div class="small-12 medium-6 large-6 cell">
-		<section>
-			<p>X</p>
-		</section>
-	</div>
+	<?php if(get_row_layout() == 'bb_image_left'): // Image left / Paragraph block right  ?>
+		<div class="grid-x">
+			<div class="small-12 medium-6 large-6 cell">
+				<section class="image--half-full">
+					<figure>
+						<img src="<?php the_sub_field('bb_img_left')?>">
+					</figure>
+				</section>
+			</div>
+			<div class="small-12 medium-6 large-6 cell">
+				<section class="content--half-pad">
+					<?php the_sub_field('bb_content_right')?>
+				</section>
+			</div>
+		</div>
+	<?php endif; ?>
 
-	<?php /* Para block left / Image left */ ?>
-	<div class="small-12 medium-6 large-6 cell">
-		<section>
-			<p>Y</p>
-		</section>
-	</div>
-	<div class="small-12 medium-6 large-6 cell">
-		<section>
-			<figure>
-				<img src="">
-			</figure>
-		</section>
-	</div>
+	<?php if(get_row_layout() == 'bb_image_right'): // Paragraph block left / Image right  ?>
+		<div class="grid-x">
+			<div class="small-12 medium-6 large-6 cell">
+				<section class="content--half-pad">
+					<?php the_sub_field('bb_content_left')?>
+				</section>
+			</div>
+			<div class="small-12 medium-6 large-6 cell">
+				<section class="image--half-full">
+					<figure>
+						<img src="<?php the_sub_field('bb_img_right')?>">
+					</figure>
+				</section>
+			</div>
+		</div>
+	<?php endif; ?>
 
-	<?php if(get_row_layout() == 'bb_bullets'): // Bullet List ?>
+	<?php if(get_row_layout() == 'bb_bul_list'): // Bullet List ?>
 		<div class="small-12 medium-12 large-12 cell">
 	        <?php if( get_sub_field('bb_bul_intro') ): ?>
 	            <p><?php the_sub_field('bb_bul_intro'); ?></p>
