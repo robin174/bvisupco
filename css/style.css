@@ -42,8 +42,6 @@ body {
   font-size: 1.5em;
   /* currently ems cause chrome bug misinterpreting rems on body element */ }
 
-/* stylelint-disable order/properties-alphabetical-order */
-/* stylelint-enable */
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Larger than mobile */
@@ -142,13 +140,27 @@ h3.title--subheading {
   margin-bottom: 0.75rem;
   color: #00AF85; }
 
+h4.title--subheading {
+  font-size: 2rem; }
+
 h5 {
   margin-top: 5px;
   margin-bottom: 0.75rem; }
 
 p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: "Roboto", Arial, Helvetica, sans-serif; }
+  p.para-intro {
+    font-size: 1.3rem;
+    font-weight: 500; }
+
+ul.bb_bullet {
+  margin-left: 3rem; }
+  ul.bb_bullet li {
+    font-size: 1.1rem;
+    margin-bottom: 5px; }
+    ul.bb_bullet li:last-child {
+      margin-bottom: 0; }
 
 #filters button {
   font-weight: 700; }
@@ -446,6 +458,15 @@ Screen = 1281px to higher resolution desktops */
   border-bottom: 1px solid #00AF85; }
   .faq-qanda:last-child, .faq-terms:last-child {
     border-bottom: none; }
+
+.bb_image {
+  margin-bottom: 3rem; }
+
+.content--half-pad-left {
+  padding-right: 1.5rem; }
+
+.content--half-pad-right {
+  padding-left: 1.5rem; }
 
 button, .button {
   font-size: 1rem; }

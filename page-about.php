@@ -41,22 +41,17 @@ get_header(); ?>
 			    					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm-bvisupco-ol-v2.png" title="logo - BVISUPCO"> 
 			    				</figure>
 			    			</div>
-			    			<div class="small-12 medium-9 large-9 cell">
+			    			<div class="small-12 medium-9 large-9 cell template--page-bb">
 			    				<h1 class="title--page"><?php the_title(); ?></h1>
+			    				<?php get_template_part('templates/blocks--building'); ?>
+			    				<!-- 
 								<p>BVISUPCO is the leading, full service water sport rental company in the region.</p>
 								<p>Our large fleet of SUPs, kayaks, floats and more will enhance your vacation in the beautiful BVI waters that we are lucky enough to call 'home'.</p>
 								<p>There are no hidden fees - simply reserve your equipment and we will take it from there.</p>
+								-->
 			    			</div>
 			    		</div>
 			    	</div>
-			    	
-			    	<div class="grid-container template--page-bb">
-			    			<div class="small-12 medium-12 large-12 cell">
-			    				<?php get_template_part('templates/blocks--building'); ?>
-			    			</div>
-			    		</div>
-			    	</div>
-
 		    	</div>
 			</main><!-- end #main -->
 		    
