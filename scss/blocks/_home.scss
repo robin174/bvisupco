@@ -1,0 +1,227 @@
+.block--main-home {
+	position:relative;
+	height:35vh;
+	background-position:center;
+	background-size:cover;
+	box-shadow: inset 0 0 0 100vmax rgba(0,0,0,0.3);
+	padding-top: 5px;
+	padding-left: $padding-small;
+	padding-right: $padding-small;
+	&.content--welcome {
+		background-image: url('../images/use-home-7DM23397Go_AB+ST+TT+DH_GS_HR.jpg');
+	}
+	& .block--inner-logo {
+		padding-top:$padding-small;
+		text-align: center;
+		color: $color-white;
+	}
+	& .logo--hero {
+		margin-bottom: $margin-general;
+	}
+
+	p.introduction--welcome {
+		font-family: $font--sans;
+		text-transform: uppercase;
+		font-size: 1.1rem;
+		letter-spacing: 0.2em;
+		font-weight: $font-bold;
+		margin-bottom: 5px;
+	}
+	& p.introduction--hero {
+		font-family: $font--sans;
+		font-size: 1.6rem;
+		line-height: 1.1;
+		text-shadow: 0 0 7px rgba(0,0,0,0.75);
+	}
+}
+
+.block--home-half, .block--home-third {
+	position:relative;
+	height:30vh;
+	background-position:center;
+	background-size:cover;
+	box-shadow: inset 0 0 0 100vmax rgba(0,0,0,0.2);
+	&.content--equipment{
+		background-image: url('../images/use-AbrahamShouse-SSM_7293.jpg');
+	}
+	&.content--new {
+		background-image: url('../images/use-new-freewing.jpg');
+	}
+	&.content--tripadvisor{
+		background-image: url('../images/use-bay-photo.jpg');
+		width: 100%;
+	}
+	&.content--msw {
+		background-image: url('../images/use-msw-starboard-surf.jpg');
+		width: 100%;
+	}
+	&.content--pop {
+		background-image: url('../images/use-ocean-water-wave-photo-1295138.jpg');
+		width: 100%;
+	}
+	& .block--inner-logo {
+		position:absolute;
+		// Original version: small, but centered
+		// left: 50%;
+		// top: 50%;
+		// transform:translate(-50%,-50%); // For precise positioning
+		left: 15%;
+		top: 50%;
+		width: 70%;
+		transform:translate(0,-50%); // For precise positioning
+		color: $color-white;
+		font-family: $font--sans;
+		text-align: center;
+		& p {
+			font-family: $font--sans;
+		} 	
+	}
+}
+
+.block--home-half, .block--home-third {
+	transition-duration: .3s;
+	& .logo--thirdparty {
+		transition-property: transform;
+		transition-duration: .3s;
+	}
+	&:hover {
+		box-shadow: inset 0 0 0 100vmax rgba(0,0,0,0.6);
+		& figure.logo--thirdparty {
+			transform: scale(1.1);
+		}
+	}
+}
+
+.block--home-logos {
+	padding: $padding-small;
+	background-color:rgba(0,0,0,0.5);
+}
+
+/* Media Queries - new
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* 
+Device = Most smartphones or mobiles (portrait)
+Screen = B/w 320px to 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+	.block--main-home {
+		height:70vh;
+		padding-top: 0;
+		& .block--inner-logo {
+			padding-top: $padding-general*1.5;
+		}
+	}
+}
+
+/* 
+Device = Low Resolution tablets, mobiles (landscape)
+Screen = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+	.block--main-home {
+		height:70vh;
+		padding-top: 0;
+		& .block--inner-logo {
+			padding-top: $padding-small;
+		}
+	}
+}
+
+/* 
+Device = Tablets (portrait)
+Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+	.block--main-home {
+		height:65vh;
+		padding-top: $padding-general*1.5;
+		padding-left: $padding-general;
+		padding-right: $padding-general;
+		& .block--inner-logo {
+			padding-top: $padding-general;
+		}
+	}
+	p.introduction--welcome {}
+	p.introduction--hero {
+		font-size: 2rem;
+	}
+	.block--home-logos {
+		padding: $padding-general;
+	}
+}
+
+/* 
+Device = Tablets (landscape)
+Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	.block--main-home {
+		height:65vh;
+		padding-top: $padding-small;
+		padding-left: $padding-general;
+		padding-right: $padding-general;
+		& .block--inner-logo {
+			padding-top: $padding-general;
+		}
+	}
+	p.introduction--welcome {}
+	p.introduction--hero {
+		font-size: 1.8rem;
+	}
+}
+
+@media (min-width: 768px) {
+	#animate--first {
+		@include fadeIn(
+		    $duration: 2s,
+		    $delay: .5s,
+		    $function: ease
+		);
+	}
+	#animate--second {
+		@include fadeIn(
+		    $duration: 2s,
+		    $delay: 1.5s,
+		    $function: ease
+		);
+	}
+}
+
+/* 
+Device = Laptops, desktops
+Screen = B/w 1025px to 1280px */
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.block--main-home {
+		height:60vh;
+		padding-top: $padding-general*5;
+	}
+}
+
+@media (min-width: 1025px) {
+	.block--home-logos {
+		& .logo {
+			transition-property: transform;
+			transition-duration: .3s;
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+	}
+}
+
+/*	
+Device = Desktops
+Screen = 1281px to higher resolution desktops */
+@media (min-width: 1281px) {
+	.block--main-home {
+		height:60vh;
+		padding-top: $padding-general*5;
+	}
+	.block--home-logos {
+		& .logo {
+			transition-property: transform;
+			transition-duration: .3s;
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+	}
+}
+

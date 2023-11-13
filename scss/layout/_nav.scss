@@ -1,0 +1,81 @@
+.off-canvas {
+	background-color: $color-primary;
+}
+
+.top-bar {
+	box-shadow: 0 0 20px rgba(0,0,0,0.7);
+	position: relative;
+	z-index: 10;
+}
+
+.top-bar, .top-bar ul {
+	background-color: $color-primary;
+	& .menu a {
+		font-size: 1rem;
+		color: $color-white;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		font-weight: $font-bold;
+		margin-right: 7px;
+		&:hover {
+			color: $color-white;
+			background-color: $color-secondary;
+			border-radius: 3px;
+		}
+	}
+	& .menu .active > a, .menu .is-active > a {
+		background-color: $color-secondary;
+		border-radius: 3px;
+	}
+}
+
+.top-bar-left, .top-bar-left ul {
+	& .menu a {
+		&:hover {
+			color: $color-secondary;
+			background-color: $color-primary;
+			border-radius: 3px;
+		}
+	}
+}
+
+// Off-canvas menu
+.off-canvas.position-right li a {
+	color: $color-white;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-weight: $font-bold;
+	font-size: 1rem;
+	&:hover {
+		color: $color-secondary;
+	}
+}
+
+// For icon only links
+.dropdown.menu > li.menu--icon > a {
+	color: $color-white;
+	padding-left:0.5rem;
+	padding-right:0.5rem;
+	&:hover {
+		color: $color-secondary;
+		background-color: $color-primary;
+	}
+}
+
+.off-canvas.position-right li.is-active a, .off-canvas.position-right li.active a {
+	color: $color-secondary;
+	background: none !important;
+}
+
+// Top-bar workaround - set 3rd value to auto (flex-basis)
+.top-bar .top-bar-left, .top-bar .top-bar-right {
+	flex: 0 0 auto;
+}
+
+.show-for-small-only {
+	& li a {
+		&:hover {
+			background-color: none;
+		}
+	} 
+}

@@ -1,0 +1,23 @@
+main {}
+
+.background--image {
+	background-image: url('../images/dark-AbrahamShouse-SSM_6892.jpg');
+	background-size:cover; 
+	background-position: top;
+	padding-bottom: $padding-general;
+}
+
+.home {
+	.background--image {
+		padding-bottom: 0;
+	}
+}
+
+.template--page {
+	color: $color-white;
+	background-color:rgba(0,0,0,0.5);
+	margin-top: 0;
+	padding-top: $padding-general;
+	padding-left: $padding-general;
+	padding-right: $padding-general;
+}
