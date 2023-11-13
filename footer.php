@@ -56,7 +56,7 @@
 						<div class="grid-container">
 							<div class="grid-x grid-margin-x grid-padding-x">
 								<div class="small-12 medium-12 large-12 cell">
-									<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. All rights reserved. HELP.<br>
+									<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. All rights reserved. Nov 23.<br>
 									PO Box 91, Road Town, Tortola, BVI VG1110</p>
 								</div>
 							</div>
