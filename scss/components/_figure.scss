@@ -1,0 +1,27 @@
+figure {
+	margin: 0;
+	padding: 0;
+	&.align-center {
+		text-align: center;
+	}
+	&.align-left {
+		text-align: left;
+	}
+	& figcaption {
+		&.pr-category {
+			position: absolute;
+			text-align: right;
+			top: 0;
+			right: 0;
+			z-index: 100;
+			color: #fff;
+			background-color: rgba(0,0,0,0.75);
+			background: linear-gradient(315deg, rgba(0,0,0,1) 20%, rgba(0,175,133,1) 100%);
+			padding: 4px 8px 4px 7px;
+			text-transform:uppercase;
+			font-weight: bold;
+			font-size:0.75rem;
+			letter-spacing:0.3em;
+		}
+	}
+}
