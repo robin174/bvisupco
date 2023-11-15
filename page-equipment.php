@@ -20,11 +20,10 @@ get_header(); ?>
 						                <button class="button small button--filter is-checked" data-filter="*">Show All</button>
 						                <button class="button small button--filter" data-filter=".equipment-sup">SUP</button>
 						                <button class="button small button--filter" data-filter=".equipment-windsurf">Windsurf</button>
-						                <button class="button small button--filter" data-filter=".equipment-wing">Wings / Foils</button> 
-						                <button class="button small button--filter" data-filter=".equipment-kite">Kites</button>
+						                <button class="button small button--filter" data-filter=".equipment-wing">Wings/Foils/Kites</button> 
 						                <button class="button small button--filter" data-filter=".equipment-surf">Kayaks / Surf</button>
 						                <button class="button small button--filter" data-filter=".equipment-fishing">Fishing</button>
-						                <button class="button small button--filter" data-filter=".equipment-other">Other</button>
+						                <button class="button small button--filter" data-filter=".equipment-other">Floats & Fun</button>
 						    		</div>
 					    		</section>
 				    		</div>
@@ -175,23 +174,7 @@ get_header(); ?>
 					            			<?php get_template_part('templates/unit--equipment'); ?> 
 					            		</div>
 							    	<?php endwhile; } wp_reset_query(); ?>
-							    <?php // Kite
-							        $args=array(
-							            'post_type' => 'product',
-							            'equipment' => 'kite',
-							            'post_status' => 'publish',
-							            'orderby' => 'menu_order',
-							            'order' => 'ASC',
-							        );
-							        $my_query = null;
-							        $my_query = new WP_Query($args);
-							        if( $my_query->have_posts() ) {
-							        while ($my_query->have_posts()) : $my_query->the_post(); ?>
-							        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-kite">
-					            			<?php get_template_part('templates/unit--equipment'); ?> 
-					            		</div>
-							    	<?php endwhile; } wp_reset_query(); ?>
-							    <?php // Wings / Foils
+							    <?php // Wings / Foils / Kites
 							        $args=array(
 							            'post_type' => 'product',
 							            'equipment' => 'wing',

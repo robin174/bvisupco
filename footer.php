@@ -6,11 +6,11 @@
 									<section class="block--details">
 										<h4 class="uc--footer">Contact us</h4>
 										<ul class="contact--footer">
-											<li><span class="pr-red"><i class="fad fa-phone-office fa-lg" style="vertical-align: center;"></i></span>&nbsp;&nbsp;+1 (284) 346 1981</li>
-											<li><span class="pr-red"><i class="fad fa-envelope-open-text fa-lg" style="vertical-align: center;"></i></span>&nbsp;&nbsp;<a href="mailto:info@bvisupco.com" title="Email BVISUPCO">info@bvisupco.com</a></li>
-											<li><span class="pr-red"><i class="fab fa-tripadvisor fa-lg" style="vertical-align: center;"></i></span>&nbsp;&nbsp;<a href="https://www.tripadvisor.co.uk/Attraction_Review-g147354-d7238417-Reviews-BVISUPCO-Tortola_British_Virgin_Islands.html" title="BVISUPCO on Trip Advisor" target="_blank">Trip Advisor</a></li>
-											<li><span class="pr-red"><i class="fab fa-facebook fa-lg" style="vertical-align: center;"></i></span>&nbsp;&nbsp;<a href="https://www.facebook.com/BVISUPCo/" title="BVISUPCO on Facebook" target="_blank">Facebook</a></li>
-											<li><span class="pr-red"><i class="fab fa-instagram fa-lg" style="vertical-align: center;"></i></span>&nbsp;&nbsp;<a href="https://www.instagram.com/bvisupco/" title="BVISUPCO on Instagram" target="_blank">Instagram</a></li>
+											<li><span class="pr-red"><i class="fa-duotone fa-phone-office fa-lg fa-fw" style="vertical-align: center;"></i></span>&nbsp;&nbsp;+1 (284) 346 1981</li>
+											<li><span class="pr-red"><i class="fa-duotone fa-envelope-open-text fa-lg fa-fw" style="vertical-align: center;"></i></span>&nbsp;&nbsp;<a href="mailto:info@bvisupco.com" title="Email BVISUPCO">info@bvisupco.com</a></li>
+											<li><span class="pr-red"><i class="fa-kit fa-trip-advisor02 fa-lg fa-fw" style="vertical-align: center;"></i></span>&nbsp;&nbsp;<a href="https://www.tripadvisor.co.uk/Attraction_Review-g147354-d7238417-Reviews-BVISUPCO-Tortola_British_Virgin_Islands.html" title="BVISUPCO on Trip Advisor" target="_blank">Trip Advisor</a></li>
+											<li><span class="pr-red"><i class="fa-brands fa-facebook fa-lg fa-fw" style="vertical-align: center;"></i></span>&nbsp;&nbsp;<a href="https://www.facebook.com/BVISUPCo/" title="BVISUPCO on Facebook" target="_blank">Facebook</a></li>
+											<li><span class="pr-red"><i class="fa-brands fa-instagram fa-lg fa-fw" style="vertical-align: center;"></i></span>&nbsp;&nbsp;<a href="https://www.instagram.com/bvisupco/" title="BVISUPCO on Instagram" target="_blank">Instagram</a></li>
 										</ul>
 									</section>
 								</div>
@@ -45,7 +45,7 @@
 												</div>
 											</div>
 										</div>
-										<p class="weather-loc"><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;<span class="w-loc-data"></span></p>
+										<p class="weather-loc"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;<span class="w-loc-data"></span></p>
 									</section>
 								</div>
 							</div>

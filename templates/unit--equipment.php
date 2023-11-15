@@ -52,7 +52,7 @@
 					
 					<?php if(get_sub_field('product_available')): // If 'Available' selected ?>
 						<section class="block--product-reservation">
-							<h4 class="pr-name"><span class="pr-red"><i class="fad fa-tags"></i></span>&nbsp;&nbsp;<?php the_sub_field('product_name'); ?></h4>
+							<h4 class="pr-name"><span class="pr-red"><i class="fa-duotone fa-tags"></i></span>&nbsp;&nbsp;<?php the_sub_field('product_name'); ?></h4>
 							<div class="block--product-details">
 								<?php if( get_sub_field('product_size') ): ?><?php the_sub_field('product_size'); ?><?php endif; ?>
 								<?php if( get_sub_field('product_size') && get_sub_field('product_material') ): ?>&nbsp;<span class="pr-red">|</span>&nbsp;<?php endif; ?>
