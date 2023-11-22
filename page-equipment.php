@@ -60,8 +60,7 @@ get_header(); ?>
 							            'post_type' => 'product',
 							            'equipment' => 'windsurf',
 							            'post_status' => 'publish',
-	
-							            'orderby' => 'title',
+							            'orderby' => 'menu_order',
 							            'order' => 'ASC',
 							        );
 							        $my_query = null;
