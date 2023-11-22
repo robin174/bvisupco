@@ -58,7 +58,7 @@ get_header(); ?>
 										<section class="block--home-half content--new">
 											<section class="block--inner-logo">
 												<h2>Introducing the Freewing!</h2>
-												<p>New for the 2021 season</p>
+												<p>Exciting new equipment availble to rent</p>
 												<!-- cta button -->
 											</section>
 										</section>
@@ -85,13 +85,13 @@ get_header(); ?>
 									</a>
 								</div><!-- end .cell -->
 
-								<!-- Magic Seaweed -->	
+								<!-- Surfline -->	
 								<div class="cell small-12 medium-4 large-4">
 									<a href="https://www.surfline.com/surf-reports-forecasts-cams/british-virgin-islands/3577718" target="_blank">
 										<section class="block--home-third content--msw">
 											<section class="block--inner-logo">
 												<figure class="logo--thirdparty">
-													<img src="<?php echo get_template_directory_uri(); ?>/images/logo-home-surfline.png" alt="Magic Seaweed">
+													<img src="<?php echo get_template_directory_uri(); ?>/images/logo-home-surfline.png" alt="Surfline">
 												</figure>
 											</section>
 										</section>
