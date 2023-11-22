@@ -87,11 +87,11 @@ get_header(); ?>
 
 								<!-- Magic Seaweed -->	
 								<div class="cell small-12 medium-4 large-4">
-									<a href="https://magicseaweed.com/British-Virgin-Islands-Surfing/133/" target="_blank">
+									<a href="https://www.surfline.com/surf-reports-forecasts-cams/british-virgin-islands/3577718" target="_blank">
 										<section class="block--home-third content--msw">
 											<section class="block--inner-logo">
 												<figure class="logo--thirdparty">
-													<img src="<?php echo get_template_directory_uri(); ?>/images/logo-home-magicseaweed.png" alt="Magic Seaweed">
+													<img src="<?php echo get_template_directory_uri(); ?>/images/logo-home-surfline.png" alt="Magic Seaweed">
 												</figure>
 											</section>
 										</section>
