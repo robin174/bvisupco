@@ -38,13 +38,81 @@ get_header(); ?>
 			    		<div class="grid isotope">
 							<div class="grid-x grid-margin-x small-up-1 medium-up-2 large-up-4">
 								<!-- Query individually for specific order of equipment category -->
-
-								<?php // SUP
+								 <?php // SUP - All Round
 							        $args=array(
 							            'post_type' => 'product',
 							            'equipment' => 'sup',
 							            'post_status' => 'publish',
+							            'skill' => 'all-round',
 							            'orderby' => 'menu_order',
+							            'order' => 'ASC',
+							        );
+							        $my_query = null;
+							        $my_query = new WP_Query($args);
+							        if( $my_query->have_posts() ) {
+							        while ($my_query->have_posts()) : $my_query->the_post(); ?>
+							        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-sup">
+					            			<?php get_template_part('templates/unit--equipment'); ?> 
+					            		</div>
+							    	<?php endwhile; } wp_reset_query(); ?>
+							    <?php // SUP - Perfomance & Touring
+							        $args=array(
+							            'post_type' => 'product',
+							            'equipment' => 'sup',
+							            'post_status' => 'publish',
+							            'skill' => 'performance-touring',
+							            'orderby' => 'menu_order',
+							            'order' => 'ASC',
+							        );
+							        $my_query = null;
+							        $my_query = new WP_Query($args);
+							        if( $my_query->have_posts() ) {
+							        while ($my_query->have_posts()) : $my_query->the_post(); ?>
+							        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-sup">
+					            			<?php get_template_part('templates/unit--equipment'); ?> 
+					            		</div>
+							    	<?php endwhile; } wp_reset_query(); ?>
+							    <?php // SUP - Surf
+							        $args=array(
+							            'post_type' => 'product',
+							            'equipment' => 'sup',
+							            'post_status' => 'publish',
+							            'skill' => 'surf',
+							            'orderby' => 'menu_order',
+							            'order' => 'ASC',
+							        );
+							        $my_query = null;
+							        $my_query = new WP_Query($args);
+							        if( $my_query->have_posts() ) {
+							        while ($my_query->have_posts()) : $my_query->the_post(); ?>
+							        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-sup">
+					            			<?php get_template_part('templates/unit--equipment'); ?> 
+					            		</div>
+							    	<?php endwhile; } wp_reset_query(); ?>
+							    <?php // SUP - Race & Distance
+							        $args=array(
+							            'post_type' => 'product',
+							            'equipment' => 'sup',
+							            'post_status' => 'publish',
+							            'skill' => 'race-distance',
+							            'orderby' => 'menu_order',
+							            'order' => 'ASC',
+							        );
+							        $my_query = null;
+							        $my_query = new WP_Query($args);
+							        if( $my_query->have_posts() ) {
+							        while ($my_query->have_posts()) : $my_query->the_post(); ?>
+							        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-sup">
+					            			<?php get_template_part('templates/unit--equipment'); ?> 
+					            		</div>
+							    	<?php endwhile; } wp_reset_query(); ?>
+							    <?php // SUP - Extra
+							        $args=array(
+							            'post_type' => 'product',
+							            'equipment' => 'sup',
+							            'post_status' => 'publish',
+							            'skill' => 'not-applicable',
+							            'orderby' => 'title',
 							            'order' => 'ASC',
 							        );
 							        $my_query = null;
