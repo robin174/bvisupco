@@ -19,7 +19,7 @@ get_header(); ?>
 									<div id="filters" class="stacked-for-medium button-group filters-button-group">
 						                <button class="button small button--filter is-checked" data-filter="*">Show All</button>
 						                <button class="button small button--filter" data-filter=".equipment-sup">SUP</button>
-						                <button class="button small button--filter" data-filter=".equipment-windsurf">Windsurf</button>
+						                <button class="button small button--filter" data-filter=".equipment-windsports">Wind Sports</button>
 						                <button class="button small button--filter" data-filter=".equipment-wing">Wings/Foils/Kites</button> 
 						                <button class="button small button--filter" data-filter=".equipment-surf">Kayaks & Surf</button>
 						                <button class="button small button--filter" data-filter=".equipment-fishing">Fishing</button>
@@ -126,7 +126,7 @@ get_header(); ?>
 								<?php // Windsurf
 							        $args=array(
 							            'post_type' => 'product',
-							            'equipment' => 'windsurf',
+							            'equipment' => 'windsports',
 							            'post_status' => 'publish',
 							            'orderby' => 'menu_order',
 							            'order' => 'ASC',
@@ -135,7 +135,7 @@ get_header(); ?>
 							        $my_query = new WP_Query($args);
 							        if( $my_query->have_posts() ) {
 							        while ($my_query->have_posts()) : $my_query->the_post(); ?>
-							        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-windsurf">
+							        	<div <?php post_class('cell element-item unit--product') ?> data-category="equipment-windsports">
 					            			<?php get_template_part('templates/unit--equipment'); ?> 
 					            		</div>
 							    	<?php endwhile; } wp_reset_query(); ?>
