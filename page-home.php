@@ -100,7 +100,7 @@ get_header(); ?>
 
 								<!-- Plastic Offset Program (POP) -->	
 								<div class="cell small-12 medium-4 large-4">
-									<a href="https://sup.star-board.com/plastic-offset-program/" target="_blank">
+									<a href="https://blue.star-board.com/blue-agency/we-pick-up-ocean-plastic/" target="_blank">
 										<section class="block--home-third content--pop">
 											<section class="block--inner-logo">
 												<figure class="logo--thirdparty">
