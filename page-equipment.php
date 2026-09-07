@@ -20,7 +20,7 @@ get_header(); ?>
 						                <button class="button small button--filter is-checked" data-filter="*">Show All</button>
 						                <button class="button small button--filter" data-filter=".equipment-sup">SUP</button>
 						                <button class="button small button--filter" data-filter=".equipment-windsports">Wind Sports</button>
-						                <button class="button small button--filter" data-filter=".equipment-wing">Foiling/Boards/Wings</button> 
+						                <button class="button small button--filter" data-filter=".equipment-wing">Foils/Boards/Wings</button> 
 						                <button class="button small button--filter" data-filter=".equipment-surf">Kayaks & Surf</button>
 						                <button class="button small button--filter" data-filter=".equipment-fishing">Fishing</button>
 						                <button class="button small button--filter" data-filter=".equipment-other">Floats & Fun</button>
