@@ -57,13 +57,27 @@ get_header(); ?>
 									<a href="/equipment">
 										<section class="block--home-half content--new">
 											<section class="block--inner-logo">
-												<h2>Introducing the Freewing!</h2>
-												<p>Exciting new equipment availble to rent</p>
+												<h2>Introducing the Sunchill</h2>
+												<p>Everyone's favourite available to rent</p>
 												<!-- cta button -->
 											</section>
 										</section>
 									</a>
 								</div><!-- end .cell -->
+
+								<?php /*
+								<div class="cell small-12 medium-6 large-6">
+									<a href="/equipment">
+										<section class="block--home-half content--new">
+											<section class="block--inner-logo">
+												<h2>Introducing the Freewing!</h2>
+												<p>Exciting new equipment available to rent</p>
+												<!-- cta button -->
+											</section>
+										</section>
+									</a>
+								</div><!-- end .cell -->
+								*/ ?>
 							</div><!-- end .grid-x -->
 						</div>
 					</section>

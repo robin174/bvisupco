@@ -7,7 +7,7 @@
       "uuidString" : "1B17822B-00EE-4071-B32F-58377101A12E"
     }
   ],
-  "creatorBuild" : "34335",
+  "creatorBuild" : "34921",
   "files" : {
     "\/_notes\/dwsync.xml" : {
       "cB" : 0,
@@ -15,14 +15,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/_notes\/dwsync.xml",
-      "oF" : 0
-    },
-    "\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/.gitignore",
       "oF" : 0
     },
     "\/404.php" : {
@@ -224,16 +216,14 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/css\/_global.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/_notes\/dwsync.xml" : {
       "cB" : 0,
@@ -247,16 +237,14 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/css\/_settings.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/config.rb" : {
       "cB" : 0,
@@ -282,16 +270,14 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/styles\/css\/login.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/style.css" : {
       "aP" : 1,
@@ -309,16 +295,14 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/styles\/css\/style.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/style.css" : {
       "aP" : 1,
@@ -367,14 +351,6 @@
       "oAP" : "\/css\/style-min.css",
       "oF" : 0,
       "pg" : 0
-    },
-    "\/footer-old.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/footer-old.php",
-      "oF" : 0
     },
     "\/footer.php" : {
       "cB" : 0,
@@ -752,14 +728,6 @@
       "oAP" : "\/functions\/translation\/zh_CN.po",
       "oF" : 0
     },
-    "\/header-old.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/header-old.php",
-      "oF" : 0
-    },
     "\/header.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1096,6 +1064,19 @@
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/logo-home-surfline.png" : {
+      "ft" : 32768,
+      "iS" : 7433,
+      "oA" : 0,
+      "oAP" : "\/images\/logo-home-surfline.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1543,6 +1524,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/use-sunchill-lg.jpg" : {
+      "ft" : 16384,
+      "iS" : 267989,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/use-sunchill-lg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/use-WR-Maui-13.jpg" : {
       "ft" : 16384,
       "iS" : 144835,
@@ -1714,30 +1708,6 @@
       "oAP" : "\/page-home.php",
       "oF" : 0
     },
-    "\/page-old-equipment.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/page-old-equipment.php",
-      "oF" : 0
-    },
-    "\/page-old-home.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/page-old-home.php",
-      "oF" : 0
-    },
-    "\/page-old.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/page-old.php",
-      "oF" : 0
-    },
     "\/page-template.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1867,1591 +1837,1379 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_bounce.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_attention-seekers\/_flash.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_flash.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_attention-seekers\/_jello.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_jello.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_attention-seekers\/_pulse.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_pulse.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_attention-seekers\/_rubberBand.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_rubberBand.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_attention-seekers\/_shake.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_shake.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_attention-seekers\/_swing.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_swing.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_attention-seekers\/_tada.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_tada.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_attention-seekers\/_wobble.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_wobble.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_attention-seekers\/attention-seekers.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/scss\/animate\/css\/attention-seekers.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_bouncing-entrances\/_bounceIn.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_bounceIn.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_bouncing-entrances\/_bounceInDown.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_bounceInDown.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_bouncing-entrances\/_bounceInLeft.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_bounceInLeft.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_bouncing-entrances\/_bounceInRight.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_bounceInRight.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_bouncing-entrances\/_bounceInUp.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_bounceInUp.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_bouncing-entrances\/bouncing-entrances.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/scss\/animate\/css\/bouncing-entrances.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_bouncing-exits\/_bounceOut.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_bounceOut.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_bouncing-exits\/_bounceOutDown.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_bounceOutDown.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_bouncing-exits\/_bounceOutLeft.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_bounceOutLeft.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_bouncing-exits\/_bounceOutRight.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_bounceOutRight.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_bouncing-exits\/_bounceOutUp.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_bounceOutUp.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_bouncing-exits\/bouncing-exits.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/scss\/animate\/css\/bouncing-exits.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-entrances\/_fadeIn.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_fadeIn.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-entrances\/_fadeInDown.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_fadeInDown.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-entrances\/_fadeInDownBig.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_fadeInDownBig.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-entrances\/_fadeInLeft.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_fadeInLeft.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-entrances\/_fadeInLeftBig.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_fadeInLeftBig.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-entrances\/_fadeInRight.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_fadeInRight.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-entrances\/_fadeInRightBig.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_fadeInRightBig.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-entrances\/_fadeInUp.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_fadeInUp.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-entrances\/_fadeInUpBig.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_fadeInUpBig.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-entrances\/fading-entrances.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/scss\/animate\/css\/fading-entrances.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-exits\/_fadeOut.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_fadeOut.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-exits\/_fadeOutDown.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_fadeOutDown.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-exits\/_fadeOutDownBig.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_fadeOutDownBig.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-exits\/_fadeOutLeft.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_fadeOutLeft.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-exits\/_fadeOutLeftBig.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_fadeOutLeftBig.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-exits\/_fadeOutRight.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_fadeOutRight.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-exits\/_fadeOutRightBig.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_fadeOutRightBig.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-exits\/_fadeOutUp.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_fadeOutUp.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-exits\/_fadeOutUpBig.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_fadeOutUpBig.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_fading-exits\/fading-exits.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/scss\/animate\/css\/fading-exits.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_flippers\/_flip.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_flip.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_flippers\/_flipInX.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_flipInX.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_flippers\/_flipInY.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_flipInY.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_flippers\/_flipOutX.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_flipOutX.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_flippers\/_flipOutY.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_flipOutY.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_flippers\/flippers.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/scss\/animate\/css\/flippers.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_lightspeed\/_lightSpeedIn.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_lightSpeedIn.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_lightspeed\/_lightSpeedOut.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_lightSpeedOut.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_lightspeed\/lightspeed.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/scss\/animate\/css\/lightspeed.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_properties.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_properties.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_rotating-entrances\/_rotateIn.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_rotateIn.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_rotating-entrances\/_rotateInDownLeft.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_rotateInDownLeft.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_rotating-entrances\/_rotateInDownRight.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_rotateInDownRight.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_rotating-entrances\/_rotateInUpLeft.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_rotateInUpLeft.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_rotating-entrances\/_rotateInUpRight.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_rotateInUpRight.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_rotating-entrances\/rotating-entrances.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/scss\/animate\/css\/rotating-entrances.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_rotating-exits\/_rotateOut.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_rotateOut.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_rotating-exits\/_rotateOutDownLeft.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_rotateOutDownLeft.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_rotating-exits\/_rotateOutDownRight.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_rotateOutDownRight.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_rotating-exits\/_rotateOutUpLeft.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_rotateOutUpLeft.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_rotating-exits\/_rotateOutUpRight.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_rotateOutUpRight.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_rotating-exits\/rotating-exits.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/scss\/animate\/css\/rotating-exits.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_sliding-entrances\/_slideInDown.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_slideInDown.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_sliding-entrances\/_slideInLeft.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_slideInLeft.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_sliding-entrances\/_slideInRight.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_slideInRight.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_sliding-entrances\/_slideInUp.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_slideInUp.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_sliding-entrances\/sliding-entrances.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/scss\/animate\/css\/sliding-entrances.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_sliding-exits\/_slideOutDown.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_slideOutDown.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_sliding-exits\/_slideOutLeft.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_slideOutLeft.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_sliding-exits\/_slideOutRight.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_slideOutRight.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_sliding-exits\/_slideOutUp.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_slideOutUp.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_sliding-exits\/sliding-exits.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/scss\/animate\/css\/sliding-exits.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_specials\/_hinge.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_hinge.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_specials\/_rollIn.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_rollIn.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_specials\/_rollOut.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_rollOut.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_specials\/specials.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/scss\/animate\/css\/specials.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_zooming-entrances\/_zoomIn.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_zoomIn.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_zooming-entrances\/_zoomInDown.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_zoomInDown.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_zooming-entrances\/_zoomInLeft.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_zoomInLeft.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_zooming-entrances\/_zoomInRight.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_zoomInRight.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_zooming-entrances\/_zoomInUp.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_zoomInUp.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_zooming-entrances\/zooming-entrances.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/scss\/animate\/css\/zooming-entrances.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_zooming-exits\/_zoomOut.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_zoomOut.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_zooming-exits\/_zoomOutDown.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_zoomOutDown.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_zooming-exits\/_zoomOutLeft.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_zoomOutLeft.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_zooming-exits\/_zoomOutRight.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_zoomOutRight.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_zooming-exits\/_zoomOutUp.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/animate\/css\/_zoomOutUp.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/_zooming-exits\/zooming-exits.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/scss\/animate\/css\/zooming-exits.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/animate\/animate.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/animate.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/areas\/_all.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_all.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/base\/_all.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_all.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/base\/_body.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_body.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/base\/_typography.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_typography.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/blocks\/_all.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_all.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/blocks\/_blocksbuilding.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_blocksbuilding.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/blocks\/_equipment.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_equipment.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/blocks\/_faq.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_faq.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/blocks\/_filter.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_filter.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/blocks\/_home.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_home.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/components\/_all.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_all.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/components\/_button.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_button.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/components\/_figure.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_figure.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/components\/_hr.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_hr.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/components\/_table.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_table.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/foundation\/_notes\/dwsync.xml" : {
       "cB" : 0,
@@ -3465,151 +3223,131 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_styles.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/helpers\/_all.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_all.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/helpers\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_mixins.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/helpers\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_variables.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/layout\/_all.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_all.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/layout\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_footer.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/layout\/_header.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_header.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/layout\/_main.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_main.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/layout\/_nav.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_nav.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/pages\/_all.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_all.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/style-min.css" : {
       "aP" : 1,
@@ -3639,31 +3377,27 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/css\/style.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/vendors\/_all.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/css\/_all.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oS" : 1,
+      "pg" : 0
     },
     "\/search.php" : {
       "cB" : 0,
@@ -4043,8 +3777,6 @@
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
-    "cssoForceMediaMerge" : 0,
-    "cssoRestructure" : 1,
     "environmentVariableEntries" : [
       "NODE_ENV:::production"
     ],
@@ -4056,48 +3788,16 @@
         "active" : 0,
         "optionString" : "{'setWithoutGet': true, 'getWithoutSet': false}"
       },
-      "array-bracket-newline" : {
-        "active" : 0,
-        "optionString" : "{'multiline': true, 'minItems': null}"
-      },
-      "array-bracket-spacing" : {
-        "active" : 0,
-        "optionString" : "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
-      },
       "array-callback-return" : {
         "active" : 0,
         "optionString" : "{'allowImplicit': false}"
-      },
-      "array-element-newline" : {
-        "active" : 0,
-        "optionString" : "'always'"
       },
       "arrow-body-style" : {
         "active" : 0,
         "optionString" : "'as-needed', {'requireReturnForObjectLiteral': false}"
       },
-      "arrow-parens" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
-      "arrow-spacing" : {
-        "active" : 0,
-        "optionString" : "{'before': true, 'after': true}"
-      },
       "block-scoped-var" : {
         "active" : 0
-      },
-      "block-spacing" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
-      "brace-style" : {
-        "active" : 0,
-        "optionString" : "'1tbs', {'allowSingleLine': true}"
-      },
-      "callback-return" : {
-        "active" : 0,
-        "optionString" : "['callback', 'cb', 'next']"
       },
       "camelcase" : {
         "active" : 0,
@@ -4111,25 +3811,9 @@
         "active" : 0,
         "optionString" : "{'exceptMethods': []}"
       },
-      "comma-dangle" : {
-        "active" : 1,
-        "optionString" : "'never'"
-      },
-      "comma-spacing" : {
-        "active" : 0,
-        "optionString" : "{'before': false, 'after': true}"
-      },
-      "comma-style" : {
-        "active" : 0,
-        "optionString" : "'last'"
-      },
       "complexity" : {
         "active" : 0,
         "optionString" : "20"
-      },
-      "computed-property-spacing" : {
-        "active" : 0,
-        "optionString" : "'never'"
       },
       "consistent-return" : {
         "active" : 0,
@@ -4155,17 +3839,9 @@
       "default-param-last" : {
         "active" : 0
       },
-      "dot-location" : {
-        "active" : 0,
-        "optionString" : "'object'"
-      },
       "dot-notation" : {
         "active" : 0,
         "optionString" : "{'allowKeywords': false}"
-      },
-      "eol-last" : {
-        "active" : 0,
-        "optionString" : "'always'"
       },
       "eqeqeq" : {
         "active" : 0,
@@ -4173,10 +3849,6 @@
       },
       "for-direction" : {
         "active" : 0
-      },
-      "func-call-spacing" : {
-        "active" : 0,
-        "optionString" : "'never'"
       },
       "func-name-matching" : {
         "active" : 0,
@@ -4190,20 +3862,9 @@
         "active" : 0,
         "optionString" : "'expression'"
       },
-      "function-paren-newline" : {
-        "active" : 0,
-        "optionString" : "'multiline'"
-      },
-      "generator-star-spacing" : {
-        "active" : 0,
-        "optionString" : "{'before': true, 'after': false}"
-      },
       "getter-return" : {
         "active" : 0,
         "optionString" : "{'allowImplicit': false}"
-      },
-      "global-require" : {
-        "active" : 0
       },
       "grouped-accessor-pairs" : {
         "active" : 0,
@@ -4212,11 +3873,7 @@
       "guard-for-in" : {
         "active" : 0
       },
-      "handle-callback-err" : {
-        "active" : 0,
-        "optionString" : "'err'"
-      },
-      "id-blacklist" : {
+      "id-denylist" : {
         "active" : 0,
         "optionString" : "'data', 'err', 'e', 'cb', 'callback'"
       },
@@ -4228,45 +3885,13 @@
         "active" : 0,
         "optionString" : "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true, 'ignoreDestructuring': false}"
       },
-      "implicit-arrow-linebreak" : {
-        "active" : 0,
-        "optionString" : "'beside'"
-      },
-      "indent" : {
-        "active" : 0,
-        "optionString" : "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
-      },
       "init-declarations" : {
         "active" : 0,
         "optionString" : "'always',  {'ignoreForLoopInit': true}"
       },
-      "jsx-quotes" : {
+      "logical-assignment-operators" : {
         "active" : 0,
-        "optionString" : "'prefer-double'"
-      },
-      "key-spacing" : {
-        "active" : 0,
-        "optionString" : "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
-      },
-      "keyword-spacing" : {
-        "active" : 0,
-        "optionString" : "{'before': true, 'after': true, 'overrides': {}}"
-      },
-      "line-comment-position" : {
-        "active" : 0,
-        "optionString" : "{'position': 'above'}"
-      },
-      "linebreak-style" : {
-        "active" : 0,
-        "optionString" : "'unix'"
-      },
-      "lines-around-comment" : {
-        "active" : 0,
-        "optionString" : "{'beforeBlockComment': true}"
-      },
-      "lines-between-class-members" : {
-        "active" : 0,
-        "optionString" : "'always', {exceptAfterSingleLine: false}"
+        "optionString" : "'always',  {'enforceForIfStatements': false}"
       },
       "max-classes-per-file" : {
         "active" : 0,
@@ -4275,10 +3900,6 @@
       "max-depth" : {
         "active" : 0,
         "optionString" : "{'max': 4}"
-      },
-      "max-len" : {
-        "active" : 0,
-        "optionString" : "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
       },
       "max-lines" : {
         "active" : 0,
@@ -4300,29 +3921,9 @@
         "active" : 0,
         "optionString" : "{'max': 10}, {'ignoreTopLevelFunctions': true}"
       },
-      "max-statements-per-line" : {
-        "active" : 0,
-        "optionString" : "{'max': 1}"
-      },
-      "multiline-comment-style" : {
-        "active" : 0,
-        "optionString" : "'starred-block'"
-      },
-      "multiline-ternary" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
       "new-cap" : {
         "active" : 0,
         "optionString" : "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
-      },
-      "new-parens" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
-      "newline-per-chained-call" : {
-        "active" : 0,
-        "optionString" : "{'ignoreChainWithDepth': 2}"
       },
       "no-alert" : {
         "active" : 0
@@ -4340,9 +3941,6 @@
         "active" : 0,
         "optionString" : "{'allow': ['~'], 'int32Hint': true}"
       },
-      "no-buffer-constructor" : {
-        "active" : 0
-      },
       "no-caller" : {
         "active" : 0
       },
@@ -4359,15 +3957,14 @@
         "active" : 1,
         "optionString" : "'except-parens'"
       },
-      "no-confusing-arrow" : {
-        "active" : 0,
-        "optionString" : "{'allowParens': true}"
-      },
       "no-console" : {
         "active" : 1,
         "optionString" : "{'allow': ['warn', 'error']}"
       },
       "no-const-assign" : {
+        "active" : 1
+      },
+      "no-constant-binary-expression" : {
         "active" : 1
       },
       "no-constant-condition" : {
@@ -4404,6 +4001,9 @@
       "no-dupe-keys" : {
         "active" : 1
       },
+      "no-duplicate-case" : {
+        "active" : 1
+      },
       "no-duplicate-imports" : {
         "active" : 0,
         "optionString" : "{'includeExports': false}"
@@ -4425,6 +4025,9 @@
       "no-empty-pattern" : {
         "active" : 1
       },
+      "no-empty-static-block" : {
+        "active" : 1
+      },
       "no-eq-null" : {
         "active" : 0
       },
@@ -4443,23 +4046,15 @@
         "active" : 0
       },
       "no-extra-boolean-cast" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'enforceForInnerExpressions': false}"
       },
-      "no-extra-labels" : {
+      "no-extra-label" : {
         "active" : 0
-      },
-      "no-extra-parens" : {
-        "active" : 0,
-        "optionString" : "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
-      },
-      "no-extra-semi" : {
-        "active" : 1
       },
       "no-fallthrough" : {
-        "active" : 1
-      },
-      "no-floating-decimal" : {
-        "active" : 0
+        "active" : 1,
+        "optionString" : "{'allowEmptyCase': false}"
       },
       "no-func-assign" : {
         "active" : 1
@@ -4527,34 +4122,15 @@
         "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
-        "active" : 0
-      },
-      "no-mixed-operators" : {
         "active" : 0,
-        "optionString" : "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
-      },
-      "no-mixed-requires" : {
-        "active" : 0,
-        "optionString" : "{'grouping': false, 'allowCall': false }"
-      },
-      "no-mixed-spaces-and-tabs" : {
-        "active" : 0,
-        "optionString" : ""
+        "optionString" : "{'allowEscape': false}"
       },
       "no-multi-assign" : {
         "active" : 0,
         "optionString" : "{'ignoreNonDeclaration': false}"
       },
-      "no-multi-spaces" : {
-        "active" : 0,
-        "optionString" : "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
-      },
       "no-multi-str" : {
         "active" : 0
-      },
-      "no-multiple-empty-lines" : {
-        "active" : 0,
-        "optionString" : "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
       },
       "no-negated-condition" : {
         "active" : 0
@@ -4568,13 +4144,7 @@
       "no-new-func" : {
         "active" : 0
       },
-      "no-new-object" : {
-        "active" : 0
-      },
-      "no-new-require" : {
-        "active" : 0
-      },
-      "no-new-symbol" : {
+      "no-new-native-nonconstructor" : {
         "active" : 1
       },
       "no-new-wrappers" : {
@@ -4586,6 +4156,9 @@
       "no-obj-calls" : {
         "active" : 1
       },
+      "no-object-constructor" : {
+        "active" : 0
+      },
       "no-octal" : {
         "active" : 1
       },
@@ -4596,18 +4169,9 @@
         "active" : 0,
         "optionString" : "{'props': false}"
       },
-      "no-path-concat" : {
-        "active" : 0
-      },
       "no-plusplus" : {
         "active" : 0,
         "optionString" : "{'allowForLoopAfterthoughts': false}"
-      },
-      "no-process-env" : {
-        "active" : 0
-      },
-      "no-process-exit" : {
-        "active" : 0
       },
       "no-promise-executor-return" : {
         "active" : 0
@@ -4634,9 +4198,6 @@
         "optionString" : "'event', 'fdescribe'"
       },
       "no-restricted-imports" : {
-        "active" : 0
-      },
-      "no-restricted-modules" : {
         "active" : 0,
         "optionString" : ""
       },
@@ -4651,9 +4212,6 @@
       "no-return-assign" : {
         "active" : 0,
         "optionString" : "'except-parens'"
-      },
-      "no-return-await" : {
-        "active" : 0
       },
       "no-script-url" : {
         "active" : 0
@@ -4682,14 +4240,6 @@
       "no-sparse-arrays" : {
         "active" : 1
       },
-      "no-sync" : {
-        "active" : 0,
-        "optionString" : "{'allowAtRootLevel': false}"
-      },
-      "no-tabs" : {
-        "active" : 0,
-        "optionString" : "{allowIndentationTabs: false}"
-      },
       "no-template-curly-in-string" : {
         "active" : 0
       },
@@ -4702,9 +4252,8 @@
       "no-throw-literal" : {
         "active" : 0
       },
-      "no-trailing-spaces" : {
-        "active" : 0,
-        "optionString" : "{'skipBlankLines': false, 'ignoreComments': false}"
+      "no-unassigned-vars" : {
+        "active" : 1
       },
       "no-undef" : {
         "active" : 1,
@@ -4766,6 +4315,9 @@
         "active" : 0,
         "optionString" : "{'functions': true, 'classes': true, 'variables': true}"
       },
+      "no-useless-assignment" : {
+        "active" : 1
+      },
       "no-useless-backreference" : {
         "active" : 0
       },
@@ -4786,7 +4338,8 @@
         "active" : 0
       },
       "no-useless-escape" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'allowRegexCharacters': []}"
       },
       "no-useless-rename" : {
         "active" : 0,
@@ -4806,27 +4359,8 @@
         "active" : 0,
         "optionString" : "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
       },
-      "no-whitespace-before-property" : {
-        "active" : 0
-      },
       "no-with" : {
         "active" : 0
-      },
-      "nonblock-statement-body-position" : {
-        "active" : 0,
-        "optionString" : "'beside'"
-      },
-      "object-curly-newline" : {
-        "active" : 0,
-        "optionString" : "{'ObjectExpression': {'multiline': true, 'consistent': true}, 'ObjectPattern': {'multiline': true, 'consistent': true}}"
-      },
-      "object-curly-spacing" : {
-        "active" : 0,
-        "optionString" : "'never'"
-      },
-      "object-property-newline" : {
-        "active" : 0,
-        "optionString" : "{'allowAllPropertiesOnSameLine': true}"
       },
       "object-shorthand" : {
         "active" : 0,
@@ -4836,25 +4370,9 @@
         "active" : 0,
         "optionString" : "'always'"
       },
-      "one-var-declaration-per-line" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
       "operator-assignment" : {
         "active" : 0,
         "optionString" : "'always'"
-      },
-      "operator-linebreak" : {
-        "active" : 0,
-        "optionString" : "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
-      },
-      "padded-blocks" : {
-        "active" : 0,
-        "optionString" : "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
-      },
-      "padding-line-between-statements" : {
-        "active" : 0,
-        "optionString" : "{blankLine: 'always', prev:'*', next:'return'}"
       },
       "prefer-arrow-callback" : {
         "active" : 0
@@ -4898,17 +4416,12 @@
       "prefer-template" : {
         "active" : 0
       },
-      "quote-props" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
-      "quotes" : {
-        "active" : 0,
-        "optionString" : "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+      "preserve-caught-error" : {
+        "active" : 1,
+        "optionString" : "{'requireCatchParameter': false}"
       },
       "radix" : {
-        "active" : 0,
-        "optionString" : "'always'"
+        "active" : 0
       },
       "require-atomic-updates" : {
         "active" : 0,
@@ -4917,31 +4430,12 @@
       "require-await" : {
         "active" : 0
       },
-      "require-jsdoc" : {
-        "active" : 0,
-        "optionString" : "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
-      },
       "require-unicode-regexp" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'requireFlag': 'u'}"
       },
       "require-yield" : {
         "active" : 1
-      },
-      "rest-spread-spacing" : {
-        "active" : 0,
-        "optionString" : "'never'"
-      },
-      "semi" : {
-        "active" : 0,
-        "optionString" : "'always', {'omitLastInOneLineBlock': false}"
-      },
-      "semi-spacing" : {
-        "active" : 0,
-        "optionString" : "{'before': false, 'after': true}"
-      },
-      "semi-style" : {
-        "active" : 0,
-        "optionString" : "'last'"
       },
       "sort-imports" : {
         "active" : 0,
@@ -4955,48 +4449,12 @@
         "active" : 0,
         "optionString" : "{'ignoreCase': false}"
       },
-      "space-before-blocks" : {
-        "active" : 0,
-        "optionString" : "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
-      },
-      "space-before-function-paren" : {
-        "active" : 0,
-        "optionString" : "{'anonymous': 'always', 'named': 'never'}"
-      },
-      "space-in-parens" : {
-        "active" : 0,
-        "optionString" : "'never', {'exceptions': []}"
-      },
-      "space-infix-ops" : {
-        "active" : 0,
-        "optionString" : "{'int32Hint': false}"
-      },
-      "space-unary-ops" : {
-        "active" : 0,
-        "optionString" : "{'words': true, 'nonwords': false, 'overrides': {}}"
-      },
-      "spaced-comment" : {
-        "active" : 0,
-        "optionString" : "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
-      },
       "strict" : {
         "active" : 0,
         "optionString" : "'safe'"
       },
-      "switch-colon-spacing" : {
-        "active" : 0,
-        "optionString" : "{'after': true, 'before': false}"
-      },
       "symbol-description" : {
         "active" : 0
-      },
-      "template-curly-spacing" : {
-        "active" : 0,
-        "optionString" : "'never'"
-      },
-      "template-tag-spacing" : {
-        "active" : 0,
-        "optionString" : "'never'"
       },
       "unicode-bom" : {
         "active" : 0,
@@ -5006,27 +4464,12 @@
         "active" : 1,
         "optionString" : ""
       },
-      "valid-jsdoc" : {
-        "active" : 0,
-        "optionString" : "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
-      },
       "valid-typeof" : {
         "active" : 1,
         "optionString" : "{'requireStringLiterals': true}"
       },
       "vars-on-top" : {
         "active" : 0
-      },
-      "wrap-iife" : {
-        "active" : 0,
-        "optionString" : "'outside'"
-      },
-      "wrap-regex" : {
-        "active" : 0
-      },
-      "yield-star-spacing" : {
-        "active" : 0,
-        "optionString" : "{'before': false, 'after': true}"
       },
       "yoda" : {
         "active" : 0,
@@ -5217,11 +4660,9 @@
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 2,
-      "compilerType" : 1,
       "cssoStyle" : 0,
-      "decimalPrecision" : 10,
       "emitCharset" : 1,
-      "outputStyle" : 0,
+      "outputStyle" : 1,
       "purgeCSSStyle" : 0,
       "shouldRunAutoprefixer" : 0,
       "shouldRunBless" : 0,
@@ -5278,11 +4719,12 @@
       "createDeclarationFile" : 0,
       "jsxMode" : 0,
       "minifierStyle" : 0,
+      "moduleDetectionType" : 0,
       "moduleResolutionType" : 0,
       "moduleType" : 2,
       "removeComments" : 0,
       "sourceMapStyle" : 0,
-      "targetECMAVersion" : 0
+      "targetECMAVersion" : 2018
     },
     "languageDefaultsUserDefined" : [
 
@@ -5334,10 +4776,15 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
+    "rollupTreeshakingModuleSideEffects" : 1,
+    "sassWarningStyle" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
+    "tsAllowArbitraryExtensions" : 0,
+    "tsAllowImportingTSExtensions" : 0,
     "tsAllowSyntheticDefaultImports" : 0,
+    "tsAllowUMDGlobalAccess" : 0,
     "tsAllowUnreachableCode" : 0,
     "tsAllowUnusedLabels" : 0,
     "tsAlwaysStrict" : 0,
@@ -5346,36 +4793,37 @@
     "tsEmitDecoratorMetadata" : 0,
     "tsESModuleInterop" : 0,
     "tsExactOptionalPropertyTypes" : 0,
+    "tsExperimentalDecorators" : 0,
     "tsForceConsistentCasingInFileNames" : 0,
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
-    "tsKeyofStringsOnly" : 0,
+    "tsJSXFragmentFactory" : "Fragment",
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,
     "tsNoImplicitOverride" : 0,
     "tsNoImplicitReturns" : 0,
     "tsNoImplicitThis" : 0,
-    "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
     "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
-    "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,
     "tsNoUnusedLocals" : 0,
     "tsNoUnusedParameters" : 0,
     "tsPreserveConstEnums" : 0,
     "tsPreserveSymlinks" : 0,
     "tsResolveJsonModule" : 0,
+    "tsSkipDefaultLibCheck" : 0,
     "tsSkipLibCheck" : 0,
+    "tsStrictBindCallApply" : 0,
     "tsStrictFunctionTypes" : 0,
     "tsStrictNullChecks" : 0,
     "tsStrictPropertyInitialization" : 0,
     "tsStripInternal" : 0,
-    "tsSuppressExcessPropertyErrors" : 0,
-    "tsSuppressImplicitAnyIndexErrors" : 0,
+    "tsUseDefineForClassFields" : 0,
     "tsUseUnknownInCatchVariables" : 0,
+    "tsVerbatimModuleSyntax" : 0,
     "uglifyDefinesString" : "",
     "uglifyFlags2" : {
       "arguments" : {
@@ -5408,7 +4856,7 @@
       },
       "comments" : {
         "active" : 0,
-        "flagValue" : -1
+        "flagValue" : 1
       },
       "comparisons" : {
         "active" : 1,
@@ -5510,6 +4958,10 @@
         "active" : 0,
         "flagValue" : -1
       },
+      "keep_numbers" : {
+        "active" : 0,
+        "flagValue" : -1
+      },
       "keep_quoted_props" : {
         "active" : 0,
         "flagValue" : -1
@@ -5533,6 +4985,10 @@
       "passes" : {
         "active" : 1,
         "flagValue" : 1
+      },
+      "preserve_annotations" : {
+        "active" : 0,
+        "flagValue" : -1
       },
       "properties" : {
         "active" : 1,
@@ -5636,6 +5092,10 @@
       },
       "webkit" : {
         "active" : 0,
+        "flagValue" : -1
+      },
+      "wrap_func_args" : {
+        "active" : 1,
         "flagValue" : -1
       },
       "wrap_iife" : {
